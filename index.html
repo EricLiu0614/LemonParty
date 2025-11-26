@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemon Party</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* 3D Flip Utilities */
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      .transform-style-3d {
+        transform-style: preserve-3d;
+      }
+      .backface-hidden {
+        backface-visibility: hidden;
+      }
+      .rotate-y-180 {
+        transform: rotateY(180deg);
+      }
+      
+      /* Animation for the match pop - Exaggerated */
+      @keyframes popOut {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.4) rotate(15deg); opacity: 0.8; }
+        100% { transform: scale(0) rotate(90deg); opacity: 0; }
+      }
+      .animate-match-success {
+        animation: popOut 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+        pointer-events: none; /* Prevent clicks during animation */
+      }
+
+      /* Animation for Shake (Explosion) */
+      @keyframes shake {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        10%, 30%, 50%, 70%, 90% { transform: translate(-8px, -8px) rotate(-3deg); }
+        20%, 40%, 60%, 80% { transform: translate(8px, 8px) rotate(3deg); }
+      }
+      .animate-shake {
+        animation: shake 0.5s ease-in-out;
+      }
+
+      /* Modal Pop */
+      @keyframes modalPop {
+        0% { transform: scale(0.5); opacity: 0; }
+        60% { transform: scale(1.1); opacity: 1; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      .animate-pop {
+        animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+      }
+
+      @keyframes pulseFast {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.05); opacity: 0.8; }
+      }
+      .animate-pulse-fast {
+        animation: pulseFast 0.8s ease-in-out infinite;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #fefce8; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #fde047; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #eab308; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-yellow-50 text-slate-800 antialiased h-screen overflow-hidden selection:bg-yellow-200">
+    <div id="root" class="h-full"></div>
+  </body>
+</html>
