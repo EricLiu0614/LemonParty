@@ -60,6 +60,24 @@
         animation: pulseFast 0.8s ease-in-out infinite;
       }
 
+      /* Dancing Lemon */
+      @keyframes dance {
+        0%, 100% { transform: rotate(-5deg) translateY(0); }
+        50% { transform: rotate(5deg) translateY(-10px) scale(1.05); }
+      }
+      .animate-dance {
+        animation: dance 1s ease-in-out infinite;
+      }
+
+      /* Wheel Spin */
+      @keyframes spinWheel {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(1080deg); }
+      }
+      .animate-spin-wheel {
+        animation: spinWheel 2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+      }
+
       /* Custom scrollbar */
       ::-webkit-scrollbar {
         width: 8px;
@@ -74,6 +92,13 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #eab308; 
       }
+      
+      .center-absolute {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
     </style>
   <script type="importmap">
 {
@@ -87,9 +112,8 @@
   }
 }
 </script>
-  </head>
+</head>
   <body class="bg-yellow-50 text-slate-800 antialiased h-screen overflow-hidden selection:bg-yellow-200">
     <div id="root" class="h-full"></div>
-    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
