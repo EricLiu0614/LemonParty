@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, Chat, Type } from "@google/genai";
 import Card from './components/Card';
 import Confetti from './components/Confetti';
-import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType } from './types';
-import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown } from 'lucide-react';
+import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType, ChatMessage } from './types';
+import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2 } from 'lucide-react';
 
 // --- GAME CONSTANTS ---
 
@@ -72,7 +72,7 @@ const FASHION_CATALOG: FashionItem[] = [
   { id: 'acc_9', type: 'accessory', name: 'Lollipop', icon: '🍭', price: 25 },
 ];
 
-const WORD_GAME_DATA: WordQuestion[] = [
+const STATIC_WORD_GAME_DATA: WordQuestion[] = [
   { id: 1, word: 'Apple', options: ['苹果', '香蕉', '橙子'], correctIndex: 0 },
   { id: 2, word: 'School', options: ['医院', '学校', '工厂'], correctIndex: 1 },
   { id: 3, word: 'Teacher', options: ['医生', '工人', '老师'], correctIndex: 2 },
@@ -98,7 +98,7 @@ const DEFAULT_PROFILE: UserProfile = {
 
 const audioCtx = typeof window !== 'undefined' ? new (window.AudioContext || (window as any).webkitAudioContext)() : null;
 
-const playSound = (type: 'pop' | 'match' | 'error' | 'win' | 'explode' | 'tick' | 'magic' | 'coin' | 'equip') => {
+const playSound = (type: 'pop' | 'match' | 'error' | 'win' | 'explode' | 'tick' | 'magic' | 'coin' | 'equip' | 'message') => {
   if (!audioCtx) return;
   if (audioCtx.state === 'suspended') audioCtx.resume();
 
@@ -115,6 +115,15 @@ const playSound = (type: 'pop' | 'match' | 'error' | 'win' | 'explode' | 'tick' 
       osc.frequency.setValueAtTime(600, now);
       osc.frequency.exponentialRampToValueAtTime(800, now + 0.1);
       gain.gain.setValueAtTime(0.1, now);
+      gain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+      osc.start(now);
+      osc.stop(now + 0.1);
+      break;
+    case 'message':
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(800, now);
+      osc.frequency.exponentialRampToValueAtTime(600, now + 0.1);
+      gain.gain.setValueAtTime(0.05, now);
       gain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
       osc.start(now);
       osc.stop(now + 0.1);
@@ -277,6 +286,15 @@ const App: React.FC = () => {
   const [minigameQIdx, setMinigameQIdx] = useState(0);
   const [minigameScore, setMinigameScore] = useState(0);
   const [minigameAnswerStatus, setMinigameAnswerStatus] = useState<'correct' | 'wrong' | null>(null);
+  const [quizQuestions, setQuizQuestions] = useState<WordQuestion[]>(STATIC_WORD_GAME_DATA);
+  const [isQuizLoading, setIsQuizLoading] = useState(false);
+
+  // Chat State
+  const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
+  const [chatInput, setChatInput] = useState("");
+  const [isChatLoading, setIsChatLoading] = useState(false);
+  const chatSessionRef = useRef<Chat | null>(null);
+  const chatScrollRef = useRef<HTMLDivElement>(null);
 
   // --- PERSISTENCE ---
 
@@ -459,7 +477,7 @@ const App: React.FC = () => {
     playSound('match');
     const rect = document.getElementById('game-grid')?.getBoundingClientRect();
     const centerX = rect ? rect.left + rect.width/2 : window.innerWidth/2;
-    const centerY = rect ? rect.top + rect.height/2 : window.innerHeight/2;
+    const centerY = rect ? rect.top + rect.height/2 : window.innerHeight / 2;
     setExplosionTrigger({ x: centerX, y: centerY, type: 'success' });
 
     setTimeout(() => {
@@ -673,23 +691,55 @@ const App: React.FC = () => {
     }, 2000);
   };
 
-  // --- MINI GAME LOGIC ---
-  const startMiniGame = () => {
+  // --- MINI GAME LOGIC (DYNAMIC QUIZ) ---
+
+  const startMiniGame = async () => {
      const today = new Date().toISOString().split('T')[0];
      if (profile.lastMinigameDate === today) {
        alert("You've already learned today! Come back tomorrow.");
        return;
      }
-     setMinigameQIdx(0);
-     setMinigameScore(0);
-     setMinigameAnswerStatus(null);
-     setGameState(GameState.MINIGAME_PLAYING);
+
+     setIsQuizLoading(true);
+
+     // Try to generate questions with Gemini
+     try {
+        if (process.env.API_KEY) {
+           const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+           const prompt = `Generate a JSON array of 10 multiple choice English vocabulary questions for middle school students.
+           Format: [{ "id": 1, "word": "Apple", "options": ["Meaning1", "Meaning2", "Meaning3"], "correctIndex": 0 }, ...].
+           The options should be in Chinese. Ensure the output is pure JSON.`;
+           
+           const response = await ai.models.generateContent({
+             model: 'gemini-2.5-flash',
+             contents: prompt,
+             config: { responseMimeType: 'application/json' }
+           });
+           
+           const text = response.text;
+           if (text) {
+             const generatedQuestions = JSON.parse(text);
+             if (Array.isArray(generatedQuestions) && generatedQuestions.length > 0) {
+                setQuizQuestions(generatedQuestions);
+             }
+           }
+        }
+     } catch (e) {
+        console.error("Failed to generate quiz, using fallback.", e);
+        setQuizQuestions(STATIC_WORD_GAME_DATA);
+     } finally {
+        setIsQuizLoading(false);
+        setMinigameQIdx(0);
+        setMinigameScore(0);
+        setMinigameAnswerStatus(null);
+        setGameState(GameState.MINIGAME_PLAYING);
+     }
   };
 
   const answerMiniGame = (optionIndex: number) => {
      if (minigameAnswerStatus) return; // Wait for next q
 
-     const currentQ = WORD_GAME_DATA[minigameQIdx];
+     const currentQ = quizQuestions[minigameQIdx];
      const isCorrect = optionIndex === currentQ.correctIndex;
      
      if (isCorrect) {
@@ -719,6 +769,51 @@ const App: React.FC = () => {
         }
      }, 1000);
   };
+
+  // --- CHAT FEATURE ---
+
+  const initChat = () => {
+    setGameState(GameState.CHAT);
+    if (!chatSessionRef.current && process.env.API_KEY) {
+      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+      chatSessionRef.current = ai.chats.create({
+        model: 'gemini-2.5-flash',
+        config: {
+          systemInstruction: "You are a cute, energetic lemon character named 'Lemon'. You love lemons and yellow things. You speak primarily in Chinese, but can mix in simple English. You are helpful, funny, and like to make lemon puns. Keep your responses relatively short (under 50 words) and conversational. Use emojis often! 🍋"
+        }
+      });
+      // Initial greeting
+      setChatHistory([{ role: 'model', text: '你好！我是柠檬酱！想聊点什么吗？🍋✨' }]);
+    }
+  };
+
+  const sendChatMessage = async () => {
+    if (!chatInput.trim() || isChatLoading || !chatSessionRef.current) return;
+    
+    const userMsg = chatInput.trim();
+    setChatInput("");
+    setChatHistory(prev => [...prev, { role: 'user', text: userMsg }]);
+    setIsChatLoading(true);
+    playSound('message');
+
+    try {
+      const result = await chatSessionRef.current.sendMessage({ message: userMsg });
+      const text = result.text;
+      setChatHistory(prev => [...prev, { role: 'model', text: text || "🍋???" }]);
+      playSound('message');
+    } catch (e) {
+      console.error(e);
+      setChatHistory(prev => [...prev, { role: 'model', text: "哎呀，我的脑汁有点干了...稍后再试吧！😣" }]);
+    } finally {
+      setIsChatLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (chatScrollRef.current) {
+      chatScrollRef.current.scrollTop = chatScrollRef.current.scrollHeight;
+    }
+  }, [chatHistory, gameState]);
 
   // --- RENDER HELPERS ---
 
@@ -775,11 +870,19 @@ const App: React.FC = () => {
               </button>
               <button 
                 onClick={startMiniGame}
+                disabled={isQuizLoading}
                 className={`text-white font-bold py-2 rounded-xl shadow-md flex items-center justify-center gap-2 ${profile.lastMinigameDate === new Date().toISOString().split('T')[0] ? 'bg-gray-400' : 'bg-green-500 hover:bg-green-600'}`}
               >
-                <BookOpen size={18} /> Quiz
+                {isQuizLoading ? <Loader2 size={18} className="animate-spin"/> : <BookOpen size={18} />} Quiz
               </button>
           </div>
+          
+          <button 
+             onClick={initChat}
+             className="mt-2 bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 rounded-full shadow-md flex items-center justify-center gap-2"
+          >
+             <MessageCircle size={18} /> Chat with Lemon
+          </button>
         </div>
 
         {/* User Coin Display */}
@@ -805,6 +908,77 @@ const App: React.FC = () => {
                ))}
              </ul>
            )}
+        </div>
+      </div>
+    );
+  }
+
+  // CHAT SCREEN
+  if (gameState === GameState.CHAT) {
+    return (
+      <div className="h-full w-full bg-orange-50 flex flex-col relative overflow-hidden">
+        {/* Header */}
+        <header className="flex items-center justify-between p-4 bg-white shadow-sm z-10">
+            <button onClick={() => setGameState(GameState.IDLE)} className="p-2 bg-gray-100 rounded-full hover:bg-gray-200"><ArrowLeft /></button>
+            <div className="flex flex-col items-center">
+               <h2 className="text-xl font-bold text-orange-800">Lemon Chat</h2>
+               <span className="text-xs text-green-500 font-bold">● Online</span>
+            </div>
+            <div className="w-10"></div> {/* Spacer */}
+        </header>
+
+        {/* Chat Area */}
+        <div className="flex-1 overflow-y-auto p-4 space-y-4" ref={chatScrollRef}>
+           {chatHistory.map((msg, idx) => {
+             const isUser = msg.role === 'user';
+             return (
+               <div key={idx} className={`flex w-full ${isUser ? 'justify-end' : 'justify-start'}`}>
+                  {!isUser && (
+                    <div className="mr-2 flex-shrink-0">
+                       <div className="w-10 h-10 bg-yellow-300 rounded-full flex items-center justify-center text-xl border-2 border-white shadow-sm">🍋</div>
+                    </div>
+                  )}
+                  <div className={`max-w-[75%] p-3 rounded-2xl text-sm md:text-base shadow-sm ${isUser ? 'bg-orange-500 text-white rounded-tr-none' : 'bg-white text-gray-800 rounded-tl-none border border-orange-100'}`}>
+                     {msg.text}
+                  </div>
+               </div>
+             )
+           })}
+           {isChatLoading && (
+             <div className="flex w-full justify-start">
+                <div className="mr-2 flex-shrink-0">
+                    <div className="w-10 h-10 bg-yellow-300 rounded-full flex items-center justify-center text-xl">🍋</div>
+                </div>
+                <div className="bg-white p-3 rounded-2xl rounded-tl-none border border-orange-100 flex items-center gap-1">
+                   <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></span>
+                   <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce delay-75"></span>
+                   <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce delay-150"></span>
+                </div>
+             </div>
+           )}
+        </div>
+
+        {/* Input Area */}
+        <div className="p-4 bg-white border-t border-orange-100">
+           <form 
+             className="flex gap-2"
+             onSubmit={(e) => { e.preventDefault(); sendChatMessage(); }}
+           >
+              <input 
+                type="text" 
+                value={chatInput}
+                onChange={(e) => setChatInput(e.target.value)}
+                placeholder="Say hello to Lemon..."
+                className="flex-1 bg-gray-100 text-gray-800 rounded-full px-4 py-2 outline-none focus:ring-2 focus:ring-orange-300"
+              />
+              <button 
+                type="submit" 
+                disabled={!chatInput.trim() || isChatLoading}
+                className="bg-orange-500 text-white p-2 rounded-full hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed transition"
+              >
+                 <Send size={20} />
+              </button>
+           </form>
         </div>
       </div>
     );
@@ -944,7 +1118,7 @@ const App: React.FC = () => {
 
   // MINI GAME SCREEN
   if (gameState === GameState.MINIGAME_PLAYING) {
-     const question = WORD_GAME_DATA[minigameQIdx];
+     const question = quizQuestions[minigameQIdx];
 
      return (
        <div className="h-full w-full bg-green-50 flex flex-col items-center justify-center p-4">

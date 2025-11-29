@@ -32,7 +32,13 @@ export enum GameState {
   DAILY_SPIN = 'DAILY_SPIN',
   WARDROBE = 'WARDROBE',
   MINIGAME_MENU = 'MINIGAME_MENU',
-  MINIGAME_PLAYING = 'MINIGAME_PLAYING'
+  MINIGAME_PLAYING = 'MINIGAME_PLAYING',
+  CHAT = 'CHAT'
+}
+
+export interface ChatMessage {
+  role: 'user' | 'model';
+  text: string;
 }
 
 export interface LeaderboardEntry {
