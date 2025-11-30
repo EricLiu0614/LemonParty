@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Card from './components/Card';
 import Confetti from './components/Confetti';
+import LemonAvatar from './components/LemonAvatar';
 import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType, ChatMessage } from './types';
 import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2 } from 'lucide-react';
 
@@ -215,39 +216,6 @@ const playSound = (type: 'pop' | 'match' | 'error' | 'win' | 'explode' | 'tick' 
 };
 
 // --- COMPONENTS ---
-
-const LemonAvatar: React.FC<{ equipped: UserProfile['equippedFashion'], size?: 'sm' | 'md' | 'lg' | 'xl', animate?: boolean }> = ({ equipped, size = 'md', animate = false }) => {
-  const sizeClasses = {
-    sm: 'text-4xl w-12 h-12',
-    md: 'text-6xl w-20 h-20',
-    lg: 'text-8xl w-32 h-32',
-    xl: 'text-9xl w-40 h-40'
-  };
-
-  const getFashion = (id?: string) => FASHION_CATALOG.find(i => i.id === id)?.icon || null;
-
-  return (
-    <div className={`relative flex items-center justify-center select-none ${sizeClasses[size]} ${animate ? 'animate-dance' : ''}`}>
-      {/* Base */}
-      <span className="absolute inset-0 flex items-center justify-center z-10">🍋</span>
-      
-      {/* Layers */}
-      {/* Shirt - Behind/Bottom */}
-      {equipped.shirt && <span className="absolute top-[60%] left-1/2 -translate-x-1/2 text-[0.8em] z-20">{getFashion(equipped.shirt)}</span>}
-      {/* Pants - Below Shirt */}
-      {equipped.pants && <span className="absolute top-[90%] left-1/2 -translate-x-1/2 text-[0.8em] z-20">{getFashion(equipped.pants)}</span>}
-      
-      {/* Glasses - Middle */}
-      {equipped.glasses && <span className="absolute top-[35%] left-1/2 -translate-x-1/2 text-[0.5em] z-30">{getFashion(equipped.glasses)}</span>}
-      
-      {/* Hat - Top */}
-      {equipped.hat && <span className="absolute -top-[30%] left-1/2 -translate-x-1/2 text-[0.7em] z-40">{getFashion(equipped.hat)}</span>}
-      
-      {/* Accessory - Side */}
-      {equipped.accessory && <span className="absolute top-[50%] -right-[30%] text-[0.5em] z-20 rotate-12">{getFashion(equipped.accessory)}</span>}
-    </div>
-  );
-};
 
 const App: React.FC = () => {
   // --- STATE ---
@@ -848,7 +816,7 @@ const App: React.FC = () => {
         
         {/* Animated Lemon Character */}
         <div className="mt-8 mb-4">
-           <LemonAvatar equipped={profile.equippedFashion} size="xl" animate />
+           <LemonAvatar equippedItems={profile.equippedFashion} size={180} className="animate-dance" />
         </div>
 
         <h1 className="text-5xl font-extrabold text-yellow-600 mb-1 drop-shadow-sm">Lemon Party</h1>
@@ -1041,7 +1009,7 @@ const App: React.FC = () => {
          <div className="flex-1 flex flex-col items-center w-full max-w-3xl mx-auto overflow-hidden">
             {/* Preview */}
             <div className="bg-white rounded-3xl p-8 mb-6 shadow-md w-full flex justify-center border border-pink-100 flex-shrink-0">
-               <LemonAvatar equipped={profile.equippedFashion} size="xl" />
+               <LemonAvatar equippedItems={profile.equippedFashion} size={240} />
             </div>
 
             {/* Catalog */}
