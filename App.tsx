@@ -1,10 +1,12 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { GoogleGenAI, Chat, Type } from "@google/genai";
 import Card from './components/Card';
 import Confetti from './components/Confetti';
 import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType, ChatMessage } from './types';
 import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2 } from 'lucide-react';
+
+// API Base URL - relative path works for both dev (with proxy) and prod
+const API_BASE_URL = '/api';
 
 // --- GAME CONSTANTS ---
 
@@ -593,23 +595,28 @@ const App: React.FC = () => {
 
   const generateEndMessage = async (isWin: boolean) => {
     try {
-      if (!process.env.API_KEY) {
-        setAiMessage(isWin ? "Ultimate Lemon Champion!" : "Explosive Defeat!");
-        return;
-      }
       setIsLoadingAi(true);
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-      const prompt = isWin 
-        ? `Write a short, funny congratulatory sentence for beating a hard memory game level.`
-        : `Write a short, funny roast for stepping on a mine in a memory game.`;
-
-      const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: prompt,
+      
+      const response = await fetch(`${API_BASE_URL}/gemini`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ action: 'message', isWin }),
       });
-      setAiMessage(response.text || (isWin ? "You are a Legend!" : "Try again!"));
+
+      if (!response.ok) {
+        const errorData = await response.text();
+        console.error('API Error:', errorData);
+        throw new Error(`API failed: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log('AI Response:', data); // Debug log
+      setAiMessage(data.message || (isWin ? "You are a Legend!" : "Try again!"));
     } catch (e) {
-      setAiMessage(isWin ? "Victory!" : "Boom!");
+      console.error('Error generating AI message:', e);
+      setAiMessage(isWin ? "Ultimate Lemon Champion! 🏆" : "Explosive Defeat! 💥");
     } finally {
       setIsLoadingAi(false);
     }
@@ -704,25 +711,17 @@ const App: React.FC = () => {
 
      // Try to generate questions with Gemini
      try {
-        if (process.env.API_KEY) {
-           const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-           const prompt = `Generate a JSON array of 10 multiple choice English vocabulary questions for middle school students.
-           Format: [{ "id": 1, "word": "Apple", "options": ["Meaning1", "Meaning2", "Meaning3"], "correctIndex": 0 }, ...].
-           The options should be in Chinese. Ensure the output is pure JSON.`;
-           
-           const response = await ai.models.generateContent({
-             model: 'gemini-2.5-flash',
-             contents: prompt,
-             config: { responseMimeType: 'application/json' }
-           });
-           
-           const text = response.text;
-           if (text) {
-             const generatedQuestions = JSON.parse(text);
-             if (Array.isArray(generatedQuestions) && generatedQuestions.length > 0) {
-                setQuizQuestions(generatedQuestions);
-             }
-           }
+        const response = await fetch(`${API_BASE_URL}/gemini`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'questions' })
+        });
+
+        if (!response.ok) throw new Error('Failed to fetch questions');
+        
+        const data = await response.json();
+        if (data.questions && Array.isArray(data.questions) && data.questions.length > 0) {
+          setQuizQuestions(data.questions);
         }
      } catch (e) {
         console.error("Failed to generate quiz, using fallback.", e);
@@ -774,32 +773,46 @@ const App: React.FC = () => {
 
   const initChat = () => {
     setGameState(GameState.CHAT);
-    if (!chatSessionRef.current && process.env.API_KEY) {
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-      chatSessionRef.current = ai.chats.create({
-        model: 'gemini-2.5-flash',
-        config: {
-          systemInstruction: "You are a cute, energetic lemon character named 'Lemon'. You love lemons and yellow things. You speak primarily in Chinese, but can mix in simple English. You are helpful, funny, and like to make lemon puns. Keep your responses relatively short (under 50 words) and conversational. Use emojis often! 🍋"
-        }
-      });
-      // Initial greeting
+    // Initial greeting if empty
+    if (chatHistory.length === 0) {
       setChatHistory([{ role: 'model', text: '你好！我是柠檬酱！想聊点什么吗？🍋✨' }]);
     }
   };
 
   const sendChatMessage = async () => {
-    if (!chatInput.trim() || isChatLoading || !chatSessionRef.current) return;
+    if (!chatInput.trim() || isChatLoading) return;
     
     const userMsg = chatInput.trim();
     setChatInput("");
-    setChatHistory(prev => [...prev, { role: 'user', text: userMsg }]);
+    
+    const newHistory = [...chatHistory, { role: 'user' as const, text: userMsg }];
+    setChatHistory(newHistory);
     setIsChatLoading(true);
     playSound('message');
 
     try {
-      const result = await chatSessionRef.current.sendMessage({ message: userMsg });
-      const text = result.text;
-      setChatHistory(prev => [...prev, { role: 'model', text: text || "🍋???" }]);
+      // Convert history for API
+      const apiHistory = newHistory.map(msg => ({
+         role: msg.role,
+         parts: [{ text: msg.text }]
+      }));
+
+      const response = await fetch(`${API_BASE_URL}/gemini`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          action: 'chat', 
+          message: userMsg,
+          history: apiHistory.slice(0, -1) // Send history context excluding current message
+        })
+      });
+
+      if (!response.ok) throw new Error('Chat request failed');
+      
+      const data = await response.json();
+      const replyText = data.reply;
+      
+      setChatHistory(prev => [...prev, { role: 'model', text: replyText || "🍋???" }]);
       playSound('message');
     } catch (e) {
       console.error(e);
