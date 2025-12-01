@@ -33,7 +33,8 @@ export enum GameState {
   WARDROBE = 'WARDROBE',
   MINIGAME_MENU = 'MINIGAME_MENU',
   MINIGAME_PLAYING = 'MINIGAME_PLAYING',
-  CHAT = 'CHAT'
+  CHAT = 'CHAT',
+  ISLAND = 'ISLAND'
 }
 
 export interface ChatMessage {

@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Card from './components/Card';
 import Confetti from './components/Confetti';
 import LemonAvatar from './components/LemonAvatar';
+import { LemonIsland } from './components/LemonIsland';
 import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType, ChatMessage } from './types';
 import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2 } from 'lucide-react';
 
@@ -294,7 +295,7 @@ const App: React.FC = () => {
     const updated = [...leaderboard, newEntry].sort((a, b) => b.score - a.score).slice(0, 5);
     setLeaderboard(updated);
     localStorage.setItem('lemon-party-leaderboard', JSON.stringify(updated));
-    setGameState(GameState.IDLE);
+    setGameState(GameState.ISLAND);
   };
 
   // --- GAME LOGIC ---
@@ -732,7 +733,7 @@ const App: React.FC = () => {
               lastMinigameDate: today
            });
            alert(`Quiz Complete! Score: ${minigameScore + (isCorrect ? 1 : 0)}/10. Earned ${coinsEarned} Coins!`);
-           setGameState(GameState.IDLE);
+           setGameState(GameState.ISLAND);
         }
      }, 1000);
   };
@@ -824,10 +825,10 @@ const App: React.FC = () => {
         
         <div className="flex flex-col gap-3 w-full max-w-xs mb-8">
           <button 
-            onClick={() => { setCurrentLevelIdx(0); startLevel(0); }}
+            onClick={() => setGameState(GameState.ISLAND)}
             className="bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-3 px-8 rounded-full shadow-lg text-xl transition transform hover:scale-105 flex items-center justify-center gap-3"
           >
-            <Play size={24} /> Start Game
+            <Play size={24} /> Enter Lemon Island
           </button>
           
           <div className="grid grid-cols-2 gap-3">
@@ -894,13 +895,61 @@ const App: React.FC = () => {
     );
   }
 
+  // LEMON ISLAND (MAIN WORLD)
+  if (gameState === GameState.ISLAND) {
+    return (
+      <div className="h-full w-full relative">
+        <LemonIsland 
+          profile={profile} 
+          onEnterBuilding={(buildingId) => {
+            switch(buildingId) {
+              case 'game':
+                setCurrentLevelIdx(0);
+                startLevel(0);
+                break;
+              case 'shop':
+                setGameState(GameState.SHOP);
+                break;
+              case 'style':
+                setGameState(GameState.WARDROBE);
+                break;
+              case 'quiz':
+                startMiniGame();
+                break;
+              case 'spin':
+                checkDailySpin();
+                break;
+              case 'chat':
+                initChat();
+                break;
+            }
+          }} 
+        />
+        
+        {/* Overlay UI (Coins, Back) */}
+        <div className="absolute top-4 left-4 right-4 flex justify-between pointer-events-none">
+           <button 
+             onClick={() => setGameState(GameState.IDLE)} 
+             className="pointer-events-auto p-2 bg-white/80 backdrop-blur rounded-full shadow hover:bg-white"
+           >
+             <ArrowLeft className="text-gray-700" />
+           </button>
+           
+           <div className="bg-white/80 backdrop-blur px-4 py-1 rounded-full font-bold text-yellow-700 flex items-center gap-2 shadow">
+              <Coins size={18} className="text-yellow-500" /> {profile.coins}
+           </div>
+        </div>
+      </div>
+    );
+  }
+
   // CHAT SCREEN
   if (gameState === GameState.CHAT) {
     return (
       <div className="h-full w-full bg-orange-50 flex flex-col relative overflow-hidden">
         {/* Header */}
         <header className="flex items-center justify-between p-4 bg-white shadow-sm z-10">
-            <button onClick={() => setGameState(GameState.IDLE)} className="p-2 bg-gray-100 rounded-full hover:bg-gray-200"><ArrowLeft /></button>
+            <button onClick={() => setGameState(GameState.ISLAND)} className="p-2 bg-gray-100 rounded-full hover:bg-gray-200"><ArrowLeft /></button>
             <div className="flex flex-col items-center">
                <h2 className="text-xl font-bold text-orange-800">Lemon Chat</h2>
                <span className="text-xs text-green-500 font-bold">● Online</span>
@@ -970,7 +1019,7 @@ const App: React.FC = () => {
     return (
       <div className="h-full w-full bg-purple-50 p-4 overflow-y-auto">
          <header className="flex items-center justify-between mb-6 max-w-2xl mx-auto">
-            <button onClick={() => setGameState(GameState.IDLE)} className="p-2 bg-white rounded-full shadow hover:bg-gray-100"><ArrowLeft /></button>
+            <button onClick={() => setGameState(GameState.ISLAND)} className="p-2 bg-white rounded-full shadow hover:bg-gray-100"><ArrowLeft /></button>
             <h2 className="text-2xl font-bold text-purple-900">Power-up Shop</h2>
             <div className="bg-yellow-400 text-white px-4 py-1 rounded-full font-bold flex items-center gap-2"><Coins size={16}/> {profile.coins}</div>
          </header>
@@ -1001,7 +1050,7 @@ const App: React.FC = () => {
     return (
       <div className="h-full w-full bg-pink-50 p-4 flex flex-col overflow-hidden">
          <header className="flex items-center justify-between mb-4 max-w-2xl mx-auto w-full flex-shrink-0">
-            <button onClick={() => setGameState(GameState.IDLE)} className="p-2 bg-white rounded-full shadow hover:bg-gray-100"><ArrowLeft /></button>
+            <button onClick={() => setGameState(GameState.ISLAND)} className="p-2 bg-white rounded-full shadow hover:bg-gray-100"><ArrowLeft /></button>
             <h2 className="text-2xl font-bold text-pink-900">Lemon Style</h2>
             <div className="bg-yellow-400 text-white px-4 py-1 rounded-full font-bold flex items-center gap-2"><Coins size={16}/> {profile.coins}</div>
          </header>
@@ -1087,7 +1136,7 @@ const App: React.FC = () => {
                   <p className="text-4xl font-extrabold text-yellow-500 mb-6 flex items-center justify-center gap-2">
                     +{spinResult} <Coins />
                   </p>
-                  <button onClick={() => setGameState(GameState.IDLE)} className="w-full bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 rounded-xl">
+                  <button onClick={() => setGameState(GameState.ISLAND)} className="w-full bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 rounded-xl">
                     Awesome
                   </button>
                </div>
@@ -1152,7 +1201,7 @@ const App: React.FC = () => {
       <header className="w-full max-w-lg mb-2 space-y-2">
         <div className="flex justify-between items-center px-2">
            <div className="flex items-center gap-3">
-              <button onClick={() => setGameState(GameState.IDLE)} className="p-1 bg-white rounded-lg shadow-sm"><Home size={18} className="text-yellow-700"/></button>
+              <button onClick={() => setGameState(GameState.ISLAND)} className="p-1 bg-white rounded-lg shadow-sm"><Home size={18} className="text-yellow-700"/></button>
               <h2 className="text-xl font-bold text-yellow-800">Lvl {currentLevelIdx + 1}</h2>
            </div>
            
