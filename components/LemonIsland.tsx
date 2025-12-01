@@ -202,7 +202,7 @@ export const LemonIsland: React.FC<LemonIslandProps> = ({ profile, onEnterBuildi
         style={{ cursor: isMoving ? 'grabbing' : 'pointer' }}
       >
         {/* Base */}
-        <image href="/island-map.png" x="0" y="0" width="600" height="1000" preserveAspectRatio="none" />
+        <image href="/island-map.png" x="0" y="0" width="600" height="1100" preserveAspectRatio="none" />
 
         {/* Objects */}
         {trees.map((t, i) => <PalmTree key={i} {...t} />)}

@@ -64,7 +64,7 @@ export interface Inventory {
   clear4: number;
 }
 
-export type FashionType = 'hat' | 'glasses' | 'shirt' | 'pants' | 'accessory';
+export type FashionType = 'hat' | 'glasses' | 'shirt' | 'pants' | 'accessory' | 'skin';
 
 export interface FashionItem {
   id: string;
@@ -72,6 +72,7 @@ export interface FashionItem {
   name: string;
   icon: string; // Emoji
   price: number;
+  color?: string; // For skin items
 }
 
 export interface UserProfile {
@@ -86,6 +87,7 @@ export interface UserProfile {
     shirt?: string;
     pants?: string;
     accessory?: string;
+    skin?: string;
   };
 }
 

@@ -5,7 +5,7 @@ import Confetti from './components/Confetti';
 import LemonAvatar from './components/LemonAvatar';
 import { LemonIsland } from './components/LemonIsland';
 import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType, ChatMessage } from './types';
-import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2 } from 'lucide-react';
+import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2, Palette, Glasses, HardHat, Briefcase } from 'lucide-react';
 
 // API Base URL - relative path works for both dev (with proxy) and prod
 const API_BASE_URL = '/api';
@@ -74,6 +74,17 @@ const FASHION_CATALOG: FashionItem[] = [
   { id: 'acc_7', type: 'accessory', name: 'Mic', icon: '🎤', price: 200 },
   { id: 'acc_8', type: 'accessory', name: 'Diamond', icon: '💎', price: 1000 },
   { id: 'acc_9', type: 'accessory', name: 'Lollipop', icon: '🍭', price: 25 },
+
+  // Skins / Paints
+  { id: 'skin_default', type: 'skin', name: 'Lemon Yellow', icon: '🍋', price: 0 },
+  { id: 'skin_1', type: 'skin', name: 'Lime Green', icon: '🍏', price: 200 },
+  { id: 'skin_2', type: 'skin', name: 'Ruby Red', icon: '🍎', price: 250 },
+  { id: 'skin_3', type: 'skin', name: 'Berry Blue', icon: '🫐', price: 300 },
+  { id: 'skin_4', type: 'skin', name: 'Mystic Purple', icon: '🍇', price: 400 },
+  { id: 'skin_5', type: 'skin', name: 'Sunset Orange', icon: '🍊', price: 220 },
+  { id: 'skin_6', type: 'skin', name: 'Ghost White', icon: '👻', price: 500 },
+  { id: 'skin_7', type: 'skin', name: 'Ocean Teal', icon: '🌊', price: 350 },
+  { id: 'skin_8', type: 'skin', name: 'Sweet Pink', icon: '🍬', price: 280 },
 ];
 
 const STATIC_WORD_GAME_DATA: WordQuestion[] = [
@@ -264,8 +275,10 @@ const App: React.FC = () => {
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
   const [chatInput, setChatInput] = useState("");
   const [isChatLoading, setIsChatLoading] = useState(false);
-  const chatSessionRef = useRef<Chat | null>(null);
   const chatScrollRef = useRef<HTMLDivElement>(null);
+
+  // Wardrobe UI State
+  const [wardrobeTab, setWardrobeTab] = useState<FashionType>('hat');
 
   // --- PERSISTENCE ---
 
@@ -1047,6 +1060,17 @@ const App: React.FC = () => {
 
   // WARDROBE SCREEN
   if (gameState === GameState.WARDROBE) {
+    const tabs: { id: FashionType, label: string, icon: React.ReactNode }[] = [
+      { id: 'hat', label: 'Hats', icon: <HardHat size={18} /> },
+      { id: 'glasses', label: 'Glasses', icon: <Glasses size={18} /> },
+      { id: 'shirt', label: 'Clothes', icon: <Shirt size={18} /> },
+      { id: 'pants', label: 'Shoes', icon: <Briefcase size={18} /> }, // Reusing Briefcase as placeholder for Shoes/Pants if no better icon
+      { id: 'accessory', label: 'Extras', icon: <Gift size={18} /> },
+      { id: 'skin', label: 'Paint', icon: <Palette size={18} /> },
+    ];
+
+    const filteredItems = FASHION_CATALOG.filter(item => item.type === wardrobeTab);
+
     return (
       <div className="h-full w-full bg-pink-50 p-4 flex flex-col overflow-hidden">
          <header className="flex items-center justify-between mb-4 max-w-2xl mx-auto w-full flex-shrink-0">
@@ -1057,41 +1081,67 @@ const App: React.FC = () => {
 
          <div className="flex-1 flex flex-col items-center w-full max-w-3xl mx-auto overflow-hidden">
             {/* Preview */}
-            <div className="bg-white rounded-3xl p-8 mb-6 shadow-md w-full flex justify-center border border-pink-100 flex-shrink-0">
-               <LemonAvatar equippedItems={profile.equippedFashion} size={240} />
+            <div className="bg-white rounded-3xl p-8 mb-6 shadow-md w-full flex justify-center border border-pink-100 flex-shrink-0 relative">
+               <LemonAvatar equippedItems={profile.equippedFashion} size={200} />
+               <div className="absolute top-4 right-4 bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-xs font-bold uppercase">
+                 {wardrobeTab}
+               </div>
+            </div>
+
+            {/* Tabs */}
+            <div className="w-full flex gap-2 overflow-x-auto pb-2 mb-2 scrollbar-hide">
+              {tabs.map(tab => (
+                <button
+                  key={tab.id}
+                  onClick={() => setWardrobeTab(tab.id)}
+                  className={`flex items-center gap-2 px-4 py-3 rounded-full font-bold text-sm whitespace-nowrap transition ${
+                    wardrobeTab === tab.id 
+                      ? 'bg-pink-500 text-white shadow-lg scale-105' 
+                      : 'bg-white text-gray-500 hover:bg-gray-100'
+                  }`}
+                >
+                  {tab.icon} {tab.label}
+                </button>
+              ))}
             </div>
 
             {/* Catalog */}
             <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-3 overflow-y-auto pb-20 px-2">
-              {FASHION_CATALOG.map(item => {
-                 const isOwned = profile.ownedFashion.includes(item.id);
-                 const isEquipped = profile.equippedFashion[item.type] === item.id;
+              {filteredItems.map(item => {
+                 const isOwned = profile.ownedFashion.includes(item.id) || item.price === 0;
+                 const isEquipped = profile.equippedFashion[item.type] === item.id || (item.type === 'skin' && !profile.equippedFashion.skin && item.id === 'skin_default');
 
                  return (
-                   <div key={item.id} className={`bg-white p-3 rounded-xl shadow-sm flex flex-col items-center border-2 ${isEquipped ? 'border-pink-500 bg-pink-50' : 'border-transparent'}`}>
-                      <div className="text-4xl mb-2">{item.icon}</div>
+                   <div key={item.id} className={`bg-white p-3 rounded-xl shadow-sm flex flex-col items-center border-2 transition-all ${isEquipped ? 'border-pink-500 bg-pink-50 ring-2 ring-pink-200' : 'border-transparent hover:border-pink-200'}`}>
+                      <div className="text-4xl mb-2 transform transition hover:scale-110">{item.icon}</div>
                       <div className="text-sm font-bold text-gray-800">{item.name}</div>
-                      <div className="text-xs text-gray-500 mb-2 capitalize">{item.type}</div>
                       
-                      {isOwned ? (
-                        <button 
-                          onClick={() => equipFashion(item)}
-                          className={`w-full py-1 rounded text-xs font-bold ${isEquipped ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'}`}
-                        >
-                          {isEquipped ? 'Unequip' : 'Equip'}
-                        </button>
-                      ) : (
-                        <button 
-                          onClick={() => buyItem(item)}
-                          disabled={profile.coins < item.price}
-                          className="w-full py-1 rounded text-xs font-bold bg-yellow-400 text-white disabled:opacity-50 flex items-center justify-center gap-1"
-                        >
-                          {item.price} <Coins size={10} />
-                        </button>
-                      )}
+                      <div className="mt-2 w-full">
+                        {isOwned ? (
+                          <button 
+                            onClick={() => equipFashion(item)}
+                            className={`w-full py-2 rounded-lg text-xs font-bold transition ${isEquipped ? 'bg-pink-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+                          >
+                            {isEquipped ? 'Equipped' : 'Wear'}
+                          </button>
+                        ) : (
+                          <button 
+                            onClick={() => buyItem(item)}
+                            disabled={profile.coins < item.price}
+                            className="w-full py-2 rounded-lg text-xs font-bold bg-yellow-400 text-white disabled:opacity-50 flex items-center justify-center gap-1 hover:bg-yellow-500"
+                          >
+                            Buy {item.price} <Coins size={10} />
+                          </button>
+                        )}
+                      </div>
                    </div>
                  );
               })}
+              {filteredItems.length === 0 && (
+                <div className="col-span-full text-center text-gray-400 py-8">
+                   No items in this category yet.
+                </div>
+              )}
             </div>
          </div>
       </div>
