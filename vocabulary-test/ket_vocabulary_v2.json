@@ -1,0 +1,8592 @@
+[
+  {
+    "id": 1,
+    "word": "a/an",
+    "translation": "一个/一（冠词）"
+  },
+  {
+    "id": 2,
+    "word": "a few",
+    "translation": "几个，少数"
+  },
+  {
+    "id": 3,
+    "word": "able",
+    "translation": "能够的，有能力的"
+  },
+  {
+    "id": 4,
+    "word": "about",
+    "translation": "关于，大约"
+  },
+  {
+    "id": 5,
+    "word": "above",
+    "translation": "在…上方，超过"
+  },
+  {
+    "id": 6,
+    "word": "accident",
+    "translation": "事故，意外"
+  },
+  {
+    "id": 7,
+    "word": "accommodation",
+    "translation": "住所，住宿"
+  },
+  {
+    "id": 8,
+    "word": "across",
+    "translation": "横过，在…对面"
+  },
+  {
+    "id": 9,
+    "word": "act",
+    "translation": "行动，表演"
+  },
+  {
+    "id": 10,
+    "word": "action",
+    "translation": "行动，活动"
+  },
+  {
+    "id": 11,
+    "word": "activity",
+    "translation": "活动"
+  },
+  {
+    "id": 12,
+    "word": "actor",
+    "translation": "演员"
+  },
+  {
+    "id": 13,
+    "word": "actually",
+    "translation": "实际上，事实上"
+  },
+  {
+    "id": 14,
+    "word": "ad",
+    "translation": "广告"
+  },
+  {
+    "id": 15,
+    "word": "add",
+    "translation": "添加，增加"
+  },
+  {
+    "id": 16,
+    "word": "address",
+    "translation": "地址"
+  },
+  {
+    "id": 17,
+    "word": "adult",
+    "translation": "成人，成年的"
+  },
+  {
+    "id": 18,
+    "word": "advanced",
+    "translation": "高级的，先进的"
+  },
+  {
+    "id": 19,
+    "word": "adventure",
+    "translation": "冒险"
+  },
+  {
+    "id": 20,
+    "word": "advert",
+    "translation": "广告"
+  },
+  {
+    "id": 21,
+    "word": "advertisement",
+    "translation": "广告"
+  },
+  {
+    "id": 22,
+    "word": "advice",
+    "translation": "建议，忠告"
+  },
+  {
+    "id": 23,
+    "word": "aeroplane",
+    "translation": "飞机"
+  },
+  {
+    "id": 24,
+    "word": "afraid",
+    "translation": "害怕的，担心的"
+  },
+  {
+    "id": 25,
+    "word": "after",
+    "translation": "在…之后"
+  },
+  {
+    "id": 26,
+    "word": "afternoon",
+    "translation": "下午"
+  },
+  {
+    "id": 27,
+    "word": "afterwards",
+    "translation": "之后，后来"
+  },
+  {
+    "id": 28,
+    "word": "again",
+    "translation": "再次，又"
+  },
+  {
+    "id": 29,
+    "word": "against",
+    "translation": "反对，对抗"
+  },
+  {
+    "id": 30,
+    "word": "age",
+    "translation": "年龄，时代"
+  },
+  {
+    "id": 31,
+    "word": "aged",
+    "translation": "…岁的"
+  },
+  {
+    "id": 32,
+    "word": "ago",
+    "translation": "…以前"
+  },
+  {
+    "id": 33,
+    "word": "agree",
+    "translation": "同意，赞成"
+  },
+  {
+    "id": 34,
+    "word": "air",
+    "translation": "空气，大气"
+  },
+  {
+    "id": 35,
+    "word": "airport",
+    "translation": "机场"
+  },
+  {
+    "id": 36,
+    "word": "alarm clock",
+    "translation": "闹钟"
+  },
+  {
+    "id": 37,
+    "word": "album",
+    "translation": "相册，专辑"
+  },
+  {
+    "id": 38,
+    "word": "all",
+    "translation": "全部，所有"
+  },
+  {
+    "id": 39,
+    "word": "all kinds of",
+    "translation": "各种各样的"
+  },
+  {
+    "id": 40,
+    "word": "allow",
+    "translation": "允许，准许"
+  },
+  {
+    "id": 41,
+    "word": "all right/alright",
+    "translation": "好的，行，没关系"
+  },
+  {
+    "id": 42,
+    "word": "all sorts of",
+    "translation": "各种各样的"
+  },
+  {
+    "id": 43,
+    "word": "all the time",
+    "translation": "一直，总是"
+  },
+  {
+    "id": 44,
+    "word": "almost",
+    "translation": "几乎，差不多"
+  },
+  {
+    "id": 45,
+    "word": "alone",
+    "translation": "单独的，独自地"
+  },
+  {
+    "id": 46,
+    "word": "along",
+    "translation": "沿着，一起"
+  },
+  {
+    "id": 47,
+    "word": "already",
+    "translation": "已经"
+  },
+  {
+    "id": 48,
+    "word": "also",
+    "translation": "也，还"
+  },
+  {
+    "id": 49,
+    "word": "always",
+    "translation": "总是，永远"
+  },
+  {
+    "id": 50,
+    "word": "a.m.",
+    "translation": "上午"
+  },
+  {
+    "id": 51,
+    "word": "amazed",
+    "translation": "惊讶的，惊叹的"
+  },
+  {
+    "id": 52,
+    "word": "amazing",
+    "translation": "令人惊叹的，极好的"
+  },
+  {
+    "id": 53,
+    "word": "ambulance",
+    "translation": "救护车"
+  },
+  {
+    "id": 54,
+    "word": "among",
+    "translation": "在…中间，在…之中"
+  },
+  {
+    "id": 55,
+    "word": "an",
+    "translation": "一个（元音前）"
+  },
+  {
+    "id": 56,
+    "word": "and",
+    "translation": "和，并且"
+  },
+  {
+    "id": 57,
+    "word": "angry",
+    "translation": "生气的，愤怒的"
+  },
+  {
+    "id": 58,
+    "word": "animal",
+    "translation": "动物"
+  },
+  {
+    "id": 59,
+    "word": "another",
+    "translation": "另一个，再一个"
+  },
+  {
+    "id": 60,
+    "word": "answer",
+    "translation": "回答，答案"
+  },
+  {
+    "id": 61,
+    "word": "any",
+    "translation": "任何，一些"
+  },
+  {
+    "id": 62,
+    "word": "anybody",
+    "translation": "任何人"
+  },
+  {
+    "id": 63,
+    "word": "anymore",
+    "translation": "再也不，不再"
+  },
+  {
+    "id": 64,
+    "word": "anyone",
+    "translation": "任何人"
+  },
+  {
+    "id": 65,
+    "word": "anything",
+    "translation": "任何事物"
+  },
+  {
+    "id": 66,
+    "word": "anyway",
+    "translation": "不管怎样，总之"
+  },
+  {
+    "id": 67,
+    "word": "anywhere",
+    "translation": "任何地方"
+  },
+  {
+    "id": 68,
+    "word": "apartment",
+    "translation": "公寓"
+  },
+  {
+    "id": 69,
+    "word": "apartment building",
+    "translation": "公寓楼"
+  },
+  {
+    "id": 70,
+    "word": "app",
+    "translation": "应用程序"
+  },
+  {
+    "id": 71,
+    "word": "apple",
+    "translation": "苹果"
+  },
+  {
+    "id": 72,
+    "word": "appointment",
+    "translation": "预约，约会"
+  },
+  {
+    "id": 73,
+    "word": "April",
+    "translation": "四月"
+  },
+  {
+    "id": 74,
+    "word": "area",
+    "translation": "地区，区域，面积"
+  },
+  {
+    "id": 75,
+    "word": "arm",
+    "translation": "手臂"
+  },
+  {
+    "id": 76,
+    "word": "armchair",
+    "translation": "扶手椅"
+  },
+  {
+    "id": 77,
+    "word": "around",
+    "translation": "大约，在…周围"
+  },
+  {
+    "id": 78,
+    "word": "arrive",
+    "translation": "到达，抵达"
+  },
+  {
+    "id": 79,
+    "word": "art",
+    "translation": "艺术，美术"
+  },
+  {
+    "id": 80,
+    "word": "article",
+    "translation": "文章，物品"
+  },
+  {
+    "id": 81,
+    "word": "artist",
+    "translation": "艺术家，画家"
+  },
+  {
+    "id": 82,
+    "word": "as",
+    "translation": "像，作为，当"
+  },
+  {
+    "id": 83,
+    "word": "ask",
+    "translation": "问，请求"
+  },
+  {
+    "id": 84,
+    "word": "assistant",
+    "translation": "助手，助理"
+  },
+  {
+    "id": 85,
+    "word": "as well",
+    "translation": "也，同样"
+  },
+  {
+    "id": 86,
+    "word": "as well as",
+    "translation": "除…之外，以及"
+  },
+  {
+    "id": 87,
+    "word": "at",
+    "translation": "在（某处/时间）"
+  },
+  {
+    "id": 88,
+    "word": "at all",
+    "translation": "根本，全然"
+  },
+  {
+    "id": 89,
+    "word": "attractive",
+    "translation": "有吸引力的，漂亮的"
+  },
+  {
+    "id": 90,
+    "word": "August",
+    "translation": "八月"
+  },
+  {
+    "id": 91,
+    "word": "aunt",
+    "translation": "姑姑，阿姨，姨妈"
+  },
+  {
+    "id": 92,
+    "word": "autumn",
+    "translation": "秋天"
+  },
+  {
+    "id": 93,
+    "word": "available",
+    "translation": "可用的，可获得的"
+  },
+  {
+    "id": 94,
+    "word": "away",
+    "translation": "离开，远离"
+  },
+  {
+    "id": 95,
+    "word": "awesome",
+    "translation": "极好的，令人敬畏的"
+  },
+  {
+    "id": 96,
+    "word": "awful",
+    "translation": "糟糕的，可怕的"
+  },
+  {
+    "id": 97,
+    "word": "baby",
+    "translation": "婴儿，宝宝"
+  },
+  {
+    "id": 98,
+    "word": "back",
+    "translation": "背部，后面，回来"
+  },
+  {
+    "id": 99,
+    "word": "backpack",
+    "translation": "背包"
+  },
+  {
+    "id": 100,
+    "word": "bad",
+    "translation": "坏的，糟糕的"
+  },
+  {
+    "id": 101,
+    "word": "badly",
+    "translation": "坏地，糟糕地"
+  },
+  {
+    "id": 102,
+    "word": "badminton",
+    "translation": "羽毛球"
+  },
+  {
+    "id": 103,
+    "word": "bag",
+    "translation": "包，袋"
+  },
+  {
+    "id": 104,
+    "word": "bake",
+    "translation": "烤，焙"
+  },
+  {
+    "id": 105,
+    "word": "ball",
+    "translation": "球"
+  },
+  {
+    "id": 106,
+    "word": "balloon",
+    "translation": "气球"
+  },
+  {
+    "id": 107,
+    "word": "banana",
+    "translation": "香蕉"
+  },
+  {
+    "id": 108,
+    "word": "band",
+    "translation": "乐队，带子"
+  },
+  {
+    "id": 109,
+    "word": "bank",
+    "translation": "银行"
+  },
+  {
+    "id": 110,
+    "word": "barbecue/barbeque",
+    "translation": "烧烤"
+  },
+  {
+    "id": 111,
+    "word": "baseball",
+    "translation": "棒球"
+  },
+  {
+    "id": 112,
+    "word": "basketball",
+    "translation": "篮球"
+  },
+  {
+    "id": 113,
+    "word": "bat",
+    "translation": "球棒，蝙蝠"
+  },
+  {
+    "id": 114,
+    "word": "bath",
+    "translation": "浴缸，洗澡"
+  },
+  {
+    "id": 115,
+    "word": "bathing suit",
+    "translation": "泳装"
+  },
+  {
+    "id": 116,
+    "word": "bathroom",
+    "translation": "浴室，卫生间"
+  },
+  {
+    "id": 117,
+    "word": "bathtub",
+    "translation": "浴缸"
+  },
+  {
+    "id": 118,
+    "word": "battery",
+    "translation": "电池"
+  },
+  {
+    "id": 119,
+    "word": "be",
+    "translation": "是，存在"
+  },
+  {
+    "id": 120,
+    "word": "beach",
+    "translation": "海滩，沙滩"
+  },
+  {
+    "id": 121,
+    "word": "bean",
+    "translation": "豆，豆类"
+  },
+  {
+    "id": 122,
+    "word": "bear",
+    "translation": "熊"
+  },
+  {
+    "id": 123,
+    "word": "beard",
+    "translation": "胡须，胡子"
+  },
+  {
+    "id": 124,
+    "word": "beautiful",
+    "translation": "美丽的，漂亮的"
+  },
+  {
+    "id": 125,
+    "word": "because",
+    "translation": "因为"
+  },
+  {
+    "id": 126,
+    "word": "because of",
+    "translation": "因为，由于"
+  },
+  {
+    "id": 127,
+    "word": "become",
+    "translation": "变成，成为"
+  },
+  {
+    "id": 128,
+    "word": "bed",
+    "translation": "床"
+  },
+  {
+    "id": 129,
+    "word": "bedroom",
+    "translation": "卧室"
+  },
+  {
+    "id": 130,
+    "word": "bee",
+    "translation": "蜜蜂"
+  },
+  {
+    "id": 131,
+    "word": "beetle",
+    "translation": "甲虫"
+  },
+  {
+    "id": 132,
+    "word": "before",
+    "translation": "在…之前"
+  },
+  {
+    "id": 133,
+    "word": "begin",
+    "translation": "开始"
+  },
+  {
+    "id": 134,
+    "word": "beginner",
+    "translation": "初学者"
+  },
+  {
+    "id": 135,
+    "word": "beginning",
+    "translation": "开始，开端"
+  },
+  {
+    "id": 136,
+    "word": "behind",
+    "translation": "在…后面，落后"
+  },
+  {
+    "id": 137,
+    "word": "believe",
+    "translation": "相信，认为"
+  },
+  {
+    "id": 138,
+    "word": "belong",
+    "translation": "属于"
+  },
+  {
+    "id": 139,
+    "word": "below",
+    "translation": "在…下面，低于"
+  },
+  {
+    "id": 140,
+    "word": "belt",
+    "translation": "腰带，皮带"
+  },
+  {
+    "id": 141,
+    "word": "beside",
+    "translation": "在…旁边，紧靠"
+  },
+  {
+    "id": 142,
+    "word": "best",
+    "translation": "最好的，最佳的"
+  },
+  {
+    "id": 143,
+    "word": "better",
+    "translation": "更好的，较好地"
+  },
+  {
+    "id": 144,
+    "word": "between",
+    "translation": "在…之间"
+  },
+  {
+    "id": 145,
+    "word": "bicycle",
+    "translation": "自行车"
+  },
+  {
+    "id": 146,
+    "word": "big",
+    "translation": "大的"
+  },
+  {
+    "id": 147,
+    "word": "bike",
+    "translation": "自行车，摩托车"
+  },
+  {
+    "id": 148,
+    "word": "bill",
+    "translation": "账单，钞票"
+  },
+  {
+    "id": 149,
+    "word": "bin",
+    "translation": "垃圾桶"
+  },
+  {
+    "id": 150,
+    "word": "biology",
+    "translation": "生物学"
+  },
+  {
+    "id": 151,
+    "word": "bird",
+    "translation": "鸟"
+  },
+  {
+    "id": 152,
+    "word": "birth",
+    "translation": "出生，诞生"
+  },
+  {
+    "id": 153,
+    "word": "birthday",
+    "translation": "生日"
+  },
+  {
+    "id": 154,
+    "word": "biscuit",
+    "translation": "饼干"
+  },
+  {
+    "id": 155,
+    "word": "bit",
+    "translation": "一点，少许"
+  },
+  {
+    "id": 156,
+    "word": "black",
+    "translation": "黑色，黑色的"
+  },
+  {
+    "id": 157,
+    "word": "blackboard",
+    "translation": "黑板"
+  },
+  {
+    "id": 158,
+    "word": "blanket",
+    "translation": "毯子，毛毯"
+  },
+  {
+    "id": 159,
+    "word": "block",
+    "translation": "街区，积木"
+  },
+  {
+    "id": 160,
+    "word": "blog",
+    "translation": "博客"
+  },
+  {
+    "id": 161,
+    "word": "blonde",
+    "translation": "金发的，金发"
+  },
+  {
+    "id": 162,
+    "word": "blood",
+    "translation": "血，血液"
+  },
+  {
+    "id": 163,
+    "word": "blouse",
+    "translation": "女士衬衫"
+  },
+  {
+    "id": 164,
+    "word": "blue",
+    "translation": "蓝色，蓝色的"
+  },
+  {
+    "id": 165,
+    "word": "board",
+    "translation": "板，黑板，委员会"
+  },
+  {
+    "id": 166,
+    "word": "board game",
+    "translation": "棋盘游戏"
+  },
+  {
+    "id": 167,
+    "word": "boat",
+    "translation": "船，小艇"
+  },
+  {
+    "id": 168,
+    "word": "body",
+    "translation": "身体"
+  },
+  {
+    "id": 169,
+    "word": "boil",
+    "translation": "煮沸，沸腾"
+  },
+  {
+    "id": 170,
+    "word": "boiled",
+    "translation": "煮熟的，沸腾的"
+  },
+  {
+    "id": 171,
+    "word": "book",
+    "translation": "书，预订"
+  },
+  {
+    "id": 172,
+    "word": "bookcase",
+    "translation": "书架，书柜"
+  },
+  {
+    "id": 173,
+    "word": "bookshelf",
+    "translation": "书架"
+  },
+  {
+    "id": 174,
+    "word": "bookshop",
+    "translation": "书店"
+  },
+  {
+    "id": 175,
+    "word": "bookstore",
+    "translation": "书店（美式）"
+  },
+  {
+    "id": 176,
+    "word": "boot",
+    "translation": "靴子"
+  },
+  {
+    "id": 177,
+    "word": "bored",
+    "translation": "无聊的，厌烦的"
+  },
+  {
+    "id": 178,
+    "word": "boring",
+    "translation": "令人厌倦的，无聊的"
+  },
+  {
+    "id": 179,
+    "word": "born",
+    "translation": "出生的"
+  },
+  {
+    "id": 180,
+    "word": "borrow",
+    "translation": "借，借用"
+  },
+  {
+    "id": 181,
+    "word": "boss",
+    "translation": "老板，上司"
+  },
+  {
+    "id": 182,
+    "word": "both",
+    "translation": "两者，两个都"
+  },
+  {
+    "id": 183,
+    "word": "bother",
+    "translation": "打扰，烦恼"
+  },
+  {
+    "id": 184,
+    "word": "bottle",
+    "translation": "瓶子"
+  },
+  {
+    "id": 185,
+    "word": "bottom",
+    "translation": "底部，下面"
+  },
+  {
+    "id": 186,
+    "word": "bowl",
+    "translation": "碗"
+  },
+  {
+    "id": 187,
+    "word": "box",
+    "translation": "箱子，盒子"
+  },
+  {
+    "id": 188,
+    "word": "boy",
+    "translation": "男孩"
+  },
+  {
+    "id": 189,
+    "word": "boyfriend",
+    "translation": "男朋友"
+  },
+  {
+    "id": 190,
+    "word": "bracelet",
+    "translation": "手镯，手链"
+  },
+  {
+    "id": 191,
+    "word": "brain",
+    "translation": "大脑，脑"
+  },
+  {
+    "id": 192,
+    "word": "brave",
+    "translation": "勇敢的"
+  },
+  {
+    "id": 193,
+    "word": "bread",
+    "translation": "面包"
+  },
+  {
+    "id": 194,
+    "word": "break",
+    "translation": "休息，打破，断裂"
+  },
+  {
+    "id": 195,
+    "word": "break down",
+    "translation": "（机器）出故障，崩溃"
+  },
+  {
+    "id": 196,
+    "word": "breakfast",
+    "translation": "早餐"
+  },
+  {
+    "id": 197,
+    "word": "bridge",
+    "translation": "桥，桥梁"
+  },
+  {
+    "id": 198,
+    "word": "bright",
+    "translation": "明亮的，鲜艳的"
+  },
+  {
+    "id": 199,
+    "word": "brilliant",
+    "translation": "极好的，光辉的"
+  },
+  {
+    "id": 200,
+    "word": "bring",
+    "translation": "带来，拿来"
+  },
+  {
+    "id": 201,
+    "word": "bring back",
+    "translation": "带回来，归还"
+  },
+  {
+    "id": 202,
+    "word": "broken",
+    "translation": "破碎的，损坏的"
+  },
+  {
+    "id": 203,
+    "word": "brother",
+    "translation": "兄弟"
+  },
+  {
+    "id": 204,
+    "word": "brown",
+    "translation": "棕色，棕色的"
+  },
+  {
+    "id": 205,
+    "word": "brush",
+    "translation": "刷子，梳子，刷"
+  },
+  {
+    "id": 206,
+    "word": "build",
+    "translation": "建造，建设"
+  },
+  {
+    "id": 207,
+    "word": "building",
+    "translation": "建筑物，楼"
+  },
+  {
+    "id": 208,
+    "word": "burger",
+    "translation": "汉堡"
+  },
+  {
+    "id": 209,
+    "word": "bus",
+    "translation": "公共汽车，公交车"
+  },
+  {
+    "id": 210,
+    "word": "business",
+    "translation": "商业，生意"
+  },
+  {
+    "id": 211,
+    "word": "businessman",
+    "translation": "商人（男）"
+  },
+  {
+    "id": 212,
+    "word": "businesswoman",
+    "translation": "商人（女）"
+  },
+  {
+    "id": 213,
+    "word": "business person",
+    "translation": "商人"
+  },
+  {
+    "id": 214,
+    "word": "bus station",
+    "translation": "公共汽车站"
+  },
+  {
+    "id": 215,
+    "word": "bus stop",
+    "translation": "公交车站"
+  },
+  {
+    "id": 216,
+    "word": "busy",
+    "translation": "忙碌的，繁忙的"
+  },
+  {
+    "id": 217,
+    "word": "but",
+    "translation": "但是，然而"
+  },
+  {
+    "id": 218,
+    "word": "butter",
+    "translation": "黄油，奶油"
+  },
+  {
+    "id": 219,
+    "word": "butterfly",
+    "translation": "蝴蝶"
+  },
+  {
+    "id": 220,
+    "word": "buy",
+    "translation": "买，购买"
+  },
+  {
+    "id": 221,
+    "word": "by",
+    "translation": "通过，由，靠近"
+  },
+  {
+    "id": 222,
+    "word": "by accident",
+    "translation": "偶然，意外地"
+  },
+  {
+    "id": 223,
+    "word": "by the way",
+    "translation": "顺便说一下"
+  },
+  {
+    "id": 224,
+    "word": "by post",
+    "translation": "通过邮寄"
+  },
+  {
+    "id": 225,
+    "word": "bye",
+    "translation": "再见"
+  },
+  {
+    "id": 226,
+    "word": "cabinet",
+    "translation": "柜子，内阁"
+  },
+  {
+    "id": 227,
+    "word": "cafe/café",
+    "translation": "咖啡馆，小餐馆"
+  },
+  {
+    "id": 228,
+    "word": "cafeteria",
+    "translation": "自助餐厅，食堂"
+  },
+  {
+    "id": 229,
+    "word": "cake",
+    "translation": "蛋糕，糕点"
+  },
+  {
+    "id": 230,
+    "word": "calendar",
+    "translation": "日历，日程表"
+  },
+  {
+    "id": 231,
+    "word": "call",
+    "translation": "电话，打电话，叫"
+  },
+  {
+    "id": 232,
+    "word": "camel",
+    "translation": "骆驼"
+  },
+  {
+    "id": 233,
+    "word": "camera",
+    "translation": "照相机，摄像机"
+  },
+  {
+    "id": 234,
+    "word": "camp",
+    "translation": "营地，露营"
+  },
+  {
+    "id": 235,
+    "word": "camping",
+    "translation": "野营，露营"
+  },
+  {
+    "id": 236,
+    "word": "campsite",
+    "translation": "露营地，营地"
+  },
+  {
+    "id": 237,
+    "word": "cap",
+    "translation": "帽子（无边帽）"
+  },
+  {
+    "id": 238,
+    "word": "capital",
+    "translation": "首都，大写字母，资本"
+  },
+  {
+    "id": 239,
+    "word": "can",
+    "translation": "能，会，罐头"
+  },
+  {
+    "id": 240,
+    "word": "candy",
+    "translation": "糖果（美式）"
+  },
+  {
+    "id": 241,
+    "word": "cannot",
+    "translation": "不能，无法"
+  },
+  {
+    "id": 242,
+    "word": "car",
+    "translation": "汽车，轿车"
+  },
+  {
+    "id": 243,
+    "word": "card",
+    "translation": "卡，牌，卡片"
+  },
+  {
+    "id": 244,
+    "word": "career",
+    "translation": "职业，事业"
+  },
+  {
+    "id": 245,
+    "word": "careful",
+    "translation": "小心的，仔细的"
+  },
+  {
+    "id": 246,
+    "word": "carefully",
+    "translation": "小心地，仔细地"
+  },
+  {
+    "id": 247,
+    "word": "car park",
+    "translation": "停车场（英式）"
+  },
+  {
+    "id": 248,
+    "word": "carpet",
+    "translation": "地毯"
+  },
+  {
+    "id": 249,
+    "word": "carrot",
+    "translation": "胡萝卜"
+  },
+  {
+    "id": 250,
+    "word": "carry",
+    "translation": "搬运，携带"
+  },
+  {
+    "id": 251,
+    "word": "cartoon",
+    "translation": "卡通片，漫画"
+  },
+  {
+    "id": 252,
+    "word": "case",
+    "translation": "情况，案例，箱子"
+  },
+  {
+    "id": 253,
+    "word": "cash",
+    "translation": "现金"
+  },
+  {
+    "id": 254,
+    "word": "castle",
+    "translation": "城堡"
+  },
+  {
+    "id": 255,
+    "word": "cat",
+    "translation": "猫"
+  },
+  {
+    "id": 256,
+    "word": "catch",
+    "translation": "抓，接住，赶上"
+  },
+  {
+    "id": 257,
+    "word": "CD",
+    "translation": "光盘，CD"
+  },
+  {
+    "id": 258,
+    "word": "CD player",
+    "translation": "CD播放机"
+  },
+  {
+    "id": 259,
+    "word": "ceiling",
+    "translation": "天花板"
+  },
+  {
+    "id": 260,
+    "word": "cell phone",
+    "translation": "手机（美式）"
+  },
+  {
+    "id": 261,
+    "word": "celebrate",
+    "translation": "庆祝"
+  },
+  {
+    "id": 262,
+    "word": "celebrity",
+    "translation": "名人，明星"
+  },
+  {
+    "id": 263,
+    "word": "cent",
+    "translation": "分（货币）"
+  },
+  {
+    "id": 264,
+    "word": "centre/center",
+    "translation": "中心，中央"
+  },
+  {
+    "id": 265,
+    "word": "centimetre/centimeter",
+    "translation": "厘米"
+  },
+  {
+    "id": 266,
+    "word": "century",
+    "translation": "世纪，百年"
+  },
+  {
+    "id": 267,
+    "word": "cereal",
+    "translation": "谷物，麦片"
+  },
+  {
+    "id": 268,
+    "word": "certainly",
+    "translation": "当然，肯定地"
+  },
+  {
+    "id": 269,
+    "word": "chain",
+    "translation": "链条，链子"
+  },
+  {
+    "id": 270,
+    "word": "chair",
+    "translation": "椅子"
+  },
+  {
+    "id": 271,
+    "word": "change",
+    "translation": "改变，变化，零钱"
+  },
+  {
+    "id": 272,
+    "word": "channel",
+    "translation": "频道，渠道"
+  },
+  {
+    "id": 273,
+    "word": "character",
+    "translation": "人物，性格，角色"
+  },
+  {
+    "id": 274,
+    "word": "chat",
+    "translation": "聊天，闲谈"
+  },
+  {
+    "id": 275,
+    "word": "chatroom",
+    "translation": "聊天室"
+  },
+  {
+    "id": 276,
+    "word": "cheap",
+    "translation": "便宜的，低价的"
+  },
+  {
+    "id": 277,
+    "word": "check",
+    "translation": "检查，核查"
+  },
+  {
+    "id": 278,
+    "word": "cheese",
+    "translation": "奶酪，乳酪"
+  },
+  {
+    "id": 279,
+    "word": "chef",
+    "translation": "厨师，大厨"
+  },
+  {
+    "id": 280,
+    "word": "chemist",
+    "translation": "药店，化学家（英式）"
+  },
+  {
+    "id": 281,
+    "word": "chemistry",
+    "translation": "化学"
+  },
+  {
+    "id": 282,
+    "word": "cheque",
+    "translation": "支票"
+  },
+  {
+    "id": 283,
+    "word": "chess",
+    "translation": "国际象棋"
+  },
+  {
+    "id": 284,
+    "word": "chicken",
+    "translation": "鸡肉，鸡"
+  },
+  {
+    "id": 285,
+    "word": "child",
+    "translation": "孩子，儿童"
+  },
+  {
+    "id": 286,
+    "word": "chilli",
+    "translation": "辣椒"
+  },
+  {
+    "id": 287,
+    "word": "chips",
+    "translation": "薯条（英式），薯片"
+  },
+  {
+    "id": 288,
+    "word": "chocolate",
+    "translation": "巧克力"
+  },
+  {
+    "id": 289,
+    "word": "choose",
+    "translation": "选择，挑选"
+  },
+  {
+    "id": 290,
+    "word": "cinema",
+    "translation": "电影院（英式）"
+  },
+  {
+    "id": 291,
+    "word": "circle",
+    "translation": "圆，圆圈"
+  },
+  {
+    "id": 292,
+    "word": "circus",
+    "translation": "马戏团"
+  },
+  {
+    "id": 293,
+    "word": "city",
+    "translation": "城市"
+  },
+  {
+    "id": 294,
+    "word": "city centre",
+    "translation": "市中心"
+  },
+  {
+    "id": 295,
+    "word": "class",
+    "translation": "课，班级，等级"
+  },
+  {
+    "id": 296,
+    "word": "classical",
+    "translation": "古典的，传统的"
+  },
+  {
+    "id": 297,
+    "word": "classmate",
+    "translation": "同班同学"
+  },
+  {
+    "id": 298,
+    "word": "classroom",
+    "translation": "教室"
+  },
+  {
+    "id": 299,
+    "word": "clean",
+    "translation": "干净的，清洁，清洗"
+  },
+  {
+    "id": 300,
+    "word": "cleaner",
+    "translation": "清洁工，吸尘器"
+  },
+  {
+    "id": 301,
+    "word": "clear",
+    "translation": "清晰的，明确的"
+  },
+  {
+    "id": 302,
+    "word": "clearly",
+    "translation": "清楚地，明显地"
+  },
+  {
+    "id": 303,
+    "word": "clever",
+    "translation": "聪明的，机灵的"
+  },
+  {
+    "id": 304,
+    "word": "click",
+    "translation": "点击，咔嚓声"
+  },
+  {
+    "id": 305,
+    "word": "climb",
+    "translation": "爬，攀登"
+  },
+  {
+    "id": 306,
+    "word": "climbing",
+    "translation": "爬山，攀登运动"
+  },
+  {
+    "id": 307,
+    "word": "clock",
+    "translation": "时钟，钟表"
+  },
+  {
+    "id": 308,
+    "word": "close",
+    "translation": "关闭，靠近，接近"
+  },
+  {
+    "id": 309,
+    "word": "close to",
+    "translation": "靠近，接近"
+  },
+  {
+    "id": 310,
+    "word": "closed",
+    "translation": "关闭的，不营业的"
+  },
+  {
+    "id": 311,
+    "word": "closet",
+    "translation": "壁橱，衣橱（美式）"
+  },
+  {
+    "id": 312,
+    "word": "clothes",
+    "translation": "衣服，服装"
+  },
+  {
+    "id": 313,
+    "word": "cloud",
+    "translation": "云，云朵"
+  },
+  {
+    "id": 314,
+    "word": "cloudy",
+    "translation": "多云的，阴天的"
+  },
+  {
+    "id": 315,
+    "word": "clown",
+    "translation": "小丑"
+  },
+  {
+    "id": 316,
+    "word": "club",
+    "translation": "俱乐部，社团"
+  },
+  {
+    "id": 317,
+    "word": "coach",
+    "translation": "长途汽车，教练"
+  },
+  {
+    "id": 318,
+    "word": "coat",
+    "translation": "外套，大衣"
+  },
+  {
+    "id": 319,
+    "word": "coast",
+    "translation": "海岸，海滨"
+  },
+  {
+    "id": 320,
+    "word": "coffee",
+    "translation": "咖啡"
+  },
+  {
+    "id": 321,
+    "word": "cola",
+    "translation": "可乐"
+  },
+  {
+    "id": 322,
+    "word": "cold",
+    "translation": "冷的，寒冷，感冒"
+  },
+  {
+    "id": 323,
+    "word": "colleague",
+    "translation": "同事，同僚"
+  },
+  {
+    "id": 324,
+    "word": "collect",
+    "translation": "收集，采集"
+  },
+  {
+    "id": 325,
+    "word": "college",
+    "translation": "学院，大学"
+  },
+  {
+    "id": 326,
+    "word": "colour",
+    "translation": "颜色，色彩"
+  },
+  {
+    "id": 327,
+    "word": "comb",
+    "translation": "梳子，梳头"
+  },
+  {
+    "id": 328,
+    "word": "come",
+    "translation": "来，到来"
+  },
+  {
+    "id": 329,
+    "word": "come back",
+    "translation": "回来，返回"
+  },
+  {
+    "id": 330,
+    "word": "comedy",
+    "translation": "喜剧，喜剧片"
+  },
+  {
+    "id": 331,
+    "word": "comfortable",
+    "translation": "舒适的，舒服的"
+  },
+  {
+    "id": 332,
+    "word": "comic",
+    "translation": "漫画书，喜剧的"
+  },
+  {
+    "id": 333,
+    "word": "company",
+    "translation": "公司，陪伴"
+  },
+  {
+    "id": 334,
+    "word": "competition",
+    "translation": "比赛，竞争"
+  },
+  {
+    "id": 335,
+    "word": "complete",
+    "translation": "完成，完整的"
+  },
+  {
+    "id": 336,
+    "word": "computer",
+    "translation": "电脑，计算机"
+  },
+  {
+    "id": 337,
+    "word": "concert",
+    "translation": "音乐会，演奏会"
+  },
+  {
+    "id": 338,
+    "word": "congratulations!",
+    "translation": "恭喜！祝贺！"
+  },
+  {
+    "id": 339,
+    "word": "contact",
+    "translation": "联系，接触"
+  },
+  {
+    "id": 340,
+    "word": "continue",
+    "translation": "继续，延续"
+  },
+  {
+    "id": 341,
+    "word": "conversation",
+    "translation": "对话，交谈"
+  },
+  {
+    "id": 342,
+    "word": "cook",
+    "translation": "厨师，烹饪，做饭"
+  },
+  {
+    "id": 343,
+    "word": "cooker",
+    "translation": "炉子，炊具"
+  },
+  {
+    "id": 344,
+    "word": "cookie",
+    "translation": "饼干（美式）"
+  },
+  {
+    "id": 345,
+    "word": "cooking",
+    "translation": "烹饪，做饭"
+  },
+  {
+    "id": 346,
+    "word": "cool",
+    "translation": "凉爽的，酷的"
+  },
+  {
+    "id": 347,
+    "word": "copy",
+    "translation": "复制，副本，抄写"
+  },
+  {
+    "id": 348,
+    "word": "corner",
+    "translation": "角，拐角，角落"
+  },
+  {
+    "id": 349,
+    "word": "correct",
+    "translation": "正确的，纠正"
+  },
+  {
+    "id": 350,
+    "word": "cost",
+    "translation": "费用，代价，花费"
+  },
+  {
+    "id": 351,
+    "word": "costume",
+    "translation": "服装，戏服"
+  },
+  {
+    "id": 352,
+    "word": "could",
+    "translation": "能，可以（过去式）"
+  },
+  {
+    "id": 353,
+    "word": "country",
+    "translation": "国家，乡村"
+  },
+  {
+    "id": 354,
+    "word": "countryside",
+    "translation": "农村，乡间"
+  },
+  {
+    "id": 355,
+    "word": "course",
+    "translation": "课程，道路，当然"
+  },
+  {
+    "id": 356,
+    "word": "court",
+    "translation": "球场，法院，庭院"
+  },
+  {
+    "id": 357,
+    "word": "cousin",
+    "translation": "表兄弟姐妹，堂兄弟姐妹"
+  },
+  {
+    "id": 358,
+    "word": "cover",
+    "translation": "覆盖，封面，盖子"
+  },
+  {
+    "id": 359,
+    "word": "cow",
+    "translation": "奶牛，母牛"
+  },
+  {
+    "id": 360,
+    "word": "cream",
+    "translation": "奶油，乳霜，米白色"
+  },
+  {
+    "id": 361,
+    "word": "creature",
+    "translation": "生物，动物"
+  },
+  {
+    "id": 362,
+    "word": "credit card",
+    "translation": "信用卡"
+  },
+  {
+    "id": 363,
+    "word": "cricket",
+    "translation": "蟋蟀，板球"
+  },
+  {
+    "id": 364,
+    "word": "crocodile",
+    "translation": "鳄鱼"
+  },
+  {
+    "id": 365,
+    "word": "cross",
+    "translation": "十字，穿越，生气的"
+  },
+  {
+    "id": 366,
+    "word": "crossing",
+    "translation": "十字路口，人行横道"
+  },
+  {
+    "id": 367,
+    "word": "crowd",
+    "translation": "人群，观众"
+  },
+  {
+    "id": 368,
+    "word": "crowded",
+    "translation": "拥挤的"
+  },
+  {
+    "id": 369,
+    "word": "cry",
+    "translation": "哭泣，喊叫"
+  },
+  {
+    "id": 370,
+    "word": "cup",
+    "translation": "杯子"
+  },
+  {
+    "id": 371,
+    "word": "cupboard",
+    "translation": "橱柜，碗柜"
+  },
+  {
+    "id": 372,
+    "word": "curry",
+    "translation": "咖喱"
+  },
+  {
+    "id": 373,
+    "word": "curtain",
+    "translation": "窗帘，幕布"
+  },
+  {
+    "id": 374,
+    "word": "customer",
+    "translation": "顾客，客户"
+  },
+  {
+    "id": 375,
+    "word": "cut",
+    "translation": "切，剪，削"
+  },
+  {
+    "id": 376,
+    "word": "cycle",
+    "translation": "骑自行车，循环"
+  },
+  {
+    "id": 377,
+    "word": "cycling",
+    "translation": "骑自行车运动"
+  },
+  {
+    "id": 378,
+    "word": "dad",
+    "translation": "爸爸，父亲"
+  },
+  {
+    "id": 379,
+    "word": "daily",
+    "translation": "每天的，日常的"
+  },
+  {
+    "id": 380,
+    "word": "dance",
+    "translation": "跳舞，舞蹈"
+  },
+  {
+    "id": 381,
+    "word": "dancer",
+    "translation": "舞蹈演员，舞者"
+  },
+  {
+    "id": 382,
+    "word": "dancing",
+    "translation": "跳舞，舞蹈"
+  },
+  {
+    "id": 383,
+    "word": "danger",
+    "translation": "危险"
+  },
+  {
+    "id": 384,
+    "word": "dangerous",
+    "translation": "危险的"
+  },
+  {
+    "id": 385,
+    "word": "dark",
+    "translation": "黑暗的，深色的"
+  },
+  {
+    "id": 386,
+    "word": "date",
+    "translation": "日期，约会"
+  },
+  {
+    "id": 387,
+    "word": "daughter",
+    "translation": "女儿"
+  },
+  {
+    "id": 388,
+    "word": "day",
+    "translation": "天，白天"
+  },
+  {
+    "id": 389,
+    "word": "dead",
+    "translation": "死的，无生命的"
+  },
+  {
+    "id": 390,
+    "word": "dear",
+    "translation": "亲爱的，贵的"
+  },
+  {
+    "id": 391,
+    "word": "December",
+    "translation": "十二月"
+  },
+  {
+    "id": 392,
+    "word": "decide",
+    "translation": "决定"
+  },
+  {
+    "id": 393,
+    "word": "deep",
+    "translation": "深的，深沉的"
+  },
+  {
+    "id": 394,
+    "word": "degree",
+    "translation": "度，程度，学位"
+  },
+  {
+    "id": 395,
+    "word": "delay",
+    "translation": "延误，推迟"
+  },
+  {
+    "id": 396,
+    "word": "delayed",
+    "translation": "延误的，推迟的"
+  },
+  {
+    "id": 397,
+    "word": "delicious",
+    "translation": "美味的，好吃的"
+  },
+  {
+    "id": 398,
+    "word": "deliver",
+    "translation": "送货，递送"
+  },
+  {
+    "id": 399,
+    "word": "dentist",
+    "translation": "牙医"
+  },
+  {
+    "id": 400,
+    "word": "department",
+    "translation": "部门，系"
+  },
+  {
+    "id": 401,
+    "word": "department store",
+    "translation": "百货商店"
+  },
+  {
+    "id": 402,
+    "word": "describe",
+    "translation": "描述，描写"
+  },
+  {
+    "id": 403,
+    "word": "desert",
+    "translation": "沙漠，遗弃"
+  },
+  {
+    "id": 404,
+    "word": "design",
+    "translation": "设计，图案"
+  },
+  {
+    "id": 405,
+    "word": "desk",
+    "translation": "书桌，课桌"
+  },
+  {
+    "id": 406,
+    "word": "dessert",
+    "translation": "甜点，甜食"
+  },
+  {
+    "id": 407,
+    "word": "details",
+    "translation": "细节，详情"
+  },
+  {
+    "id": 408,
+    "word": "diary",
+    "translation": "日记，日记本"
+  },
+  {
+    "id": 409,
+    "word": "dictionary",
+    "translation": "词典，字典"
+  },
+  {
+    "id": 410,
+    "word": "die",
+    "translation": "死，死亡"
+  },
+  {
+    "id": 411,
+    "word": "difference",
+    "translation": "不同，区别，差异"
+  },
+  {
+    "id": 412,
+    "word": "different",
+    "translation": "不同的，各异的"
+  },
+  {
+    "id": 413,
+    "word": "difficult",
+    "translation": "困难的，难的"
+  },
+  {
+    "id": 414,
+    "word": "digital",
+    "translation": "数字的，数码的"
+  },
+  {
+    "id": 415,
+    "word": "digital camera",
+    "translation": "数码相机"
+  },
+  {
+    "id": 416,
+    "word": "dining room",
+    "translation": "餐厅，饭厅"
+  },
+  {
+    "id": 417,
+    "word": "dinner",
+    "translation": "晚餐，正餐"
+  },
+  {
+    "id": 418,
+    "word": "dinosaur",
+    "translation": "恐龙"
+  },
+  {
+    "id": 419,
+    "word": "diploma",
+    "translation": "文凭，毕业证书"
+  },
+  {
+    "id": 420,
+    "word": "directions",
+    "translation": "方向，指路，指示"
+  },
+  {
+    "id": 421,
+    "word": "dirty",
+    "translation": "脏的，肮脏的"
+  },
+  {
+    "id": 422,
+    "word": "disco",
+    "translation": "迪斯科，舞厅"
+  },
+  {
+    "id": 423,
+    "word": "discount",
+    "translation": "折扣，打折"
+  },
+  {
+    "id": 424,
+    "word": "discover",
+    "translation": "发现，探索"
+  },
+  {
+    "id": 425,
+    "word": "discuss",
+    "translation": "讨论，商量"
+  },
+  {
+    "id": 426,
+    "word": "dish",
+    "translation": "菜肴，盘子"
+  },
+  {
+    "id": 427,
+    "word": "dive",
+    "translation": "潜水，跳水"
+  },
+  {
+    "id": 428,
+    "word": "diving",
+    "translation": "潜水，跳水运动"
+  },
+  {
+    "id": 429,
+    "word": "do",
+    "translation": "做，干"
+  },
+  {
+    "id": 430,
+    "word": "doctor",
+    "translation": "医生，博士"
+  },
+  {
+    "id": 431,
+    "word": "document",
+    "translation": "文件，文档"
+  },
+  {
+    "id": 432,
+    "word": "dog",
+    "translation": "狗"
+  },
+  {
+    "id": 433,
+    "word": "doll",
+    "translation": "玩偶，洋娃娃"
+  },
+  {
+    "id": 434,
+    "word": "dollar",
+    "translation": "美元"
+  },
+  {
+    "id": 435,
+    "word": "dolphin",
+    "translation": "海豚"
+  },
+  {
+    "id": 436,
+    "word": "donkey",
+    "translation": "驴"
+  },
+  {
+    "id": 437,
+    "word": "door",
+    "translation": "门"
+  },
+  {
+    "id": 438,
+    "word": "dot",
+    "translation": "点，圆点"
+  },
+  {
+    "id": 439,
+    "word": "double",
+    "translation": "双的，两倍"
+  },
+  {
+    "id": 440,
+    "word": "down",
+    "translation": "向下，下面"
+  },
+  {
+    "id": 441,
+    "word": "download",
+    "translation": "下载"
+  },
+  {
+    "id": 442,
+    "word": "downstairs",
+    "translation": "楼下，往楼下"
+  },
+  {
+    "id": 443,
+    "word": "Dr",
+    "translation": "博士，医生（称谓）"
+  },
+  {
+    "id": 444,
+    "word": "draw",
+    "translation": "画画，拉，平局"
+  },
+  {
+    "id": 445,
+    "word": "drawer",
+    "translation": "抽屉"
+  },
+  {
+    "id": 446,
+    "word": "drawing",
+    "translation": "画，素描，绘画"
+  },
+  {
+    "id": 447,
+    "word": "dream",
+    "translation": "梦，梦想"
+  },
+  {
+    "id": 448,
+    "word": "dress",
+    "translation": "连衣裙，穿衣，打扮"
+  },
+  {
+    "id": 449,
+    "word": "dressed",
+    "translation": "穿好衣服的"
+  },
+  {
+    "id": 450,
+    "word": "drink",
+    "translation": "饮料，喝"
+  },
+  {
+    "id": 451,
+    "word": "drive",
+    "translation": "驾驶，开车"
+  },
+  {
+    "id": 452,
+    "word": "driver",
+    "translation": "司机，驾驶员"
+  },
+  {
+    "id": 453,
+    "word": "driving/driver's licence",
+    "translation": "驾照"
+  },
+  {
+    "id": 454,
+    "word": "drop",
+    "translation": "放下，下降，滴"
+  },
+  {
+    "id": 455,
+    "word": "drugstore",
+    "translation": "药店（美式）"
+  },
+  {
+    "id": 456,
+    "word": "drum",
+    "translation": "鼓"
+  },
+  {
+    "id": 457,
+    "word": "dry",
+    "translation": "干的，干燥，弄干"
+  },
+  {
+    "id": 458,
+    "word": "duck",
+    "translation": "鸭子"
+  },
+  {
+    "id": 459,
+    "word": "during",
+    "translation": "在…期间，在…过程中"
+  },
+  {
+    "id": 460,
+    "word": "DVD",
+    "translation": "DVD光盘"
+  },
+  {
+    "id": 461,
+    "word": "DVD player",
+    "translation": "DVD播放机"
+  },
+  {
+    "id": 462,
+    "word": "each",
+    "translation": "每个，各自"
+  },
+  {
+    "id": 463,
+    "word": "each other",
+    "translation": "互相，彼此"
+  },
+  {
+    "id": 464,
+    "word": "eagle",
+    "translation": "鹰，雄鹰"
+  },
+  {
+    "id": 465,
+    "word": "ear",
+    "translation": "耳朵"
+  },
+  {
+    "id": 466,
+    "word": "early",
+    "translation": "早，提早，早期的"
+  },
+  {
+    "id": 467,
+    "word": "earn",
+    "translation": "赚，挣得"
+  },
+  {
+    "id": 468,
+    "word": "earring",
+    "translation": "耳环，耳饰"
+  },
+  {
+    "id": 469,
+    "word": "easily",
+    "translation": "容易地，轻松地"
+  },
+  {
+    "id": 470,
+    "word": "east",
+    "translation": "东，东方，东部"
+  },
+  {
+    "id": 471,
+    "word": "easy",
+    "translation": "容易的，简单的"
+  },
+  {
+    "id": 472,
+    "word": "eat",
+    "translation": "吃，进食"
+  },
+  {
+    "id": 473,
+    "word": "egg",
+    "translation": "蛋，鸡蛋"
+  },
+  {
+    "id": 474,
+    "word": "electric",
+    "translation": "电的，电动的"
+  },
+  {
+    "id": 475,
+    "word": "electricity",
+    "translation": "电，电力"
+  },
+  {
+    "id": 476,
+    "word": "elephant",
+    "translation": "大象"
+  },
+  {
+    "id": 477,
+    "word": "elevator",
+    "translation": "电梯（美式）"
+  },
+  {
+    "id": 478,
+    "word": "else",
+    "translation": "其他，另外"
+  },
+  {
+    "id": 479,
+    "word": "email",
+    "translation": "电子邮件，发邮件"
+  },
+  {
+    "id": 480,
+    "word": "empty",
+    "translation": "空的，空洞的"
+  },
+  {
+    "id": 481,
+    "word": "end",
+    "translation": "结束，末端"
+  },
+  {
+    "id": 482,
+    "word": "engine",
+    "translation": "发动机，引擎"
+  },
+  {
+    "id": 483,
+    "word": "engineer",
+    "translation": "工程师"
+  },
+  {
+    "id": 484,
+    "word": "enjoy",
+    "translation": "享受，喜欢"
+  },
+  {
+    "id": 485,
+    "word": "enough",
+    "translation": "足够的，充分地"
+  },
+  {
+    "id": 486,
+    "word": "enter",
+    "translation": "进入，输入，参加"
+  },
+  {
+    "id": 487,
+    "word": "entrance",
+    "translation": "入口，进入"
+  },
+  {
+    "id": 488,
+    "word": "envelope",
+    "translation": "信封"
+  },
+  {
+    "id": 489,
+    "word": "environment",
+    "translation": "环境"
+  },
+  {
+    "id": 490,
+    "word": "equipment",
+    "translation": "设备，装备"
+  },
+  {
+    "id": 491,
+    "word": "eraser",
+    "translation": "橡皮擦（美式）"
+  },
+  {
+    "id": 492,
+    "word": "especially",
+    "translation": "特别，尤其"
+  },
+  {
+    "id": 493,
+    "word": "euro",
+    "translation": "欧元"
+  },
+  {
+    "id": 494,
+    "word": "even",
+    "translation": "甚至，连，平坦的"
+  },
+  {
+    "id": 495,
+    "word": "evening",
+    "translation": "晚上，傍晚"
+  },
+  {
+    "id": 496,
+    "word": "event",
+    "translation": "事件，活动，比赛"
+  },
+  {
+    "id": 497,
+    "word": "ever",
+    "translation": "曾经，永远"
+  },
+  {
+    "id": 498,
+    "word": "every",
+    "translation": "每，每个"
+  },
+  {
+    "id": 499,
+    "word": "everybody",
+    "translation": "每个人，人人"
+  },
+  {
+    "id": 500,
+    "word": "everyone",
+    "translation": "每个人，所有人"
+  },
+  {
+    "id": 501,
+    "word": "everything",
+    "translation": "一切，所有事"
+  },
+  {
+    "id": 502,
+    "word": "everywhere",
+    "translation": "到处，处处"
+  },
+  {
+    "id": 503,
+    "word": "exactly",
+    "translation": "确切地，正好"
+  },
+  {
+    "id": 504,
+    "word": "examination/exam",
+    "translation": "考试，检查"
+  },
+  {
+    "id": 505,
+    "word": "example",
+    "translation": "例子，榜样"
+  },
+  {
+    "id": 506,
+    "word": "excellent",
+    "translation": "优秀的，出色的"
+  },
+  {
+    "id": 507,
+    "word": "except",
+    "translation": "除…之外"
+  },
+  {
+    "id": 508,
+    "word": "excited",
+    "translation": "兴奋的，激动的"
+  },
+  {
+    "id": 509,
+    "word": "exciting",
+    "translation": "令人兴奋的，刺激的"
+  },
+  {
+    "id": 510,
+    "word": "excuse",
+    "translation": "借口，原谅，请原谅"
+  },
+  {
+    "id": 511,
+    "word": "exercise",
+    "translation": "运动，练习"
+  },
+  {
+    "id": 512,
+    "word": "exhibition",
+    "translation": "展览，展览会"
+  },
+  {
+    "id": 513,
+    "word": "exit",
+    "translation": "出口，退出"
+  },
+  {
+    "id": 514,
+    "word": "expensive",
+    "translation": "贵的，昂贵的"
+  },
+  {
+    "id": 515,
+    "word": "experience",
+    "translation": "经历，经验，体验"
+  },
+  {
+    "id": 516,
+    "word": "experiment",
+    "translation": "实验，试验"
+  },
+  {
+    "id": 517,
+    "word": "explain",
+    "translation": "解释，说明"
+  },
+  {
+    "id": 518,
+    "word": "explore",
+    "translation": "探索，探究"
+  },
+  {
+    "id": 519,
+    "word": "explorer",
+    "translation": "探险家"
+  },
+  {
+    "id": 520,
+    "word": "extinct",
+    "translation": "灭绝的，消失的"
+  },
+  {
+    "id": 521,
+    "word": "extra",
+    "translation": "额外的，多余的"
+  },
+  {
+    "id": 522,
+    "word": "eye",
+    "translation": "眼睛"
+  },
+  {
+    "id": 523,
+    "word": "face",
+    "translation": "脸，面部，面对"
+  },
+  {
+    "id": 524,
+    "word": "fact",
+    "translation": "事实，实情"
+  },
+  {
+    "id": 525,
+    "word": "factory",
+    "translation": "工厂"
+  },
+  {
+    "id": 526,
+    "word": "fail",
+    "translation": "失败，不及格"
+  },
+  {
+    "id": 527,
+    "word": "fair",
+    "translation": "公平的，金发的，集市"
+  },
+  {
+    "id": 528,
+    "word": "fall",
+    "translation": "落下，跌倒，秋天（美式）"
+  },
+  {
+    "id": 529,
+    "word": "fall over",
+    "translation": "摔倒，跌倒"
+  },
+  {
+    "id": 530,
+    "word": "family",
+    "translation": "家庭，家人"
+  },
+  {
+    "id": 531,
+    "word": "famous",
+    "translation": "著名的，出名的"
+  },
+  {
+    "id": 532,
+    "word": "fan",
+    "translation": "风扇，粉丝，迷"
+  },
+  {
+    "id": 533,
+    "word": "fantastic",
+    "translation": "极好的，奇妙的"
+  },
+  {
+    "id": 534,
+    "word": "far",
+    "translation": "远的，远处"
+  },
+  {
+    "id": 535,
+    "word": "farm",
+    "translation": "农场，农庄"
+  },
+  {
+    "id": 536,
+    "word": "farmer",
+    "translation": "农民，农夫"
+  },
+  {
+    "id": 537,
+    "word": "fashion",
+    "translation": "时尚，流行"
+  },
+  {
+    "id": 538,
+    "word": "fast",
+    "translation": "快的，快速地"
+  },
+  {
+    "id": 539,
+    "word": "fast food",
+    "translation": "快餐"
+  },
+  {
+    "id": 540,
+    "word": "fat",
+    "translation": "胖的，脂肪"
+  },
+  {
+    "id": 541,
+    "word": "father",
+    "translation": "父亲，爸爸"
+  },
+  {
+    "id": 542,
+    "word": "favourite",
+    "translation": "最喜欢的，最爱"
+  },
+  {
+    "id": 543,
+    "word": "February",
+    "translation": "二月"
+  },
+  {
+    "id": 544,
+    "word": "feel",
+    "translation": "感觉，触摸"
+  },
+  {
+    "id": 545,
+    "word": "feelings",
+    "translation": "感情，情绪"
+  },
+  {
+    "id": 546,
+    "word": "festival",
+    "translation": "节日，节庆"
+  },
+  {
+    "id": 547,
+    "word": "few",
+    "translation": "几个，少数的"
+  },
+  {
+    "id": 548,
+    "word": "field",
+    "translation": "田野，领域，运动场"
+  },
+  {
+    "id": 549,
+    "word": "file",
+    "translation": "文件，档案"
+  },
+  {
+    "id": 550,
+    "word": "fill",
+    "translation": "填满，充满"
+  },
+  {
+    "id": 551,
+    "word": "fill in",
+    "translation": "填写"
+  },
+  {
+    "id": 552,
+    "word": "film",
+    "translation": "电影，胶卷，拍摄"
+  },
+  {
+    "id": 553,
+    "word": "final",
+    "translation": "最终的，最后的"
+  },
+  {
+    "id": 554,
+    "word": "finally",
+    "translation": "最终，终于"
+  },
+  {
+    "id": 555,
+    "word": "find",
+    "translation": "找到，发现"
+  },
+  {
+    "id": 556,
+    "word": "find out",
+    "translation": "找出，查明"
+  },
+  {
+    "id": 557,
+    "word": "fine",
+    "translation": "好的，罚款，晴朗的"
+  },
+  {
+    "id": 558,
+    "word": "finger",
+    "translation": "手指"
+  },
+  {
+    "id": 559,
+    "word": "finish",
+    "translation": "完成，结束"
+  },
+  {
+    "id": 560,
+    "word": "fire",
+    "translation": "火，火焰"
+  },
+  {
+    "id": 561,
+    "word": "first",
+    "translation": "第一，首先"
+  },
+  {
+    "id": 562,
+    "word": "first name",
+    "translation": "名字（相对于姓）"
+  },
+  {
+    "id": 563,
+    "word": "first of all",
+    "translation": "首先，第一"
+  },
+  {
+    "id": 564,
+    "word": "fish",
+    "translation": "鱼，钓鱼"
+  },
+  {
+    "id": 565,
+    "word": "fishing",
+    "translation": "钓鱼，捕鱼"
+  },
+  {
+    "id": 566,
+    "word": "fit",
+    "translation": "健康的，适合的，合身"
+  },
+  {
+    "id": 567,
+    "word": "fix",
+    "translation": "修理，固定"
+  },
+  {
+    "id": 568,
+    "word": "flat",
+    "translation": "公寓（英式），平的"
+  },
+  {
+    "id": 569,
+    "word": "flight",
+    "translation": "航班，飞行"
+  },
+  {
+    "id": 570,
+    "word": "floor",
+    "translation": "地板，楼层"
+  },
+  {
+    "id": 571,
+    "word": "flower",
+    "translation": "花，花朵"
+  },
+  {
+    "id": 572,
+    "word": "fly",
+    "translation": "飞，飞翔"
+  },
+  {
+    "id": 573,
+    "word": "fog",
+    "translation": "雾"
+  },
+  {
+    "id": 574,
+    "word": "foggy",
+    "translation": "有雾的，多雾的"
+  },
+  {
+    "id": 575,
+    "word": "folder",
+    "translation": "文件夹"
+  },
+  {
+    "id": 576,
+    "word": "follow",
+    "translation": "跟随，关注"
+  },
+  {
+    "id": 577,
+    "word": "food",
+    "translation": "食物，食品"
+  },
+  {
+    "id": 578,
+    "word": "foot",
+    "translation": "脚，英尺"
+  },
+  {
+    "id": 579,
+    "word": "football",
+    "translation": "足球"
+  },
+  {
+    "id": 580,
+    "word": "football player",
+    "translation": "足球运动员"
+  },
+  {
+    "id": 581,
+    "word": "footballer",
+    "translation": "足球运动员"
+  },
+  {
+    "id": 582,
+    "word": "for",
+    "translation": "为了，对于，给"
+  },
+  {
+    "id": 583,
+    "word": "for sale",
+    "translation": "待售，出售"
+  },
+  {
+    "id": 584,
+    "word": "foreign",
+    "translation": "外国的，外来的"
+  },
+  {
+    "id": 585,
+    "word": "forest",
+    "translation": "森林"
+  },
+  {
+    "id": 586,
+    "word": "forget",
+    "translation": "忘记，忘掉"
+  },
+  {
+    "id": 587,
+    "word": "fork",
+    "translation": "叉子"
+  },
+  {
+    "id": 588,
+    "word": "form",
+    "translation": "表格，形式，形状"
+  },
+  {
+    "id": 589,
+    "word": "free",
+    "translation": "免费的，自由的，空闲的"
+  },
+  {
+    "id": 590,
+    "word": "French fries",
+    "translation": "薯条（美式）"
+  },
+  {
+    "id": 591,
+    "word": "fresh",
+    "translation": "新鲜的，清爽的"
+  },
+  {
+    "id": 592,
+    "word": "fridge",
+    "translation": "冰箱"
+  },
+  {
+    "id": 593,
+    "word": "Friday",
+    "translation": "星期五"
+  },
+  {
+    "id": 594,
+    "word": "fried",
+    "translation": "油炸的，炒的"
+  },
+  {
+    "id": 595,
+    "word": "friend",
+    "translation": "朋友"
+  },
+  {
+    "id": 596,
+    "word": "friendly",
+    "translation": "友好的，亲切的"
+  },
+  {
+    "id": 597,
+    "word": "frightened",
+    "translation": "害怕的，受惊的"
+  },
+  {
+    "id": 598,
+    "word": "frog",
+    "translation": "青蛙"
+  },
+  {
+    "id": 599,
+    "word": "from",
+    "translation": "从，来自"
+  },
+  {
+    "id": 600,
+    "word": "front",
+    "translation": "前面，前部"
+  },
+  {
+    "id": 601,
+    "word": "fruit",
+    "translation": "水果"
+  },
+  {
+    "id": 602,
+    "word": "full",
+    "translation": "满的，完整的"
+  },
+  {
+    "id": 603,
+    "word": "fun",
+    "translation": "有趣的，乐趣"
+  },
+  {
+    "id": 604,
+    "word": "funny",
+    "translation": "有趣的，好笑的"
+  },
+  {
+    "id": 605,
+    "word": "fur",
+    "translation": "毛皮，皮毛"
+  },
+  {
+    "id": 606,
+    "word": "furniture",
+    "translation": "家具"
+  },
+  {
+    "id": 607,
+    "word": "further",
+    "translation": "更远的，更进一步"
+  },
+  {
+    "id": 608,
+    "word": "future",
+    "translation": "将来，未来"
+  },
+  {
+    "id": 609,
+    "word": "gallery",
+    "translation": "画廊，美术馆"
+  },
+  {
+    "id": 610,
+    "word": "game",
+    "translation": "游戏，比赛"
+  },
+  {
+    "id": 611,
+    "word": "garage",
+    "translation": "车库，修车厂"
+  },
+  {
+    "id": 612,
+    "word": "garden",
+    "translation": "花园，庭院"
+  },
+  {
+    "id": 613,
+    "word": "garlic",
+    "translation": "大蒜"
+  },
+  {
+    "id": 614,
+    "word": "gas",
+    "translation": "汽油（美式），煤气"
+  },
+  {
+    "id": 615,
+    "word": "gas station",
+    "translation": "加油站（美式）"
+  },
+  {
+    "id": 616,
+    "word": "gate",
+    "translation": "大门，门口，登机口"
+  },
+  {
+    "id": 617,
+    "word": "geography",
+    "translation": "地理，地理学"
+  },
+  {
+    "id": 618,
+    "word": "get",
+    "translation": "得到，拿到，变得"
+  },
+  {
+    "id": 619,
+    "word": "get back",
+    "translation": "回来，取回"
+  },
+  {
+    "id": 620,
+    "word": "get dressed",
+    "translation": "穿衣，换衣服"
+  },
+  {
+    "id": 621,
+    "word": "get fit",
+    "translation": "变得健康，健身"
+  },
+  {
+    "id": 622,
+    "word": "get married",
+    "translation": "结婚"
+  },
+  {
+    "id": 623,
+    "word": "get off",
+    "translation": "下车，下班"
+  },
+  {
+    "id": 624,
+    "word": "get on",
+    "translation": "上车，进展"
+  },
+  {
+    "id": 625,
+    "word": "get up",
+    "translation": "起床，起来"
+  },
+  {
+    "id": 626,
+    "word": "gift",
+    "translation": "礼物，天赋"
+  },
+  {
+    "id": 627,
+    "word": "giraffe",
+    "translation": "长颈鹿"
+  },
+  {
+    "id": 628,
+    "word": "girl",
+    "translation": "女孩，姑娘"
+  },
+  {
+    "id": 629,
+    "word": "girlfriend",
+    "translation": "女朋友"
+  },
+  {
+    "id": 630,
+    "word": "give",
+    "translation": "给，送"
+  },
+  {
+    "id": 631,
+    "word": "give back",
+    "translation": "归还，还给"
+  },
+  {
+    "id": 632,
+    "word": "give somebody a call/ring",
+    "translation": "给某人打电话"
+  },
+  {
+    "id": 633,
+    "word": "glad",
+    "translation": "高兴的，愿意的"
+  },
+  {
+    "id": 634,
+    "word": "glass",
+    "translation": "玻璃，玻璃杯"
+  },
+  {
+    "id": 635,
+    "word": "glasses",
+    "translation": "眼镜"
+  },
+  {
+    "id": 636,
+    "word": "glove",
+    "translation": "手套"
+  },
+  {
+    "id": 637,
+    "word": "go",
+    "translation": "去，走"
+  },
+  {
+    "id": 638,
+    "word": "goal",
+    "translation": "目标，进球，球门"
+  },
+  {
+    "id": 639,
+    "word": "goat",
+    "translation": "山羊"
+  },
+  {
+    "id": 640,
+    "word": "gold",
+    "translation": "黄金，金子，金色"
+  },
+  {
+    "id": 641,
+    "word": "golden",
+    "translation": "金色的，金黄的"
+  },
+  {
+    "id": 642,
+    "word": "golf",
+    "translation": "高尔夫球"
+  },
+  {
+    "id": 643,
+    "word": "good",
+    "translation": "好的，善良的"
+  },
+  {
+    "id": 644,
+    "word": "good afternoon",
+    "translation": "下午好"
+  },
+  {
+    "id": 645,
+    "word": "goodbye",
+    "translation": "再见，告别"
+  },
+  {
+    "id": 646,
+    "word": "good evening",
+    "translation": "晚上好"
+  },
+  {
+    "id": 647,
+    "word": "good-looking",
+    "translation": "好看的，英俊的"
+  },
+  {
+    "id": 648,
+    "word": "good morning",
+    "translation": "早上好"
+  },
+  {
+    "id": 649,
+    "word": "good night",
+    "translation": "晚安"
+  },
+  {
+    "id": 650,
+    "word": "go out",
+    "translation": "出去，外出"
+  },
+  {
+    "id": 651,
+    "word": "go shopping",
+    "translation": "去购物，逛街"
+  },
+  {
+    "id": 652,
+    "word": "grade",
+    "translation": "年级，成绩，等级"
+  },
+  {
+    "id": 653,
+    "word": "gramme",
+    "translation": "克（重量单位）"
+  },
+  {
+    "id": 654,
+    "word": "grandchild",
+    "translation": "孙子/孙女，外孙/外孙女"
+  },
+  {
+    "id": 655,
+    "word": "granddad",
+    "translation": "爷爷，外公（口语）"
+  },
+  {
+    "id": 656,
+    "word": "granddaughter",
+    "translation": "孙女，外孙女"
+  },
+  {
+    "id": 657,
+    "word": "grandfather",
+    "translation": "祖父，外祖父"
+  },
+  {
+    "id": 658,
+    "word": "grandma",
+    "translation": "奶奶，外婆（口语）"
+  },
+  {
+    "id": 659,
+    "word": "grandmother",
+    "translation": "祖母，外祖母"
+  },
+  {
+    "id": 660,
+    "word": "grandpa",
+    "translation": "爷爷，外公（口语）"
+  },
+  {
+    "id": 661,
+    "word": "grandparent",
+    "translation": "祖父母，外祖父母"
+  },
+  {
+    "id": 662,
+    "word": "grandson",
+    "translation": "孙子，外孙"
+  },
+  {
+    "id": 663,
+    "word": "granny",
+    "translation": "奶奶，外婆（口语）"
+  },
+  {
+    "id": 664,
+    "word": "grape",
+    "translation": "葡萄"
+  },
+  {
+    "id": 665,
+    "word": "grass",
+    "translation": "草，草地，草坪"
+  },
+  {
+    "id": 666,
+    "word": "great",
+    "translation": "好极了，伟大的，巨大的"
+  },
+  {
+    "id": 667,
+    "word": "green",
+    "translation": "绿色，绿色的"
+  },
+  {
+    "id": 668,
+    "word": "grey",
+    "translation": "灰色，灰色的"
+  },
+  {
+    "id": 669,
+    "word": "grilled",
+    "translation": "烧烤的，烤制的"
+  },
+  {
+    "id": 670,
+    "word": "grocery store",
+    "translation": "食品杂货店（美式）"
+  },
+  {
+    "id": 671,
+    "word": "ground",
+    "translation": "地面，土地"
+  },
+  {
+    "id": 672,
+    "word": "group",
+    "translation": "组，群体，小组"
+  },
+  {
+    "id": 673,
+    "word": "grow",
+    "translation": "生长，成长，种植"
+  },
+  {
+    "id": 674,
+    "word": "grow up",
+    "translation": "成长，长大"
+  },
+  {
+    "id": 675,
+    "word": "guess",
+    "translation": "猜测，猜"
+  },
+  {
+    "id": 676,
+    "word": "Guess what?",
+    "translation": "你猜怎么着？"
+  },
+  {
+    "id": 677,
+    "word": "guest",
+    "translation": "客人，嘉宾"
+  },
+  {
+    "id": 678,
+    "word": "guest-house",
+    "translation": "招待所，宾馆"
+  },
+  {
+    "id": 679,
+    "word": "guide",
+    "translation": "向导，指南，引导"
+  },
+  {
+    "id": 680,
+    "word": "guidebook",
+    "translation": "旅游指南"
+  },
+  {
+    "id": 681,
+    "word": "guitar",
+    "translation": "吉他"
+  },
+  {
+    "id": 682,
+    "word": "guy",
+    "translation": "家伙，男人"
+  },
+  {
+    "id": 683,
+    "word": "gym",
+    "translation": "健身房，体育馆"
+  },
+  {
+    "id": 684,
+    "word": "hair",
+    "translation": "头发，毛发"
+  },
+  {
+    "id": 685,
+    "word": "half",
+    "translation": "一半，半"
+  },
+  {
+    "id": 686,
+    "word": "half-price",
+    "translation": "半价的"
+  },
+  {
+    "id": 687,
+    "word": "hall",
+    "translation": "大厅，走廊，门廊"
+  },
+  {
+    "id": 688,
+    "word": "hand",
+    "translation": "手"
+  },
+  {
+    "id": 689,
+    "word": "handbag",
+    "translation": "手提包，女式提包"
+  },
+  {
+    "id": 690,
+    "word": "happen",
+    "translation": "发生，出现"
+  },
+  {
+    "id": 691,
+    "word": "happy",
+    "translation": "快乐的，高兴的"
+  },
+  {
+    "id": 692,
+    "word": "harbour",
+    "translation": "港口，海港"
+  },
+  {
+    "id": 693,
+    "word": "hard",
+    "translation": "硬的，困难的，努力地"
+  },
+  {
+    "id": 694,
+    "word": "hat",
+    "translation": "帽子"
+  },
+  {
+    "id": 695,
+    "word": "hate",
+    "translation": "讨厌，憎恨"
+  },
+  {
+    "id": 696,
+    "word": "have",
+    "translation": "有，吃，喝，使"
+  },
+  {
+    "id": 697,
+    "word": "have got to",
+    "translation": "必须，不得不"
+  },
+  {
+    "id": 698,
+    "word": "have to",
+    "translation": "必须，不得不"
+  },
+  {
+    "id": 699,
+    "word": "he",
+    "translation": "他"
+  },
+  {
+    "id": 700,
+    "word": "head",
+    "translation": "头，头部，领导"
+  },
+  {
+    "id": 701,
+    "word": "headache",
+    "translation": "头痛，头疼"
+  },
+  {
+    "id": 702,
+    "word": "headphones",
+    "translation": "耳机"
+  },
+  {
+    "id": 703,
+    "word": "headteacher",
+    "translation": "校长（英式）"
+  },
+  {
+    "id": 704,
+    "word": "health",
+    "translation": "健康，卫生"
+  },
+  {
+    "id": 705,
+    "word": "healthy",
+    "translation": "健康的，有益健康的"
+  },
+  {
+    "id": 706,
+    "word": "hear",
+    "translation": "听见，听到"
+  },
+  {
+    "id": 707,
+    "word": "heart",
+    "translation": "心，心脏"
+  },
+  {
+    "id": 708,
+    "word": "heating",
+    "translation": "暖气，供暖"
+  },
+  {
+    "id": 709,
+    "word": "heavy",
+    "translation": "重的，沉的"
+  },
+  {
+    "id": 710,
+    "word": "helicopter",
+    "translation": "直升飞机"
+  },
+  {
+    "id": 711,
+    "word": "hello",
+    "translation": "你好，喂"
+  },
+  {
+    "id": 712,
+    "word": "help",
+    "translation": "帮助，援助"
+  },
+  {
+    "id": 713,
+    "word": "helpful",
+    "translation": "有帮助的，乐于助人的"
+  },
+  {
+    "id": 714,
+    "word": "her",
+    "translation": "她的，她"
+  },
+  {
+    "id": 715,
+    "word": "here",
+    "translation": "这里，此处"
+  },
+  {
+    "id": 716,
+    "word": "hers",
+    "translation": "她的（所有格）"
+  },
+  {
+    "id": 717,
+    "word": "herself",
+    "translation": "她自己"
+  },
+  {
+    "id": 718,
+    "word": "hey",
+    "translation": "嘿，哎"
+  },
+  {
+    "id": 719,
+    "word": "hi",
+    "translation": "嗨，你好"
+  },
+  {
+    "id": 720,
+    "word": "high",
+    "translation": "高的，高度"
+  },
+  {
+    "id": 721,
+    "word": "hill",
+    "translation": "小山，山丘"
+  },
+  {
+    "id": 722,
+    "word": "him",
+    "translation": "他（宾格）"
+  },
+  {
+    "id": 723,
+    "word": "himself",
+    "translation": "他自己"
+  },
+  {
+    "id": 724,
+    "word": "hip hop",
+    "translation": "嘻哈音乐"
+  },
+  {
+    "id": 725,
+    "word": "hippo",
+    "translation": "河马"
+  },
+  {
+    "id": 726,
+    "word": "his",
+    "translation": "他的"
+  },
+  {
+    "id": 727,
+    "word": "history",
+    "translation": "历史，历史学"
+  },
+  {
+    "id": 728,
+    "word": "hit",
+    "translation": "打，击中，歌曲热门"
+  },
+  {
+    "id": 729,
+    "word": "hobby",
+    "translation": "爱好，兴趣"
+  },
+  {
+    "id": 730,
+    "word": "hockey",
+    "translation": "冰球，曲棍球"
+  },
+  {
+    "id": 731,
+    "word": "hold",
+    "translation": "握，持，举行"
+  },
+  {
+    "id": 732,
+    "word": "holiday",
+    "translation": "假期，假日"
+  },
+  {
+    "id": 733,
+    "word": "home",
+    "translation": "家，回家"
+  },
+  {
+    "id": 734,
+    "word": "homework",
+    "translation": "家庭作业"
+  },
+  {
+    "id": 735,
+    "word": "honey",
+    "translation": "蜂蜜，亲爱的"
+  },
+  {
+    "id": 736,
+    "word": "hoodie",
+    "translation": "连帽衫，卫衣"
+  },
+  {
+    "id": 737,
+    "word": "hope",
+    "translation": "希望，盼望"
+  },
+  {
+    "id": 738,
+    "word": "horrible",
+    "translation": "可怕的，糟糕的"
+  },
+  {
+    "id": 739,
+    "word": "horror",
+    "translation": "恐怖的，恐惧"
+  },
+  {
+    "id": 740,
+    "word": "horse",
+    "translation": "马"
+  },
+  {
+    "id": 741,
+    "word": "hospital",
+    "translation": "医院"
+  },
+  {
+    "id": 742,
+    "word": "hot",
+    "translation": "热的，辣的"
+  },
+  {
+    "id": 743,
+    "word": "hotel",
+    "translation": "酒店，旅馆"
+  },
+  {
+    "id": 744,
+    "word": "hour",
+    "translation": "小时，时间"
+  },
+  {
+    "id": 745,
+    "word": "house",
+    "translation": "房子，住宅"
+  },
+  {
+    "id": 746,
+    "word": "housewife",
+    "translation": "家庭主妇"
+  },
+  {
+    "id": 747,
+    "word": "how",
+    "translation": "怎么，如何，多么"
+  },
+  {
+    "id": 748,
+    "word": "however",
+    "translation": "然而，但是"
+  },
+  {
+    "id": 749,
+    "word": "huge",
+    "translation": "巨大的，庞大的"
+  },
+  {
+    "id": 750,
+    "word": "hungry",
+    "translation": "饥饿的，饿的"
+  },
+  {
+    "id": 751,
+    "word": "hurry",
+    "translation": "匆忙，赶快"
+  },
+  {
+    "id": 752,
+    "word": "hurt",
+    "translation": "伤害，疼痛"
+  },
+  {
+    "id": 753,
+    "word": "husband",
+    "translation": "丈夫，先生"
+  },
+  {
+    "id": 754,
+    "word": "I",
+    "translation": "我"
+  },
+  {
+    "id": 755,
+    "word": "ice",
+    "translation": "冰，冰块"
+  },
+  {
+    "id": 756,
+    "word": "ice cream",
+    "translation": "冰激凌，冰淇淋"
+  },
+  {
+    "id": 757,
+    "word": "ice skating",
+    "translation": "滑冰，花样滑冰"
+  },
+  {
+    "id": 758,
+    "word": "ID",
+    "translation": "身份证，证件"
+  },
+  {
+    "id": 759,
+    "word": "ID card",
+    "translation": "身份证"
+  },
+  {
+    "id": 760,
+    "word": "idea",
+    "translation": "主意，想法"
+  },
+  {
+    "id": 761,
+    "word": "identification",
+    "translation": "身份证明，鉴别"
+  },
+  {
+    "id": 762,
+    "word": "if",
+    "translation": "如果，假如"
+  },
+  {
+    "id": 763,
+    "word": "ill",
+    "translation": "生病的，不舒服的"
+  },
+  {
+    "id": 764,
+    "word": "immediately",
+    "translation": "立刻，马上"
+  },
+  {
+    "id": 765,
+    "word": "important",
+    "translation": "重要的"
+  },
+  {
+    "id": 766,
+    "word": "impossible",
+    "translation": "不可能的"
+  },
+  {
+    "id": 767,
+    "word": "improve",
+    "translation": "改进，提高"
+  },
+  {
+    "id": 768,
+    "word": "in",
+    "translation": "在…里，在…中"
+  },
+  {
+    "id": 769,
+    "word": "include",
+    "translation": "包括，包含"
+  },
+  {
+    "id": 770,
+    "word": "including",
+    "translation": "包括"
+  },
+  {
+    "id": 771,
+    "word": "indoor",
+    "translation": "室内的"
+  },
+  {
+    "id": 772,
+    "word": "indoors",
+    "translation": "在室内，往室内"
+  },
+  {
+    "id": 773,
+    "word": "information",
+    "translation": "信息，资料"
+  },
+  {
+    "id": 774,
+    "word": "in front of",
+    "translation": "在…前面"
+  },
+  {
+    "id": 775,
+    "word": "ingredient",
+    "translation": "成分，原料"
+  },
+  {
+    "id": 776,
+    "word": "insect",
+    "translation": "昆虫"
+  },
+  {
+    "id": 777,
+    "word": "inside",
+    "translation": "里面，内部，在里面"
+  },
+  {
+    "id": 778,
+    "word": "instead",
+    "translation": "代替，反而"
+  },
+  {
+    "id": 779,
+    "word": "instead of",
+    "translation": "代替，而不是"
+  },
+  {
+    "id": 780,
+    "word": "instructions",
+    "translation": "说明，指示，操作指南"
+  },
+  {
+    "id": 781,
+    "word": "instrument",
+    "translation": "乐器，仪器"
+  },
+  {
+    "id": 782,
+    "word": "interested",
+    "translation": "感兴趣的"
+  },
+  {
+    "id": 783,
+    "word": "interesting",
+    "translation": "有趣的，令人感兴趣的"
+  },
+  {
+    "id": 784,
+    "word": "international",
+    "translation": "国际的，国际性的"
+  },
+  {
+    "id": 785,
+    "word": "internet",
+    "translation": "互联网，网络"
+  },
+  {
+    "id": 786,
+    "word": "into",
+    "translation": "进入，到…里面"
+  },
+  {
+    "id": 787,
+    "word": "invent",
+    "translation": "发明，创造"
+  },
+  {
+    "id": 788,
+    "word": "invention",
+    "translation": "发明，创造物"
+  },
+  {
+    "id": 789,
+    "word": "invitation",
+    "translation": "邀请，邀请函"
+  },
+  {
+    "id": 790,
+    "word": "invite",
+    "translation": "邀请"
+  },
+  {
+    "id": 791,
+    "word": "island",
+    "translation": "岛，岛屿"
+  },
+  {
+    "id": 792,
+    "word": "it",
+    "translation": "它，这，那"
+  },
+  {
+    "id": 793,
+    "word": "IT",
+    "translation": "信息技术"
+  },
+  {
+    "id": 794,
+    "word": "its",
+    "translation": "它的"
+  },
+  {
+    "id": 795,
+    "word": "itself",
+    "translation": "它自己，本身"
+  },
+  {
+    "id": 796,
+    "word": "jacket",
+    "translation": "夹克，短外套"
+  },
+  {
+    "id": 797,
+    "word": "jam",
+    "translation": "果酱，阻塞"
+  },
+  {
+    "id": 798,
+    "word": "January",
+    "translation": "一月"
+  },
+  {
+    "id": 799,
+    "word": "jazz",
+    "translation": "爵士乐"
+  },
+  {
+    "id": 800,
+    "word": "jeans",
+    "translation": "牛仔裤"
+  },
+  {
+    "id": 801,
+    "word": "jellyfish",
+    "translation": "水母"
+  },
+  {
+    "id": 802,
+    "word": "jewellery",
+    "translation": "珠宝，首饰"
+  },
+  {
+    "id": 803,
+    "word": "job",
+    "translation": "工作，职业"
+  },
+  {
+    "id": 804,
+    "word": "join",
+    "translation": "参加，加入"
+  },
+  {
+    "id": 805,
+    "word": "journalist",
+    "translation": "记者，新闻工作者"
+  },
+  {
+    "id": 806,
+    "word": "journey",
+    "translation": "旅程，旅行"
+  },
+  {
+    "id": 807,
+    "word": "juice",
+    "translation": "果汁，汁液"
+  },
+  {
+    "id": 808,
+    "word": "July",
+    "translation": "七月"
+  },
+  {
+    "id": 809,
+    "word": "jump",
+    "translation": "跳，跳跃"
+  },
+  {
+    "id": 810,
+    "word": "jumper",
+    "translation": "套头毛衣（英式）"
+  },
+  {
+    "id": 811,
+    "word": "June",
+    "translation": "六月"
+  },
+  {
+    "id": 812,
+    "word": "just",
+    "translation": "只，刚好，刚才"
+  },
+  {
+    "id": 813,
+    "word": "kangaroo",
+    "translation": "袋鼠"
+  },
+  {
+    "id": 814,
+    "word": "keep",
+    "translation": "保持，留下，坚持"
+  },
+  {
+    "id": 815,
+    "word": "key",
+    "translation": "钥匙，关键，键"
+  },
+  {
+    "id": 816,
+    "word": "keyboard",
+    "translation": "键盘，电子琴"
+  },
+  {
+    "id": 817,
+    "word": "kick",
+    "translation": "踢，踢球"
+  },
+  {
+    "id": 818,
+    "word": "kid",
+    "translation": "孩子，小孩"
+  },
+  {
+    "id": 819,
+    "word": "kilogramme",
+    "translation": "千克，公斤"
+  },
+  {
+    "id": 820,
+    "word": "kilometre",
+    "translation": "千米，公里"
+  },
+  {
+    "id": 821,
+    "word": "kind",
+    "translation": "种类，善良的"
+  },
+  {
+    "id": 822,
+    "word": "king",
+    "translation": "国王，王"
+  },
+  {
+    "id": 823,
+    "word": "kiss",
+    "translation": "亲吻，吻"
+  },
+  {
+    "id": 824,
+    "word": "kit",
+    "translation": "套件，工具包"
+  },
+  {
+    "id": 825,
+    "word": "kitchen",
+    "translation": "厨房"
+  },
+  {
+    "id": 826,
+    "word": "kite",
+    "translation": "风筝"
+  },
+  {
+    "id": 827,
+    "word": "kitten",
+    "translation": "小猫，小猫咪"
+  },
+  {
+    "id": 828,
+    "word": "knife",
+    "translation": "刀，小刀"
+  },
+  {
+    "id": 829,
+    "word": "know",
+    "translation": "知道，了解，认识"
+  },
+  {
+    "id": 830,
+    "word": "lake",
+    "translation": "湖，湖泊"
+  },
+  {
+    "id": 831,
+    "word": "lamp",
+    "translation": "灯，台灯"
+  },
+  {
+    "id": 832,
+    "word": "language",
+    "translation": "语言，语种"
+  },
+  {
+    "id": 833,
+    "word": "laptop",
+    "translation": "笔记本电脑"
+  },
+  {
+    "id": 834,
+    "word": "large",
+    "translation": "大的，宽广的"
+  },
+  {
+    "id": 835,
+    "word": "last",
+    "translation": "最后的，上一个，持续"
+  },
+  {
+    "id": 836,
+    "word": "late",
+    "translation": "晚的，迟到的"
+  },
+  {
+    "id": 837,
+    "word": "later",
+    "translation": "以后，稍后"
+  },
+  {
+    "id": 838,
+    "word": "latest",
+    "translation": "最新的，最近的"
+  },
+  {
+    "id": 839,
+    "word": "laugh",
+    "translation": "笑，大笑"
+  },
+  {
+    "id": 840,
+    "word": "lazy",
+    "translation": "懒惰的，懒散的"
+  },
+  {
+    "id": 841,
+    "word": "learn",
+    "translation": "学习，学会"
+  },
+  {
+    "id": 842,
+    "word": "least",
+    "translation": "最少的，至少"
+  },
+  {
+    "id": 843,
+    "word": "leather",
+    "translation": "皮革，皮质"
+  },
+  {
+    "id": 844,
+    "word": "leave",
+    "translation": "离开，出发，留下"
+  },
+  {
+    "id": 845,
+    "word": "left",
+    "translation": "左，左边，左面"
+  },
+  {
+    "id": 846,
+    "word": "left-hand",
+    "translation": "左手的，左侧的"
+  },
+  {
+    "id": 847,
+    "word": "leg",
+    "translation": "腿，腿部"
+  },
+  {
+    "id": 848,
+    "word": "lemon",
+    "translation": "柠檬"
+  },
+  {
+    "id": 849,
+    "word": "lemonade",
+    "translation": "柠檬水，柠檬汽水"
+  },
+  {
+    "id": 850,
+    "word": "lend",
+    "translation": "借出，借给"
+  },
+  {
+    "id": 851,
+    "word": "length",
+    "translation": "长度，时长"
+  },
+  {
+    "id": 852,
+    "word": "less",
+    "translation": "更少，较少"
+  },
+  {
+    "id": 853,
+    "word": "lesson",
+    "translation": "课，课程，教训"
+  },
+  {
+    "id": 854,
+    "word": "let",
+    "translation": "让，允许"
+  },
+  {
+    "id": 855,
+    "word": "letter",
+    "translation": "信，字母"
+  },
+  {
+    "id": 856,
+    "word": "level",
+    "translation": "水平，级别，层次"
+  },
+  {
+    "id": 857,
+    "word": "library",
+    "translation": "图书馆"
+  },
+  {
+    "id": 858,
+    "word": "licence",
+    "translation": "许可证，执照"
+  },
+  {
+    "id": 859,
+    "word": "lie down",
+    "translation": "躺下"
+  },
+  {
+    "id": 860,
+    "word": "life",
+    "translation": "生活，生命"
+  },
+  {
+    "id": 861,
+    "word": "lift",
+    "translation": "电梯（英式），举起，搭便车"
+  },
+  {
+    "id": 862,
+    "word": "light",
+    "translation": "灯，光，轻的"
+  },
+  {
+    "id": 863,
+    "word": "like",
+    "translation": "喜欢，像，例如"
+  },
+  {
+    "id": 864,
+    "word": "line",
+    "translation": "线，线条，一行"
+  },
+  {
+    "id": 865,
+    "word": "link",
+    "translation": "链接，关联"
+  },
+  {
+    "id": 866,
+    "word": "lion",
+    "translation": "狮子"
+  },
+  {
+    "id": 867,
+    "word": "list",
+    "translation": "清单，列表"
+  },
+  {
+    "id": 868,
+    "word": "listen",
+    "translation": "听，倾听"
+  },
+  {
+    "id": 869,
+    "word": "litre",
+    "translation": "升（容量单位）"
+  },
+  {
+    "id": 870,
+    "word": "little",
+    "translation": "小的，少的"
+  },
+  {
+    "id": 871,
+    "word": "live",
+    "translation": "生活，居住，活的"
+  },
+  {
+    "id": 872,
+    "word": "living room",
+    "translation": "客厅，起居室"
+  },
+  {
+    "id": 873,
+    "word": "lizard",
+    "translation": "蜥蜴"
+  },
+  {
+    "id": 874,
+    "word": "local",
+    "translation": "当地的，本地的"
+  },
+  {
+    "id": 875,
+    "word": "long",
+    "translation": "长的，长时间"
+  },
+  {
+    "id": 876,
+    "word": "look",
+    "translation": "看，外观"
+  },
+  {
+    "id": 877,
+    "word": "look after",
+    "translation": "照顾，照料"
+  },
+  {
+    "id": 878,
+    "word": "look at",
+    "translation": "看，观察"
+  },
+  {
+    "id": 879,
+    "word": "look for",
+    "translation": "寻找，寻觅"
+  },
+  {
+    "id": 880,
+    "word": "look out",
+    "translation": "小心，当心"
+  },
+  {
+    "id": 881,
+    "word": "lorry",
+    "translation": "卡车（英式）"
+  },
+  {
+    "id": 882,
+    "word": "lose",
+    "translation": "失去，丢失，输"
+  },
+  {
+    "id": 883,
+    "word": "lost",
+    "translation": "迷路的，丢失的"
+  },
+  {
+    "id": 884,
+    "word": "lots / a lot",
+    "translation": "很多，大量"
+  },
+  {
+    "id": 885,
+    "word": "loud",
+    "translation": "响亮的，大声的"
+  },
+  {
+    "id": 886,
+    "word": "love",
+    "translation": "爱，热爱，喜欢"
+  },
+  {
+    "id": 887,
+    "word": "lovely",
+    "translation": "可爱的，美好的"
+  },
+  {
+    "id": 888,
+    "word": "low",
+    "translation": "低的，矮的"
+  },
+  {
+    "id": 889,
+    "word": "luck",
+    "translation": "运气，幸运"
+  },
+  {
+    "id": 890,
+    "word": "luckily",
+    "translation": "幸运地，幸好"
+  },
+  {
+    "id": 891,
+    "word": "lucky",
+    "translation": "幸运的"
+  },
+  {
+    "id": 892,
+    "word": "luggage",
+    "translation": "行李"
+  },
+  {
+    "id": 893,
+    "word": "lunch",
+    "translation": "午餐，午饭"
+  },
+  {
+    "id": 894,
+    "word": "lunchtime",
+    "translation": "午餐时间"
+  },
+  {
+    "id": 895,
+    "word": "machine",
+    "translation": "机器，机械"
+  },
+  {
+    "id": 896,
+    "word": "mad",
+    "translation": "疯狂的，生气的"
+  },
+  {
+    "id": 897,
+    "word": "magazine",
+    "translation": "杂志"
+  },
+  {
+    "id": 898,
+    "word": "mail",
+    "translation": "邮件，信件，邮寄"
+  },
+  {
+    "id": 899,
+    "word": "main course",
+    "translation": "主菜"
+  },
+  {
+    "id": 900,
+    "word": "make",
+    "translation": "做，制造，使"
+  },
+  {
+    "id": 901,
+    "word": "make sure",
+    "translation": "确保，确认"
+  },
+  {
+    "id": 902,
+    "word": "make-up",
+    "translation": "化妆品，化妆"
+  },
+  {
+    "id": 903,
+    "word": "man",
+    "translation": "男人，男士"
+  },
+  {
+    "id": 904,
+    "word": "manager",
+    "translation": "经理，管理者"
+  },
+  {
+    "id": 905,
+    "word": "mango",
+    "translation": "芒果"
+  },
+  {
+    "id": 906,
+    "word": "many",
+    "translation": "许多，很多"
+  },
+  {
+    "id": 907,
+    "word": "map",
+    "translation": "地图"
+  },
+  {
+    "id": 908,
+    "word": "March",
+    "translation": "三月"
+  },
+  {
+    "id": 909,
+    "word": "mark",
+    "translation": "分数，标记，打分"
+  },
+  {
+    "id": 910,
+    "word": "market",
+    "translation": "市场，集市"
+  },
+  {
+    "id": 911,
+    "word": "married",
+    "translation": "已婚的，结婚的"
+  },
+  {
+    "id": 912,
+    "word": "match",
+    "translation": "比赛，火柴，匹配"
+  },
+  {
+    "id": 913,
+    "word": "maths/mathematics",
+    "translation": "数学"
+  },
+  {
+    "id": 914,
+    "word": "matter",
+    "translation": "事情，问题，重要"
+  },
+  {
+    "id": 915,
+    "word": "May",
+    "translation": "五月"
+  },
+  {
+    "id": 916,
+    "word": "may",
+    "translation": "可能，也许，可以"
+  },
+  {
+    "id": 917,
+    "word": "maybe",
+    "translation": "也许，大概"
+  },
+  {
+    "id": 918,
+    "word": "me",
+    "translation": "我（宾格）"
+  },
+  {
+    "id": 919,
+    "word": "meal",
+    "translation": "餐，饭食"
+  },
+  {
+    "id": 920,
+    "word": "mean",
+    "translation": "意思，意味，平均的"
+  },
+  {
+    "id": 921,
+    "word": "meat",
+    "translation": "肉，肉类"
+  },
+  {
+    "id": 922,
+    "word": "mechanic",
+    "translation": "机械师，技工"
+  },
+  {
+    "id": 923,
+    "word": "medicine",
+    "translation": "药，医学，医药"
+  },
+  {
+    "id": 924,
+    "word": "meet",
+    "translation": "见面，遇见，认识"
+  },
+  {
+    "id": 925,
+    "word": "meeting",
+    "translation": "会议，会面"
+  },
+  {
+    "id": 926,
+    "word": "melon",
+    "translation": "瓜，甜瓜"
+  },
+  {
+    "id": 927,
+    "word": "member",
+    "translation": "成员，会员"
+  },
+  {
+    "id": 928,
+    "word": "memory",
+    "translation": "记忆，内存"
+  },
+  {
+    "id": 929,
+    "word": "menu",
+    "translation": "菜单，菜谱"
+  },
+  {
+    "id": 930,
+    "word": "message",
+    "translation": "消息，信息"
+  },
+  {
+    "id": 931,
+    "word": "metal",
+    "translation": "金属"
+  },
+  {
+    "id": 932,
+    "word": "metre",
+    "translation": "米（长度单位）"
+  },
+  {
+    "id": 933,
+    "word": "microphone",
+    "translation": "麦克风，话筒"
+  },
+  {
+    "id": 934,
+    "word": "midday",
+    "translation": "正午，中午"
+  },
+  {
+    "id": 935,
+    "word": "middle",
+    "translation": "中间，中部"
+  },
+  {
+    "id": 936,
+    "word": "midnight",
+    "translation": "午夜，子夜"
+  },
+  {
+    "id": 937,
+    "word": "might",
+    "translation": "可能，也许，力量"
+  },
+  {
+    "id": 938,
+    "word": "mile",
+    "translation": "英里"
+  },
+  {
+    "id": 939,
+    "word": "milk",
+    "translation": "牛奶，乳"
+  },
+  {
+    "id": 940,
+    "word": "million",
+    "translation": "百万"
+  },
+  {
+    "id": 941,
+    "word": "mind",
+    "translation": "介意，注意，精神"
+  },
+  {
+    "id": 942,
+    "word": "mine",
+    "translation": "我的（所有格），矿山"
+  },
+  {
+    "id": 943,
+    "word": "mineral water",
+    "translation": "矿泉水"
+  },
+  {
+    "id": 944,
+    "word": "minus",
+    "translation": "减，负"
+  },
+  {
+    "id": 945,
+    "word": "minute",
+    "translation": "分钟"
+  },
+  {
+    "id": 946,
+    "word": "mirror",
+    "translation": "镜子"
+  },
+  {
+    "id": 947,
+    "word": "Miss",
+    "translation": "小姐，女士"
+  },
+  {
+    "id": 948,
+    "word": "miss",
+    "translation": "错过，思念"
+  },
+  {
+    "id": 949,
+    "word": "missing",
+    "translation": "丢失的，失踪的"
+  },
+  {
+    "id": 950,
+    "word": "mistake",
+    "translation": "错误，过失"
+  },
+  {
+    "id": 951,
+    "word": "mix",
+    "translation": "混合，搅拌"
+  },
+  {
+    "id": 952,
+    "word": "mobile phone",
+    "translation": "手机，移动电话"
+  },
+  {
+    "id": 953,
+    "word": "model",
+    "translation": "模型，模特，型号"
+  },
+  {
+    "id": 954,
+    "word": "modern",
+    "translation": "现代的，现代化的"
+  },
+  {
+    "id": 955,
+    "word": "mom",
+    "translation": "妈妈（美式）"
+  },
+  {
+    "id": 956,
+    "word": "moment",
+    "translation": "时刻，片刻"
+  },
+  {
+    "id": 957,
+    "word": "Monday",
+    "translation": "星期一"
+  },
+  {
+    "id": 958,
+    "word": "money",
+    "translation": "钱，金钱"
+  },
+  {
+    "id": 959,
+    "word": "monkey",
+    "translation": "猴子"
+  },
+  {
+    "id": 960,
+    "word": "month",
+    "translation": "月，月份"
+  },
+  {
+    "id": 961,
+    "word": "monthly",
+    "translation": "每月的，月刊"
+  },
+  {
+    "id": 962,
+    "word": "moon",
+    "translation": "月亮，月球"
+  },
+  {
+    "id": 963,
+    "word": "more",
+    "translation": "更多，更，另外"
+  },
+  {
+    "id": 964,
+    "word": "morning",
+    "translation": "早晨，上午"
+  },
+  {
+    "id": 965,
+    "word": "most",
+    "translation": "最多，大多数"
+  },
+  {
+    "id": 966,
+    "word": "mother",
+    "translation": "母亲，妈妈"
+  },
+  {
+    "id": 967,
+    "word": "motorbike",
+    "translation": "摩托车"
+  },
+  {
+    "id": 968,
+    "word": "motorway",
+    "translation": "高速公路（英式）"
+  },
+  {
+    "id": 969,
+    "word": "mountain",
+    "translation": "山，山脉"
+  },
+  {
+    "id": 970,
+    "word": "mouse",
+    "translation": "鼠标，老鼠"
+  },
+  {
+    "id": 971,
+    "word": "mouth",
+    "translation": "嘴，口"
+  },
+  {
+    "id": 972,
+    "word": "move",
+    "translation": "移动，搬家，感动"
+  },
+  {
+    "id": 973,
+    "word": "movie",
+    "translation": "电影（美式）"
+  },
+  {
+    "id": 974,
+    "word": "movie star",
+    "translation": "电影明星（美式）"
+  },
+  {
+    "id": 975,
+    "word": "movie theater",
+    "translation": "电影院（美式）"
+  },
+  {
+    "id": 976,
+    "word": "Mr",
+    "translation": "先生（称谓）"
+  },
+  {
+    "id": 977,
+    "word": "Mrs",
+    "translation": "太太，夫人（称谓）"
+  },
+  {
+    "id": 978,
+    "word": "Ms",
+    "translation": "女士（称谓）"
+  },
+  {
+    "id": 979,
+    "word": "much",
+    "translation": "很多，大量，非常"
+  },
+  {
+    "id": 980,
+    "word": "mug",
+    "translation": "马克杯，大杯"
+  },
+  {
+    "id": 981,
+    "word": "mum",
+    "translation": "妈妈（英式）"
+  },
+  {
+    "id": 982,
+    "word": "museum",
+    "translation": "博物馆"
+  },
+  {
+    "id": 983,
+    "word": "mushroom",
+    "translation": "蘑菇"
+  },
+  {
+    "id": 984,
+    "word": "music",
+    "translation": "音乐"
+  },
+  {
+    "id": 985,
+    "word": "musical",
+    "translation": "音乐的，音乐剧"
+  },
+  {
+    "id": 986,
+    "word": "musician",
+    "translation": "音乐家"
+  },
+  {
+    "id": 987,
+    "word": "must",
+    "translation": "必须，一定"
+  },
+  {
+    "id": 988,
+    "word": "my",
+    "translation": "我的"
+  },
+  {
+    "id": 989,
+    "word": "myself",
+    "translation": "我自己"
+  },
+  {
+    "id": 990,
+    "word": "name",
+    "translation": "名字，姓名"
+  },
+  {
+    "id": 991,
+    "word": "national",
+    "translation": "国家的，全国的"
+  },
+  {
+    "id": 992,
+    "word": "nationality",
+    "translation": "国籍，民族"
+  },
+  {
+    "id": 993,
+    "word": "nature",
+    "translation": "自然，本质"
+  },
+  {
+    "id": 994,
+    "word": "natural",
+    "translation": "自然的，天然的"
+  },
+  {
+    "id": 995,
+    "word": "near",
+    "translation": "近，接近，附近"
+  },
+  {
+    "id": 996,
+    "word": "nearly",
+    "translation": "几乎，将近"
+  },
+  {
+    "id": 997,
+    "word": "neck",
+    "translation": "脖子，颈"
+  },
+  {
+    "id": 998,
+    "word": "necklace",
+    "translation": "项链，颈链"
+  },
+  {
+    "id": 999,
+    "word": "need",
+    "translation": "需要，必要"
+  },
+  {
+    "id": 1000,
+    "word": "neighbour",
+    "translation": "邻居，邻国"
+  },
+  {
+    "id": 1001,
+    "word": "nervous",
+    "translation": "紧张的，不安的"
+  },
+  {
+    "id": 1002,
+    "word": "nest",
+    "translation": "巢，鸟巢"
+  },
+  {
+    "id": 1003,
+    "word": "net",
+    "translation": "网，网络"
+  },
+  {
+    "id": 1004,
+    "word": "never",
+    "translation": "从不，从来不"
+  },
+  {
+    "id": 1005,
+    "word": "new",
+    "translation": "新的，崭新的"
+  },
+  {
+    "id": 1006,
+    "word": "news",
+    "translation": "新闻，消息"
+  },
+  {
+    "id": 1007,
+    "word": "newspaper",
+    "translation": "报纸"
+  },
+  {
+    "id": 1008,
+    "word": "next",
+    "translation": "下一个，紧接着，旁边"
+  },
+  {
+    "id": 1009,
+    "word": "next to",
+    "translation": "紧靠，在…旁边"
+  },
+  {
+    "id": 1010,
+    "word": "nice",
+    "translation": "好的，令人愉快的"
+  },
+  {
+    "id": 1011,
+    "word": "night",
+    "translation": "夜晚，晚上"
+  },
+  {
+    "id": 1012,
+    "word": "no",
+    "translation": "不，不是，没有"
+  },
+  {
+    "id": 1013,
+    "word": "nobody",
+    "translation": "没有人，无人"
+  },
+  {
+    "id": 1014,
+    "word": "noise",
+    "translation": "噪音，声音"
+  },
+  {
+    "id": 1015,
+    "word": "noisy",
+    "translation": "嘈杂的，喧闹的"
+  },
+  {
+    "id": 1016,
+    "word": "noon",
+    "translation": "中午，正午"
+  },
+  {
+    "id": 1017,
+    "word": "no one",
+    "translation": "没有人"
+  },
+  {
+    "id": 1018,
+    "word": "normal",
+    "translation": "正常的，普通的"
+  },
+  {
+    "id": 1019,
+    "word": "north",
+    "translation": "北，北方"
+  },
+  {
+    "id": 1020,
+    "word": "nose",
+    "translation": "鼻子"
+  },
+  {
+    "id": 1021,
+    "word": "not",
+    "translation": "不，没有"
+  },
+  {
+    "id": 1022,
+    "word": "note",
+    "translation": "笔记，便条，注意"
+  },
+  {
+    "id": 1023,
+    "word": "notebook",
+    "translation": "笔记本，本子"
+  },
+  {
+    "id": 1024,
+    "word": "nothing",
+    "translation": "没有，没什么"
+  },
+  {
+    "id": 1025,
+    "word": "notice",
+    "translation": "注意，通知"
+  },
+  {
+    "id": 1026,
+    "word": "November",
+    "translation": "十一月"
+  },
+  {
+    "id": 1027,
+    "word": "now",
+    "translation": "现在，此刻"
+  },
+  {
+    "id": 1028,
+    "word": "number",
+    "translation": "数字，号码，数量"
+  },
+  {
+    "id": 1029,
+    "word": "nurse",
+    "translation": "护士，护理"
+  },
+  {
+    "id": 1030,
+    "word": "ocean",
+    "translation": "海洋，大洋"
+  },
+  {
+    "id": 1031,
+    "word": "occupation",
+    "translation": "职业，工作"
+  },
+  {
+    "id": 1032,
+    "word": "October",
+    "translation": "十月"
+  },
+  {
+    "id": 1033,
+    "word": "octopus",
+    "translation": "章鱼"
+  },
+  {
+    "id": 1034,
+    "word": "o'clock",
+    "translation": "…点钟"
+  },
+  {
+    "id": 1035,
+    "word": "of",
+    "translation": "的，属于"
+  },
+  {
+    "id": 1036,
+    "word": "of course",
+    "translation": "当然，自然"
+  },
+  {
+    "id": 1037,
+    "word": "off",
+    "translation": "关掉，离开，脱落"
+  },
+  {
+    "id": 1038,
+    "word": "offer",
+    "translation": "提供，提议，出价"
+  },
+  {
+    "id": 1039,
+    "word": "office",
+    "translation": "办公室，办公"
+  },
+  {
+    "id": 1040,
+    "word": "often",
+    "translation": "经常，常常"
+  },
+  {
+    "id": 1041,
+    "word": "oh",
+    "translation": "哦，啊"
+  },
+  {
+    "id": 1042,
+    "word": "oh dear!",
+    "translation": "天哪！哎呀！"
+  },
+  {
+    "id": 1043,
+    "word": "oil",
+    "translation": "油，石油"
+  },
+  {
+    "id": 1044,
+    "word": "OK/okay",
+    "translation": "好的，行，没问题"
+  },
+  {
+    "id": 1045,
+    "word": "old",
+    "translation": "老的，年老的，旧的"
+  },
+  {
+    "id": 1046,
+    "word": "Olympic",
+    "translation": "奥林匹克的，奥运会的"
+  },
+  {
+    "id": 1047,
+    "word": "omelette",
+    "translation": "煎蛋卷，炒蛋"
+  },
+  {
+    "id": 1048,
+    "word": "on",
+    "translation": "在…上面，开"
+  },
+  {
+    "id": 1049,
+    "word": "once",
+    "translation": "一次，曾经"
+  },
+  {
+    "id": 1050,
+    "word": "one",
+    "translation": "一，一个"
+  },
+  {
+    "id": 1051,
+    "word": "onion",
+    "translation": "洋葱"
+  },
+  {
+    "id": 1052,
+    "word": "online",
+    "translation": "在线，网上"
+  },
+  {
+    "id": 1053,
+    "word": "only",
+    "translation": "只，仅仅"
+  },
+  {
+    "id": 1054,
+    "word": "open",
+    "translation": "打开，开放，开着的"
+  },
+  {
+    "id": 1055,
+    "word": "opera",
+    "translation": "歌剧"
+  },
+  {
+    "id": 1056,
+    "word": "opinion",
+    "translation": "意见，观点，看法"
+  },
+  {
+    "id": 1057,
+    "word": "opposite",
+    "translation": "对面，相反的"
+  },
+  {
+    "id": 1058,
+    "word": "or",
+    "translation": "或，或者"
+  },
+  {
+    "id": 1059,
+    "word": "orange",
+    "translation": "橙子，橙色"
+  },
+  {
+    "id": 1060,
+    "word": "order",
+    "translation": "点餐，命令，顺序"
+  },
+  {
+    "id": 1061,
+    "word": "other",
+    "translation": "其他的，另外"
+  },
+  {
+    "id": 1062,
+    "word": "our",
+    "translation": "我们的"
+  },
+  {
+    "id": 1063,
+    "word": "ours",
+    "translation": "我们的（所有格）"
+  },
+  {
+    "id": 1064,
+    "word": "ourselves",
+    "translation": "我们自己"
+  },
+  {
+    "id": 1065,
+    "word": "out",
+    "translation": "出去，在外面"
+  },
+  {
+    "id": 1066,
+    "word": "outdoor",
+    "translation": "室外的，户外的"
+  },
+  {
+    "id": 1067,
+    "word": "outdoors",
+    "translation": "在户外，在室外"
+  },
+  {
+    "id": 1068,
+    "word": "out of",
+    "translation": "从…出来，不在"
+  },
+  {
+    "id": 1069,
+    "word": "outside",
+    "translation": "外面，在外面，外部"
+  },
+  {
+    "id": 1070,
+    "word": "oven",
+    "translation": "烤箱，烤炉"
+  },
+  {
+    "id": 1071,
+    "word": "over",
+    "translation": "在…上方，超过，结束"
+  },
+  {
+    "id": 1072,
+    "word": "own",
+    "translation": "自己的，拥有"
+  },
+  {
+    "id": 1073,
+    "word": "pack",
+    "translation": "打包，收拾"
+  },
+  {
+    "id": 1074,
+    "word": "page",
+    "translation": "页，页面"
+  },
+  {
+    "id": 1075,
+    "word": "pain",
+    "translation": "疼痛，痛苦"
+  },
+  {
+    "id": 1076,
+    "word": "paint",
+    "translation": "油漆，颜料，画画"
+  },
+  {
+    "id": 1077,
+    "word": "painter",
+    "translation": "画家，油漆工"
+  },
+  {
+    "id": 1078,
+    "word": "painting",
+    "translation": "画，绘画，油画"
+  },
+  {
+    "id": 1079,
+    "word": "pale",
+    "translation": "苍白的，浅色的"
+  },
+  {
+    "id": 1080,
+    "word": "pair",
+    "translation": "一双，一对"
+  },
+  {
+    "id": 1081,
+    "word": "panda",
+    "translation": "大熊猫"
+  },
+  {
+    "id": 1082,
+    "word": "paper",
+    "translation": "纸，报纸"
+  },
+  {
+    "id": 1083,
+    "word": "paragraph",
+    "translation": "段落，自然段"
+  },
+  {
+    "id": 1084,
+    "word": "pardon",
+    "translation": "原谅，请再说一遍"
+  },
+  {
+    "id": 1085,
+    "word": "parent",
+    "translation": "父母，家长"
+  },
+  {
+    "id": 1086,
+    "word": "park",
+    "translation": "公园，停车"
+  },
+  {
+    "id": 1087,
+    "word": "parking lot",
+    "translation": "停车场（美式）"
+  },
+  {
+    "id": 1088,
+    "word": "parrot",
+    "translation": "鹦鹉"
+  },
+  {
+    "id": 1089,
+    "word": "part",
+    "translation": "部分，一部分"
+  },
+  {
+    "id": 1090,
+    "word": "partner",
+    "translation": "伙伴，搭档，合伙人"
+  },
+  {
+    "id": 1091,
+    "word": "party",
+    "translation": "聚会，派对，党"
+  },
+  {
+    "id": 1092,
+    "word": "pass",
+    "translation": "经过，传递，通过"
+  },
+  {
+    "id": 1093,
+    "word": "passenger",
+    "translation": "乘客，旅客"
+  },
+  {
+    "id": 1094,
+    "word": "passport",
+    "translation": "护照"
+  },
+  {
+    "id": 1095,
+    "word": "password",
+    "translation": "密码，口令"
+  },
+  {
+    "id": 1096,
+    "word": "past",
+    "translation": "过去，经过，超过"
+  },
+  {
+    "id": 1097,
+    "word": "pasta",
+    "translation": "意大利面，面食"
+  },
+  {
+    "id": 1098,
+    "word": "path",
+    "translation": "小路，小径"
+  },
+  {
+    "id": 1099,
+    "word": "pay",
+    "translation": "付钱，支付"
+  },
+  {
+    "id": 1100,
+    "word": "PC",
+    "translation": "个人电脑"
+  },
+  {
+    "id": 1101,
+    "word": "pear",
+    "translation": "梨"
+  },
+  {
+    "id": 1102,
+    "word": "pen",
+    "translation": "钢笔，圆珠笔"
+  },
+  {
+    "id": 1103,
+    "word": "pence",
+    "translation": "便士（英国货币）"
+  },
+  {
+    "id": 1104,
+    "word": "pencil",
+    "translation": "铅笔"
+  },
+  {
+    "id": 1105,
+    "word": "pencil case",
+    "translation": "铅笔盒，文具盒"
+  },
+  {
+    "id": 1106,
+    "word": "penfriend",
+    "translation": "笔友"
+  },
+  {
+    "id": 1107,
+    "word": "penguin",
+    "translation": "企鹅"
+  },
+  {
+    "id": 1108,
+    "word": "penny",
+    "translation": "便士，一分钱"
+  },
+  {
+    "id": 1109,
+    "word": "people",
+    "translation": "人们，人民"
+  },
+  {
+    "id": 1110,
+    "word": "pepper",
+    "translation": "胡椒，辣椒"
+  },
+  {
+    "id": 1111,
+    "word": "per",
+    "translation": "每，按照"
+  },
+  {
+    "id": 1112,
+    "word": "perfect",
+    "translation": "完美的，完全的"
+  },
+  {
+    "id": 1113,
+    "word": "perform",
+    "translation": "表演，演出"
+  },
+  {
+    "id": 1114,
+    "word": "performance",
+    "translation": "表演，演出"
+  },
+  {
+    "id": 1115,
+    "word": "perfume",
+    "translation": "香水，香味"
+  },
+  {
+    "id": 1116,
+    "word": "perhaps",
+    "translation": "也许，可能"
+  },
+  {
+    "id": 1117,
+    "word": "person",
+    "translation": "人，个人"
+  },
+  {
+    "id": 1118,
+    "word": "pet",
+    "translation": "宠物，抚摸"
+  },
+  {
+    "id": 1119,
+    "word": "petrol",
+    "translation": "汽油（英式）"
+  },
+  {
+    "id": 1120,
+    "word": "petrol station",
+    "translation": "加油站（英式）"
+  },
+  {
+    "id": 1121,
+    "word": "pharmacy",
+    "translation": "药店，药房"
+  },
+  {
+    "id": 1122,
+    "word": "phone",
+    "translation": "电话，打电话"
+  },
+  {
+    "id": 1123,
+    "word": "photo/photograph",
+    "translation": "照片，相片"
+  },
+  {
+    "id": 1124,
+    "word": "photographer",
+    "translation": "摄影师"
+  },
+  {
+    "id": 1125,
+    "word": "photography",
+    "translation": "摄影，拍照"
+  },
+  {
+    "id": 1126,
+    "word": "physics",
+    "translation": "物理，物理学"
+  },
+  {
+    "id": 1127,
+    "word": "piano",
+    "translation": "钢琴"
+  },
+  {
+    "id": 1128,
+    "word": "pick up",
+    "translation": "捡起，接（人）"
+  },
+  {
+    "id": 1129,
+    "word": "picnic",
+    "translation": "野餐"
+  },
+  {
+    "id": 1130,
+    "word": "picture",
+    "translation": "图片，照片，画"
+  },
+  {
+    "id": 1131,
+    "word": "piece",
+    "translation": "一块，一件，一片"
+  },
+  {
+    "id": 1132,
+    "word": "pillow",
+    "translation": "枕头"
+  },
+  {
+    "id": 1133,
+    "word": "pilot",
+    "translation": "飞行员，驾驶员"
+  },
+  {
+    "id": 1134,
+    "word": "pink",
+    "translation": "粉红色"
+  },
+  {
+    "id": 1135,
+    "word": "pity",
+    "translation": "遗憾，可惜"
+  },
+  {
+    "id": 1136,
+    "word": "pizza",
+    "translation": "比萨饼"
+  },
+  {
+    "id": 1137,
+    "word": "place",
+    "translation": "地方，地点，放置"
+  },
+  {
+    "id": 1138,
+    "word": "plan",
+    "translation": "计划，方案，规划"
+  },
+  {
+    "id": 1139,
+    "word": "plane",
+    "translation": "飞机"
+  },
+  {
+    "id": 1140,
+    "word": "plant",
+    "translation": "植物，工厂，种植"
+  },
+  {
+    "id": 1141,
+    "word": "plastic",
+    "translation": "塑料，塑料的"
+  },
+  {
+    "id": 1142,
+    "word": "plate",
+    "translation": "盘子，碟子"
+  },
+  {
+    "id": 1143,
+    "word": "platform",
+    "translation": "站台，月台，平台"
+  },
+  {
+    "id": 1144,
+    "word": "play",
+    "translation": "玩，踢，演奏，戏剧"
+  },
+  {
+    "id": 1145,
+    "word": "player",
+    "translation": "球员，演奏者，播放器"
+  },
+  {
+    "id": 1146,
+    "word": "playground",
+    "translation": "操场，游乐场"
+  },
+  {
+    "id": 1147,
+    "word": "pleasant",
+    "translation": "令人愉快的，好的"
+  },
+  {
+    "id": 1148,
+    "word": "please",
+    "translation": "请，使高兴"
+  },
+  {
+    "id": 1149,
+    "word": "pleased",
+    "translation": "高兴的，满意的"
+  },
+  {
+    "id": 1150,
+    "word": "plus",
+    "translation": "加，加上，正"
+  },
+  {
+    "id": 1151,
+    "word": "p.m.",
+    "translation": "下午，午后"
+  },
+  {
+    "id": 1152,
+    "word": "pocket",
+    "translation": "口袋，衣袋"
+  },
+  {
+    "id": 1153,
+    "word": "point",
+    "translation": "点，指，指出"
+  },
+  {
+    "id": 1154,
+    "word": "polar bear",
+    "translation": "北极熊"
+  },
+  {
+    "id": 1155,
+    "word": "police",
+    "translation": "警察，警方"
+  },
+  {
+    "id": 1156,
+    "word": "police car",
+    "translation": "警车"
+  },
+  {
+    "id": 1157,
+    "word": "police officer",
+    "translation": "警察，警务人员"
+  },
+  {
+    "id": 1158,
+    "word": "police station",
+    "translation": "警察局"
+  },
+  {
+    "id": 1159,
+    "word": "polite",
+    "translation": "礼貌的，有礼貌的"
+  },
+  {
+    "id": 1160,
+    "word": "pool",
+    "translation": "游泳池，水池"
+  },
+  {
+    "id": 1161,
+    "word": "poor",
+    "translation": "贫穷的，可怜的"
+  },
+  {
+    "id": 1162,
+    "word": "poor thing/you",
+    "translation": "可怜的人/你"
+  },
+  {
+    "id": 1163,
+    "word": "pop",
+    "translation": "流行音乐，砰的声音"
+  },
+  {
+    "id": 1164,
+    "word": "popular",
+    "translation": "流行的，受欢迎的"
+  },
+  {
+    "id": 1165,
+    "word": "port",
+    "translation": "港口，港湾"
+  },
+  {
+    "id": 1166,
+    "word": "possible",
+    "translation": "可能的，有可能的"
+  },
+  {
+    "id": 1167,
+    "word": "possibly",
+    "translation": "也许，可能地"
+  },
+  {
+    "id": 1168,
+    "word": "post",
+    "translation": "邮寄，帖子，帖"
+  },
+  {
+    "id": 1169,
+    "word": "postcard",
+    "translation": "明信片"
+  },
+  {
+    "id": 1170,
+    "word": "poster",
+    "translation": "海报，招贴画"
+  },
+  {
+    "id": 1171,
+    "word": "post office",
+    "translation": "邮局"
+  },
+  {
+    "id": 1172,
+    "word": "potato",
+    "translation": "土豆，马铃薯"
+  },
+  {
+    "id": 1173,
+    "word": "pound",
+    "translation": "英镑，磅"
+  },
+  {
+    "id": 1174,
+    "word": "practice",
+    "translation": "练习，实践（名词）"
+  },
+  {
+    "id": 1175,
+    "word": "practise",
+    "translation": "练习，实践（动词）"
+  },
+  {
+    "id": 1176,
+    "word": "prefer",
+    "translation": "更喜欢，宁愿"
+  },
+  {
+    "id": 1177,
+    "word": "prepare",
+    "translation": "准备，预备"
+  },
+  {
+    "id": 1178,
+    "word": "present",
+    "translation": "礼物，现在，出席"
+  },
+  {
+    "id": 1179,
+    "word": "pretty",
+    "translation": "漂亮的，相当"
+  },
+  {
+    "id": 1180,
+    "word": "price",
+    "translation": "价格，价钱"
+  },
+  {
+    "id": 1181,
+    "word": "print",
+    "translation": "打印，印刷"
+  },
+  {
+    "id": 1182,
+    "word": "printer",
+    "translation": "打印机"
+  },
+  {
+    "id": 1183,
+    "word": "prize",
+    "translation": "奖，奖品"
+  },
+  {
+    "id": 1184,
+    "word": "probably",
+    "translation": "也许，大概，可能"
+  },
+  {
+    "id": 1185,
+    "word": "problem",
+    "translation": "问题，难题"
+  },
+  {
+    "id": 1186,
+    "word": "program",
+    "translation": "程序，节目（美式）"
+  },
+  {
+    "id": 1187,
+    "word": "programme",
+    "translation": "节目，计划（英式）"
+  },
+  {
+    "id": 1188,
+    "word": "project",
+    "translation": "项目，工程，课题"
+  },
+  {
+    "id": 1189,
+    "word": "pull",
+    "translation": "拉，拖"
+  },
+  {
+    "id": 1190,
+    "word": "pupil",
+    "translation": "学生，瞳孔"
+  },
+  {
+    "id": 1191,
+    "word": "puppy",
+    "translation": "小狗，幼犬"
+  },
+  {
+    "id": 1192,
+    "word": "purple",
+    "translation": "紫色，紫色的"
+  },
+  {
+    "id": 1193,
+    "word": "purse",
+    "translation": "钱包，手提包"
+  },
+  {
+    "id": 1194,
+    "word": "push",
+    "translation": "推，按"
+  },
+  {
+    "id": 1195,
+    "word": "put",
+    "translation": "放，放置"
+  },
+  {
+    "id": 1196,
+    "word": "put on",
+    "translation": "穿上，戴上"
+  },
+  {
+    "id": 1197,
+    "word": "puzzle",
+    "translation": "拼图，谜题"
+  },
+  {
+    "id": 1198,
+    "word": "quarter",
+    "translation": "四分之一，一刻钟"
+  },
+  {
+    "id": 1199,
+    "word": "queen",
+    "translation": "女王，王后"
+  },
+  {
+    "id": 1200,
+    "word": "question",
+    "translation": "问题，疑问"
+  },
+  {
+    "id": 1201,
+    "word": "quick",
+    "translation": "快的，迅速的"
+  },
+  {
+    "id": 1202,
+    "word": "quickly",
+    "translation": "快速地，迅速地"
+  },
+  {
+    "id": 1203,
+    "word": "quiet",
+    "translation": "安静的，平静的"
+  },
+  {
+    "id": 1204,
+    "word": "quite",
+    "translation": "很，相当，完全"
+  },
+  {
+    "id": 1205,
+    "word": "quiz",
+    "translation": "小测验，问答比赛"
+  },
+  {
+    "id": 1206,
+    "word": "rabbit",
+    "translation": "兔子"
+  },
+  {
+    "id": 1207,
+    "word": "race",
+    "translation": "比赛，竞赛，种族"
+  },
+  {
+    "id": 1208,
+    "word": "racket",
+    "translation": "球拍，噪音"
+  },
+  {
+    "id": 1209,
+    "word": "radio",
+    "translation": "收音机，广播"
+  },
+  {
+    "id": 1210,
+    "word": "railway station",
+    "translation": "火车站"
+  },
+  {
+    "id": 1211,
+    "word": "rain",
+    "translation": "雨，下雨"
+  },
+  {
+    "id": 1212,
+    "word": "raincoat",
+    "translation": "雨衣"
+  },
+  {
+    "id": 1213,
+    "word": "rainforest",
+    "translation": "雨林，热带雨林"
+  },
+  {
+    "id": 1214,
+    "word": "rap",
+    "translation": "说唱音乐，敲击"
+  },
+  {
+    "id": 1215,
+    "word": "read",
+    "translation": "读，阅读"
+  },
+  {
+    "id": 1216,
+    "word": "reading",
+    "translation": "阅读，阅读材料"
+  },
+  {
+    "id": 1217,
+    "word": "ready",
+    "translation": "准备好的，准备"
+  },
+  {
+    "id": 1218,
+    "word": "real",
+    "translation": "真实的，现实的"
+  },
+  {
+    "id": 1219,
+    "word": "really",
+    "translation": "真正，真的，非常"
+  },
+  {
+    "id": 1220,
+    "word": "reason",
+    "translation": "原因，理由"
+  },
+  {
+    "id": 1221,
+    "word": "receipt",
+    "translation": "收据，收条"
+  },
+  {
+    "id": 1222,
+    "word": "receive",
+    "translation": "收到，接受"
+  },
+  {
+    "id": 1223,
+    "word": "recently",
+    "translation": "最近，近来"
+  },
+  {
+    "id": 1224,
+    "word": "receptionist",
+    "translation": "前台，接待员"
+  },
+  {
+    "id": 1225,
+    "word": "recipe",
+    "translation": "食谱，菜谱"
+  },
+  {
+    "id": 1226,
+    "word": "record",
+    "translation": "记录，录制，唱片"
+  },
+  {
+    "id": 1227,
+    "word": "red",
+    "translation": "红色，红色的"
+  },
+  {
+    "id": 1228,
+    "word": "refrigerator",
+    "translation": "冰箱，电冰箱"
+  },
+  {
+    "id": 1229,
+    "word": "relax",
+    "translation": "放松，休息"
+  },
+  {
+    "id": 1230,
+    "word": "relaxing",
+    "translation": "令人放松的，轻松的"
+  },
+  {
+    "id": 1231,
+    "word": "remember",
+    "translation": "记住，记得"
+  },
+  {
+    "id": 1232,
+    "word": "rent",
+    "translation": "租，租金"
+  },
+  {
+    "id": 1233,
+    "word": "repair",
+    "translation": "修理，维修"
+  },
+  {
+    "id": 1234,
+    "word": "repeat",
+    "translation": "重复，重说"
+  },
+  {
+    "id": 1235,
+    "word": "rest",
+    "translation": "休息，剩余部分"
+  },
+  {
+    "id": 1236,
+    "word": "restaurant",
+    "translation": "餐厅，饭店"
+  },
+  {
+    "id": 1237,
+    "word": "return",
+    "translation": "返回，归还"
+  },
+  {
+    "id": 1238,
+    "word": "review",
+    "translation": "复习，评论"
+  },
+  {
+    "id": 1239,
+    "word": "rice",
+    "translation": "米，大米，米饭"
+  },
+  {
+    "id": 1240,
+    "word": "rich",
+    "translation": "富有的，丰富的"
+  },
+  {
+    "id": 1241,
+    "word": "ride",
+    "translation": "骑，乘坐，驾驶"
+  },
+  {
+    "id": 1242,
+    "word": "riding",
+    "translation": "骑马，骑车"
+  },
+  {
+    "id": 1243,
+    "word": "right",
+    "translation": "正确的，右边，权利"
+  },
+  {
+    "id": 1244,
+    "word": "right hand",
+    "translation": "右手"
+  },
+  {
+    "id": 1245,
+    "word": "ring",
+    "translation": "戒指，铃，打电话"
+  },
+  {
+    "id": 1246,
+    "word": "river",
+    "translation": "河，河流"
+  },
+  {
+    "id": 1247,
+    "word": "road",
+    "translation": "路，道路"
+  },
+  {
+    "id": 1248,
+    "word": "roast",
+    "translation": "烤，烘烤"
+  },
+  {
+    "id": 1249,
+    "word": "rock",
+    "translation": "摇滚乐，岩石"
+  },
+  {
+    "id": 1250,
+    "word": "roof",
+    "translation": "屋顶，顶部"
+  },
+  {
+    "id": 1251,
+    "word": "room",
+    "translation": "房间，空间"
+  },
+  {
+    "id": 1252,
+    "word": "round",
+    "translation": "圆的，轮，绕行"
+  },
+  {
+    "id": 1253,
+    "word": "roundabout",
+    "translation": "环形交叉路口"
+  },
+  {
+    "id": 1254,
+    "word": "rubber",
+    "translation": "橡皮（英式），橡皮擦"
+  },
+  {
+    "id": 1255,
+    "word": "rubbish",
+    "translation": "垃圾，废物（英式）"
+  },
+  {
+    "id": 1256,
+    "word": "rugby",
+    "translation": "橄榄球"
+  },
+  {
+    "id": 1257,
+    "word": "ruler",
+    "translation": "尺子，统治者"
+  },
+  {
+    "id": 1258,
+    "word": "run",
+    "translation": "跑，奔跑"
+  },
+  {
+    "id": 1259,
+    "word": "runner",
+    "translation": "跑步者，赛跑运动员"
+  },
+  {
+    "id": 1260,
+    "word": "running",
+    "translation": "跑步，奔跑"
+  },
+  {
+    "id": 1261,
+    "word": "sad",
+    "translation": "悲伤的，伤心的"
+  },
+  {
+    "id": 1262,
+    "word": "safe",
+    "translation": "安全的，保险箱"
+  },
+  {
+    "id": 1263,
+    "word": "sail",
+    "translation": "航行，帆"
+  },
+  {
+    "id": 1264,
+    "word": "sailing",
+    "translation": "航行，帆船运动"
+  },
+  {
+    "id": 1265,
+    "word": "salad",
+    "translation": "沙拉，色拉"
+  },
+  {
+    "id": 1266,
+    "word": "sale",
+    "translation": "销售，出售"
+  },
+  {
+    "id": 1267,
+    "word": "salt",
+    "translation": "盐，食盐"
+  },
+  {
+    "id": 1268,
+    "word": "same",
+    "translation": "相同的，同样的"
+  },
+  {
+    "id": 1269,
+    "word": "sandwich",
+    "translation": "三明治"
+  },
+  {
+    "id": 1270,
+    "word": "Saturday",
+    "translation": "星期六"
+  },
+  {
+    "id": 1271,
+    "word": "sauce",
+    "translation": "酱，调味汁"
+  },
+  {
+    "id": 1272,
+    "word": "sausage",
+    "translation": "香肠，腊肠"
+  },
+  {
+    "id": 1273,
+    "word": "save",
+    "translation": "保存，节省，救"
+  },
+  {
+    "id": 1274,
+    "word": "say",
+    "translation": "说，讲，声称"
+  },
+  {
+    "id": 1275,
+    "word": "scared",
+    "translation": "害怕的，恐惧的"
+  },
+  {
+    "id": 1276,
+    "word": "scarf",
+    "translation": "围巾，头巾"
+  },
+  {
+    "id": 1277,
+    "word": "scary",
+    "translation": "可怕的，恐怖的"
+  },
+  {
+    "id": 1278,
+    "word": "school",
+    "translation": "学校"
+  },
+  {
+    "id": 1279,
+    "word": "schoolchild",
+    "translation": "学生，学童"
+  },
+  {
+    "id": 1280,
+    "word": "science",
+    "translation": "科学"
+  },
+  {
+    "id": 1281,
+    "word": "scientist",
+    "translation": "科学家"
+  },
+  {
+    "id": 1282,
+    "word": "scissors",
+    "translation": "剪刀"
+  },
+  {
+    "id": 1283,
+    "word": "scooter",
+    "translation": "摩托车，小型摩托"
+  },
+  {
+    "id": 1284,
+    "word": "score",
+    "translation": "分数，得分，比分"
+  },
+  {
+    "id": 1285,
+    "word": "screen",
+    "translation": "屏幕，荧幕"
+  },
+  {
+    "id": 1286,
+    "word": "sea",
+    "translation": "海，大海"
+  },
+  {
+    "id": 1287,
+    "word": "season",
+    "translation": "季节，季"
+  },
+  {
+    "id": 1288,
+    "word": "seat",
+    "translation": "座位，椅子"
+  },
+  {
+    "id": 1289,
+    "word": "second",
+    "translation": "第二，秒"
+  },
+  {
+    "id": 1290,
+    "word": "secretary",
+    "translation": "秘书，书记"
+  },
+  {
+    "id": 1291,
+    "word": "see",
+    "translation": "看见，看到，理解"
+  },
+  {
+    "id": 1292,
+    "word": "seem",
+    "translation": "似乎，看起来"
+  },
+  {
+    "id": 1293,
+    "word": "selfie",
+    "translation": "自拍，自拍照"
+  },
+  {
+    "id": 1294,
+    "word": "sell",
+    "translation": "卖，销售"
+  },
+  {
+    "id": 1295,
+    "word": "send",
+    "translation": "发送，寄"
+  },
+  {
+    "id": 1296,
+    "word": "sentence",
+    "translation": "句子，判决"
+  },
+  {
+    "id": 1297,
+    "word": "September",
+    "translation": "九月"
+  },
+  {
+    "id": 1298,
+    "word": "serious",
+    "translation": "严重的，认真的"
+  },
+  {
+    "id": 1299,
+    "word": "serve",
+    "translation": "服务，供应，服役"
+  },
+  {
+    "id": 1300,
+    "word": "set",
+    "translation": "设置，一套，放"
+  },
+  {
+    "id": 1301,
+    "word": "several",
+    "translation": "几个，若干"
+  },
+  {
+    "id": 1302,
+    "word": "shall",
+    "translation": "将，会"
+  },
+  {
+    "id": 1303,
+    "word": "shame",
+    "translation": "羞耻，遗憾，可惜"
+  },
+  {
+    "id": 1304,
+    "word": "shampoo",
+    "translation": "洗发水，洗头"
+  },
+  {
+    "id": 1305,
+    "word": "share",
+    "translation": "分享，分担，股份"
+  },
+  {
+    "id": 1306,
+    "word": "share digitally",
+    "translation": "网上分享，数字分享"
+  },
+  {
+    "id": 1307,
+    "word": "shark",
+    "translation": "鲨鱼"
+  },
+  {
+    "id": 1308,
+    "word": "she",
+    "translation": "她"
+  },
+  {
+    "id": 1309,
+    "word": "sheep",
+    "translation": "绵羊，羊"
+  },
+  {
+    "id": 1310,
+    "word": "sheet",
+    "translation": "床单，一张（纸）"
+  },
+  {
+    "id": 1311,
+    "word": "shelf",
+    "translation": "架子，搁板"
+  },
+  {
+    "id": 1312,
+    "word": "ship",
+    "translation": "船，轮船"
+  },
+  {
+    "id": 1313,
+    "word": "shirt",
+    "translation": "衬衫，衬衣"
+  },
+  {
+    "id": 1314,
+    "word": "shoe",
+    "translation": "鞋子，鞋"
+  },
+  {
+    "id": 1315,
+    "word": "shop",
+    "translation": "商店，购物"
+  },
+  {
+    "id": 1316,
+    "word": "shop assistant",
+    "translation": "店员，售货员"
+  },
+  {
+    "id": 1317,
+    "word": "shopper",
+    "translation": "购物者"
+  },
+  {
+    "id": 1318,
+    "word": "shopping",
+    "translation": "购物，买东西"
+  },
+  {
+    "id": 1319,
+    "word": "shopping centre",
+    "translation": "购物中心"
+  },
+  {
+    "id": 1320,
+    "word": "short",
+    "translation": "短的，矮的"
+  },
+  {
+    "id": 1321,
+    "word": "shorts",
+    "translation": "短裤"
+  },
+  {
+    "id": 1322,
+    "word": "should",
+    "translation": "应该，应当"
+  },
+  {
+    "id": 1323,
+    "word": "shout",
+    "translation": "大喊，喊叫"
+  },
+  {
+    "id": 1324,
+    "word": "show",
+    "translation": "展示，表演，节目"
+  },
+  {
+    "id": 1325,
+    "word": "shower",
+    "translation": "淋浴，阵雨"
+  },
+  {
+    "id": 1326,
+    "word": "shut",
+    "translation": "关闭，合上"
+  },
+  {
+    "id": 1327,
+    "word": "shy",
+    "translation": "害羞的，腼腆的"
+  },
+  {
+    "id": 1328,
+    "word": "sick",
+    "translation": "生病的，恶心的"
+  },
+  {
+    "id": 1329,
+    "word": "side",
+    "translation": "侧面，边，旁边"
+  },
+  {
+    "id": 1330,
+    "word": "sightseeing",
+    "translation": "观光，游览"
+  },
+  {
+    "id": 1331,
+    "word": "sign",
+    "translation": "标志，标牌，签名"
+  },
+  {
+    "id": 1332,
+    "word": "silver",
+    "translation": "银，银色"
+  },
+  {
+    "id": 1333,
+    "word": "similar",
+    "translation": "相似的，类似的"
+  },
+  {
+    "id": 1334,
+    "word": "simple",
+    "translation": "简单的，简洁的"
+  },
+  {
+    "id": 1335,
+    "word": "since",
+    "translation": "从…以来，自从"
+  },
+  {
+    "id": 1336,
+    "word": "sing",
+    "translation": "唱歌，歌唱"
+  },
+  {
+    "id": 1337,
+    "word": "singer",
+    "translation": "歌手，歌唱家"
+  },
+  {
+    "id": 1338,
+    "word": "singing",
+    "translation": "唱歌，歌唱"
+  },
+  {
+    "id": 1339,
+    "word": "single",
+    "translation": "单一的，单身的，单程"
+  },
+  {
+    "id": 1340,
+    "word": "sink",
+    "translation": "水槽，水池，下沉"
+  },
+  {
+    "id": 1341,
+    "word": "sister",
+    "translation": "姐妹，姐姐，妹妹"
+  },
+  {
+    "id": 1342,
+    "word": "sit",
+    "translation": "坐，坐下"
+  },
+  {
+    "id": 1343,
+    "word": "sit down",
+    "translation": "坐下，请坐"
+  },
+  {
+    "id": 1344,
+    "word": "site",
+    "translation": "网站，地点，工地"
+  },
+  {
+    "id": 1345,
+    "word": "sitting room",
+    "translation": "客厅，起居室"
+  },
+  {
+    "id": 1346,
+    "word": "size",
+    "translation": "尺码，大小，尺寸"
+  },
+  {
+    "id": 1347,
+    "word": "skate",
+    "translation": "滑冰，溜冰"
+  },
+  {
+    "id": 1348,
+    "word": "skateboard",
+    "translation": "滑板"
+  },
+  {
+    "id": 1349,
+    "word": "skateboarding",
+    "translation": "滑板运动"
+  },
+  {
+    "id": 1350,
+    "word": "skating",
+    "translation": "溜冰，滑冰运动"
+  },
+  {
+    "id": 1351,
+    "word": "ski",
+    "translation": "滑雪板，滑雪"
+  },
+  {
+    "id": 1352,
+    "word": "skiing",
+    "translation": "滑雪运动"
+  },
+  {
+    "id": 1353,
+    "word": "skirt",
+    "translation": "裙子"
+  },
+  {
+    "id": 1354,
+    "word": "sky",
+    "translation": "天空"
+  },
+  {
+    "id": 1355,
+    "word": "sleep",
+    "translation": "睡觉，睡眠"
+  },
+  {
+    "id": 1356,
+    "word": "slice",
+    "translation": "片，切片"
+  },
+  {
+    "id": 1357,
+    "word": "slim",
+    "translation": "苗条的，细长的"
+  },
+  {
+    "id": 1358,
+    "word": "slow",
+    "translation": "慢的，迟缓的"
+  },
+  {
+    "id": 1359,
+    "word": "slowly",
+    "translation": "慢慢地，缓慢地"
+  },
+  {
+    "id": 1360,
+    "word": "small",
+    "translation": "小的，少的"
+  },
+  {
+    "id": 1361,
+    "word": "smart",
+    "translation": "聪明的，时髦的"
+  },
+  {
+    "id": 1362,
+    "word": "smoke",
+    "translation": "烟，抽烟，冒烟"
+  },
+  {
+    "id": 1363,
+    "word": "smoking",
+    "translation": "吸烟，抽烟"
+  },
+  {
+    "id": 1364,
+    "word": "snack",
+    "translation": "零食，快餐"
+  },
+  {
+    "id": 1365,
+    "word": "snail",
+    "translation": "蜗牛"
+  },
+  {
+    "id": 1366,
+    "word": "snake",
+    "translation": "蛇"
+  },
+  {
+    "id": 1367,
+    "word": "snow",
+    "translation": "雪，下雪"
+  },
+  {
+    "id": 1368,
+    "word": "snowboard",
+    "translation": "滑雪板"
+  },
+  {
+    "id": 1369,
+    "word": "snowboarding",
+    "translation": "单板滑雪运动"
+  },
+  {
+    "id": 1370,
+    "word": "so",
+    "translation": "所以，如此，也"
+  },
+  {
+    "id": 1371,
+    "word": "soap",
+    "translation": "肥皂，肥皂剧"
+  },
+  {
+    "id": 1372,
+    "word": "soccer",
+    "translation": "足球（美式）"
+  },
+  {
+    "id": 1373,
+    "word": "social media",
+    "translation": "社交媒体，社交网络"
+  },
+  {
+    "id": 1374,
+    "word": "sock",
+    "translation": "袜子，短袜"
+  },
+  {
+    "id": 1375,
+    "word": "sofa",
+    "translation": "沙发"
+  },
+  {
+    "id": 1376,
+    "word": "soft",
+    "translation": "柔软的，温和的"
+  },
+  {
+    "id": 1377,
+    "word": "software",
+    "translation": "软件"
+  },
+  {
+    "id": 1378,
+    "word": "some",
+    "translation": "一些，某些"
+  },
+  {
+    "id": 1379,
+    "word": "somebody",
+    "translation": "某人，有人"
+  },
+  {
+    "id": 1380,
+    "word": "someone",
+    "translation": "某人，有人"
+  },
+  {
+    "id": 1381,
+    "word": "something",
+    "translation": "某事，某物"
+  },
+  {
+    "id": 1382,
+    "word": "sometimes",
+    "translation": "有时，偶尔"
+  },
+  {
+    "id": 1383,
+    "word": "somewhere",
+    "translation": "某处，在某地"
+  },
+  {
+    "id": 1384,
+    "word": "son",
+    "translation": "儿子"
+  },
+  {
+    "id": 1385,
+    "word": "song",
+    "translation": "歌，歌曲"
+  },
+  {
+    "id": 1386,
+    "word": "soon",
+    "translation": "不久，很快，马上"
+  },
+  {
+    "id": 1387,
+    "word": "sorry",
+    "translation": "对不起，抱歉"
+  },
+  {
+    "id": 1388,
+    "word": "sort",
+    "translation": "种类，分类"
+  },
+  {
+    "id": 1389,
+    "word": "sound",
+    "translation": "声音，听起来"
+  },
+  {
+    "id": 1390,
+    "word": "soup",
+    "translation": "汤，汤类"
+  },
+  {
+    "id": 1391,
+    "word": "south",
+    "translation": "南，南方"
+  },
+  {
+    "id": 1392,
+    "word": "space",
+    "translation": "空间，太空，地方"
+  },
+  {
+    "id": 1393,
+    "word": "spare",
+    "translation": "多余的，备用的"
+  },
+  {
+    "id": 1394,
+    "word": "speak",
+    "translation": "说话，讲，发言"
+  },
+  {
+    "id": 1395,
+    "word": "speaker",
+    "translation": "演讲者，扬声器"
+  },
+  {
+    "id": 1396,
+    "word": "special",
+    "translation": "特别的，特殊的"
+  },
+  {
+    "id": 1397,
+    "word": "spell",
+    "translation": "拼写，拼"
+  },
+  {
+    "id": 1398,
+    "word": "spelling",
+    "translation": "拼写，拼法"
+  },
+  {
+    "id": 1399,
+    "word": "spend",
+    "translation": "花费，度过"
+  },
+  {
+    "id": 1400,
+    "word": "spider",
+    "translation": "蜘蛛"
+  },
+  {
+    "id": 1401,
+    "word": "spoon",
+    "translation": "勺子，汤匙"
+  },
+  {
+    "id": 1402,
+    "word": "sport",
+    "translation": "运动，体育"
+  },
+  {
+    "id": 1403,
+    "word": "sports centre",
+    "translation": "体育中心"
+  },
+  {
+    "id": 1404,
+    "word": "spring",
+    "translation": "春天，弹簧"
+  },
+  {
+    "id": 1405,
+    "word": "square",
+    "translation": "广场，正方形"
+  },
+  {
+    "id": 1406,
+    "word": "stadium",
+    "translation": "体育场，运动场"
+  },
+  {
+    "id": 1407,
+    "word": "staff",
+    "translation": "员工，工作人员"
+  },
+  {
+    "id": 1408,
+    "word": "stage",
+    "translation": "舞台，阶段"
+  },
+  {
+    "id": 1409,
+    "word": "stairs",
+    "translation": "楼梯"
+  },
+  {
+    "id": 1410,
+    "word": "stamp",
+    "translation": "邮票，印章"
+  },
+  {
+    "id": 1411,
+    "word": "stand",
+    "translation": "站，站立"
+  },
+  {
+    "id": 1412,
+    "word": "star",
+    "translation": "星星，明星"
+  },
+  {
+    "id": 1413,
+    "word": "start",
+    "translation": "开始，启动"
+  },
+  {
+    "id": 1414,
+    "word": "station",
+    "translation": "车站，火车站"
+  },
+  {
+    "id": 1415,
+    "word": "stay",
+    "translation": "待，停留，住"
+  },
+  {
+    "id": 1416,
+    "word": "steak",
+    "translation": "牛排"
+  },
+  {
+    "id": 1417,
+    "word": "steal",
+    "translation": "偷，盗窃"
+  },
+  {
+    "id": 1418,
+    "word": "still",
+    "translation": "仍然，还是，静止的"
+  },
+  {
+    "id": 1419,
+    "word": "stomach",
+    "translation": "胃，肚子"
+  },
+  {
+    "id": 1420,
+    "word": "stomach ache",
+    "translation": "胃痛，肚子疼"
+  },
+  {
+    "id": 1421,
+    "word": "stop",
+    "translation": "停止，阻止"
+  },
+  {
+    "id": 1422,
+    "word": "store",
+    "translation": "商店，储存"
+  },
+  {
+    "id": 1423,
+    "word": "storm",
+    "translation": "暴风雨，风暴"
+  },
+  {
+    "id": 1424,
+    "word": "story",
+    "translation": "故事，楼层"
+  },
+  {
+    "id": 1425,
+    "word": "straight",
+    "translation": "直的，笔直，直接"
+  },
+  {
+    "id": 1426,
+    "word": "strange",
+    "translation": "奇怪的，陌生的"
+  },
+  {
+    "id": 1427,
+    "word": "strawberry",
+    "translation": "草莓"
+  },
+  {
+    "id": 1428,
+    "word": "street",
+    "translation": "街道，街"
+  },
+  {
+    "id": 1429,
+    "word": "striped",
+    "translation": "有条纹的"
+  },
+  {
+    "id": 1430,
+    "word": "stripes",
+    "translation": "条纹，条带"
+  },
+  {
+    "id": 1431,
+    "word": "strong",
+    "translation": "强壮的，坚强的"
+  },
+  {
+    "id": 1432,
+    "word": "student",
+    "translation": "学生"
+  },
+  {
+    "id": 1433,
+    "word": "studies",
+    "translation": "学习，研究（名词）"
+  },
+  {
+    "id": 1434,
+    "word": "study",
+    "translation": "学习，研究，书房"
+  },
+  {
+    "id": 1435,
+    "word": "stuff",
+    "translation": "东西，事物"
+  },
+  {
+    "id": 1436,
+    "word": "subject",
+    "translation": "科目，主题，主语"
+  },
+  {
+    "id": 1437,
+    "word": "success",
+    "translation": "成功"
+  },
+  {
+    "id": 1438,
+    "word": "successful",
+    "translation": "成功的"
+  },
+  {
+    "id": 1439,
+    "word": "such",
+    "translation": "如此，这样的，这种"
+  },
+  {
+    "id": 1440,
+    "word": "suddenly",
+    "translation": "突然，忽然"
+  },
+  {
+    "id": 1441,
+    "word": "sugar",
+    "translation": "糖，白糖"
+  },
+  {
+    "id": 1442,
+    "word": "suggest",
+    "translation": "建议，提议，暗示"
+  },
+  {
+    "id": 1443,
+    "word": "suit",
+    "translation": "适合，西服，诉讼"
+  },
+  {
+    "id": 1444,
+    "word": "suitcase",
+    "translation": "行李箱，旅行箱"
+  },
+  {
+    "id": 1445,
+    "word": "summer",
+    "translation": "夏天，夏季"
+  },
+  {
+    "id": 1446,
+    "word": "sun",
+    "translation": "太阳，阳光"
+  },
+  {
+    "id": 1447,
+    "word": "Sunday",
+    "translation": "星期日"
+  },
+  {
+    "id": 1448,
+    "word": "sunglasses",
+    "translation": "太阳镜，墨镜"
+  },
+  {
+    "id": 1449,
+    "word": "sunny",
+    "translation": "晴朗的，阳光灿烂的"
+  },
+  {
+    "id": 1450,
+    "word": "supermarket",
+    "translation": "超市，超级市场"
+  },
+  {
+    "id": 1451,
+    "word": "supper",
+    "translation": "晚饭，晚餐"
+  },
+  {
+    "id": 1452,
+    "word": "suppose",
+    "translation": "假设，猜想"
+  },
+  {
+    "id": 1453,
+    "word": "sure",
+    "translation": "确定的，当然"
+  },
+  {
+    "id": 1454,
+    "word": "surf",
+    "translation": "冲浪，网上浏览"
+  },
+  {
+    "id": 1455,
+    "word": "surfboard",
+    "translation": "冲浪板"
+  },
+  {
+    "id": 1456,
+    "word": "surfboarding",
+    "translation": "冲浪运动"
+  },
+  {
+    "id": 1457,
+    "word": "surfing",
+    "translation": "冲浪"
+  },
+  {
+    "id": 1458,
+    "word": "surname",
+    "translation": "姓，姓氏"
+  },
+  {
+    "id": 1459,
+    "word": "surprise",
+    "translation": "惊喜，意外"
+  },
+  {
+    "id": 1460,
+    "word": "surprised",
+    "translation": "惊讶的，惊喜的"
+  },
+  {
+    "id": 1461,
+    "word": "surprising",
+    "translation": "令人惊讶的，出乎意料的"
+  },
+  {
+    "id": 1462,
+    "word": "swan",
+    "translation": "天鹅"
+  },
+  {
+    "id": 1463,
+    "word": "sweater",
+    "translation": "毛衣，厚运动衫"
+  },
+  {
+    "id": 1464,
+    "word": "sweet",
+    "translation": "甜的，甜蜜的，糖果"
+  },
+  {
+    "id": 1465,
+    "word": "swim",
+    "translation": "游泳"
+  },
+  {
+    "id": 1466,
+    "word": "swimming",
+    "translation": "游泳运动"
+  },
+  {
+    "id": 1467,
+    "word": "swimming costume",
+    "translation": "泳衣（英式）"
+  },
+  {
+    "id": 1468,
+    "word": "swimming pool",
+    "translation": "游泳池"
+  },
+  {
+    "id": 1469,
+    "word": "swimsuit",
+    "translation": "泳装，游泳衣"
+  },
+  {
+    "id": 1470,
+    "word": "table",
+    "translation": "桌子，表格"
+  },
+  {
+    "id": 1471,
+    "word": "table tennis",
+    "translation": "乒乓球"
+  },
+  {
+    "id": 1472,
+    "word": "tablet",
+    "translation": "平板电脑，片剂"
+  },
+  {
+    "id": 1473,
+    "word": "tail",
+    "translation": "尾巴"
+  },
+  {
+    "id": 1474,
+    "word": "take",
+    "translation": "拿，取，花费"
+  },
+  {
+    "id": 1475,
+    "word": "take off",
+    "translation": "起飞，脱下"
+  },
+  {
+    "id": 1476,
+    "word": "take part",
+    "translation": "参加，参与"
+  },
+  {
+    "id": 1477,
+    "word": "talk",
+    "translation": "谈话，讲话"
+  },
+  {
+    "id": 1478,
+    "word": "tall",
+    "translation": "高的，高大的"
+  },
+  {
+    "id": 1479,
+    "word": "tasty",
+    "translation": "美味的，可口的"
+  },
+  {
+    "id": 1480,
+    "word": "taxi",
+    "translation": "出租车，的士"
+  },
+  {
+    "id": 1481,
+    "word": "tea",
+    "translation": "茶，茶水"
+  },
+  {
+    "id": 1482,
+    "word": "teach",
+    "translation": "教，教导"
+  },
+  {
+    "id": 1483,
+    "word": "teacher",
+    "translation": "教师，老师"
+  },
+  {
+    "id": 1484,
+    "word": "team",
+    "translation": "队，团队"
+  },
+  {
+    "id": 1485,
+    "word": "technology",
+    "translation": "技术，科技"
+  },
+  {
+    "id": 1486,
+    "word": "teenager",
+    "translation": "青少年，十几岁的人"
+  },
+  {
+    "id": 1487,
+    "word": "telephone",
+    "translation": "电话，电话机"
+  },
+  {
+    "id": 1488,
+    "word": "television / TV",
+    "translation": "电视，电视机"
+  },
+  {
+    "id": 1489,
+    "word": "tell",
+    "translation": "告诉，讲述"
+  },
+  {
+    "id": 1490,
+    "word": "temperature",
+    "translation": "温度，气温"
+  },
+  {
+    "id": 1491,
+    "word": "tennis",
+    "translation": "网球"
+  },
+  {
+    "id": 1492,
+    "word": "tennis player",
+    "translation": "网球运动员"
+  },
+  {
+    "id": 1493,
+    "word": "tent",
+    "translation": "帐篷"
+  },
+  {
+    "id": 1494,
+    "word": "term",
+    "translation": "学期，术语"
+  },
+  {
+    "id": 1495,
+    "word": "terrible",
+    "translation": "糟糕的，可怕的"
+  },
+  {
+    "id": 1496,
+    "word": "test",
+    "translation": "测试，考试"
+  },
+  {
+    "id": 1497,
+    "word": "text",
+    "translation": "短信，正文，发短信"
+  },
+  {
+    "id": 1498,
+    "word": "textbook",
+    "translation": "教科书，课本"
+  },
+  {
+    "id": 1499,
+    "word": "text message",
+    "translation": "短信，手机短信"
+  },
+  {
+    "id": 1500,
+    "word": "than",
+    "translation": "比，较"
+  },
+  {
+    "id": 1501,
+    "word": "thank",
+    "translation": "感谢，谢谢"
+  },
+  {
+    "id": 1502,
+    "word": "thanks",
+    "translation": "谢谢，多谢"
+  },
+  {
+    "id": 1503,
+    "word": "thank you",
+    "translation": "谢谢你，感谢"
+  },
+  {
+    "id": 1504,
+    "word": "that",
+    "translation": "那，那个，以便"
+  },
+  {
+    "id": 1505,
+    "word": "the",
+    "translation": "这个，那个（定冠词）"
+  },
+  {
+    "id": 1506,
+    "word": "theatre",
+    "translation": "剧场，戏院，剧院"
+  },
+  {
+    "id": 1507,
+    "word": "their",
+    "translation": "他们的，她们的"
+  },
+  {
+    "id": 1508,
+    "word": "theirs",
+    "translation": "他们的（所有格）"
+  },
+  {
+    "id": 1509,
+    "word": "them",
+    "translation": "他们，她们（宾格）"
+  },
+  {
+    "id": 1510,
+    "word": "themselves",
+    "translation": "他们自己，她们自己"
+  },
+  {
+    "id": 1511,
+    "word": "then",
+    "translation": "然后，那时，那么"
+  },
+  {
+    "id": 1512,
+    "word": "there",
+    "translation": "那里，那边，有"
+  },
+  {
+    "id": 1513,
+    "word": "these",
+    "translation": "这些"
+  },
+  {
+    "id": 1514,
+    "word": "they",
+    "translation": "他们，她们，它们"
+  },
+  {
+    "id": 1515,
+    "word": "thin",
+    "translation": "瘦的，薄的"
+  },
+  {
+    "id": 1516,
+    "word": "thing",
+    "translation": "东西，事情"
+  },
+  {
+    "id": 1517,
+    "word": "think",
+    "translation": "想，思考，认为"
+  },
+  {
+    "id": 1518,
+    "word": "thirsty",
+    "translation": "口渴的"
+  },
+  {
+    "id": 1519,
+    "word": "this",
+    "translation": "这，这个"
+  },
+  {
+    "id": 1520,
+    "word": "those",
+    "translation": "那些"
+  },
+  {
+    "id": 1521,
+    "word": "through",
+    "translation": "通过，穿过，经过"
+  },
+  {
+    "id": 1522,
+    "word": "throw",
+    "translation": "扔，投，抛"
+  },
+  {
+    "id": 1523,
+    "word": "thunderstorm",
+    "translation": "雷雨，雷暴"
+  },
+  {
+    "id": 1524,
+    "word": "Thursday",
+    "translation": "星期四"
+  },
+  {
+    "id": 1525,
+    "word": "ticket",
+    "translation": "票，门票，车票"
+  },
+  {
+    "id": 1526,
+    "word": "tidy",
+    "translation": "整齐的，整洁的，整理"
+  },
+  {
+    "id": 1527,
+    "word": "tidy up",
+    "translation": "整理，收拾"
+  },
+  {
+    "id": 1528,
+    "word": "tie",
+    "translation": "领带，平局，系"
+  },
+  {
+    "id": 1529,
+    "word": "tiger",
+    "translation": "老虎"
+  },
+  {
+    "id": 1530,
+    "word": "tights",
+    "translation": "连裤袜，紧身裤"
+  },
+  {
+    "id": 1531,
+    "word": "till",
+    "translation": "直到，收银台"
+  },
+  {
+    "id": 1532,
+    "word": "time",
+    "translation": "时间，时刻，次"
+  },
+  {
+    "id": 1533,
+    "word": "timetable",
+    "translation": "时刻表，课程表"
+  },
+  {
+    "id": 1534,
+    "word": "tired",
+    "translation": "疲倦的，累的"
+  },
+  {
+    "id": 1535,
+    "word": "title",
+    "translation": "标题，题目，头衔"
+  },
+  {
+    "id": 1536,
+    "word": "to",
+    "translation": "到，向，给，对"
+  },
+  {
+    "id": 1537,
+    "word": "toast",
+    "translation": "吐司，干杯，面包片"
+  },
+  {
+    "id": 1538,
+    "word": "today",
+    "translation": "今天，今日"
+  },
+  {
+    "id": 1539,
+    "word": "toe",
+    "translation": "脚趾，趾"
+  },
+  {
+    "id": 1540,
+    "word": "together",
+    "translation": "一起，共同"
+  },
+  {
+    "id": 1541,
+    "word": "toilet",
+    "translation": "厕所，马桶"
+  },
+  {
+    "id": 1542,
+    "word": "tomato",
+    "translation": "西红柿，番茄"
+  },
+  {
+    "id": 1543,
+    "word": "tomorrow",
+    "translation": "明天，明日"
+  },
+  {
+    "id": 1544,
+    "word": "tonight",
+    "translation": "今晚，今天晚上"
+  },
+  {
+    "id": 1545,
+    "word": "tortoise",
+    "translation": "乌龟"
+  },
+  {
+    "id": 1546,
+    "word": "too",
+    "translation": "也，太，非常"
+  },
+  {
+    "id": 1547,
+    "word": "tooth",
+    "translation": "牙，牙齿"
+  },
+  {
+    "id": 1548,
+    "word": "toothache",
+    "translation": "牙痛，牙疼"
+  },
+  {
+    "id": 1549,
+    "word": "toothbrush",
+    "translation": "牙刷"
+  },
+  {
+    "id": 1550,
+    "word": "top",
+    "translation": "顶部，顶端，最上面"
+  },
+  {
+    "id": 1551,
+    "word": "topic",
+    "translation": "话题，主题，议题"
+  },
+  {
+    "id": 1552,
+    "word": "total",
+    "translation": "总计，合计，完全的"
+  },
+  {
+    "id": 1553,
+    "word": "tour",
+    "translation": "旅游，游览，参观"
+  },
+  {
+    "id": 1554,
+    "word": "tour guide",
+    "translation": "导游"
+  },
+  {
+    "id": 1555,
+    "word": "tourist",
+    "translation": "游客，旅游者"
+  },
+  {
+    "id": 1556,
+    "word": "tourist information centre",
+    "translation": "旅游信息中心"
+  },
+  {
+    "id": 1557,
+    "word": "towel",
+    "translation": "毛巾，浴巾"
+  },
+  {
+    "id": 1558,
+    "word": "town",
+    "translation": "城镇，小城市"
+  },
+  {
+    "id": 1559,
+    "word": "toy",
+    "translation": "玩具"
+  },
+  {
+    "id": 1560,
+    "word": "traffic",
+    "translation": "交通，交通状况"
+  },
+  {
+    "id": 1561,
+    "word": "traffic light",
+    "translation": "交通灯，红绿灯"
+  },
+  {
+    "id": 1562,
+    "word": "train",
+    "translation": "火车，培训，训练"
+  },
+  {
+    "id": 1563,
+    "word": "training",
+    "translation": "培训，训练，锻炼"
+  },
+  {
+    "id": 1564,
+    "word": "trainer",
+    "translation": "运动鞋，教练员"
+  },
+  {
+    "id": 1565,
+    "word": "tram",
+    "translation": "有轨电车，电车"
+  },
+  {
+    "id": 1566,
+    "word": "transport",
+    "translation": "交通，运输"
+  },
+  {
+    "id": 1567,
+    "word": "travel",
+    "translation": "旅行，出行"
+  },
+  {
+    "id": 1568,
+    "word": "tree",
+    "translation": "树，树木"
+  },
+  {
+    "id": 1569,
+    "word": "trip",
+    "translation": "旅行，出行，绊倒"
+  },
+  {
+    "id": 1570,
+    "word": "trouble",
+    "translation": "麻烦，问题，困难"
+  },
+  {
+    "id": 1571,
+    "word": "trousers",
+    "translation": "裤子，长裤（英式）"
+  },
+  {
+    "id": 1572,
+    "word": "true",
+    "translation": "真实的，真正的"
+  },
+  {
+    "id": 1573,
+    "word": "try",
+    "translation": "尝试，试验"
+  },
+  {
+    "id": 1574,
+    "word": "try on",
+    "translation": "试穿，试用"
+  },
+  {
+    "id": 1575,
+    "word": "T-shirt",
+    "translation": "T恤衫，短袖上衣"
+  },
+  {
+    "id": 1576,
+    "word": "Tuesday",
+    "translation": "星期二"
+  },
+  {
+    "id": 1577,
+    "word": "tune",
+    "translation": "曲子，曲调"
+  },
+  {
+    "id": 1578,
+    "word": "turn",
+    "translation": "转，转动，转弯"
+  },
+  {
+    "id": 1579,
+    "word": "turn off",
+    "translation": "关掉，关闭"
+  },
+  {
+    "id": 1580,
+    "word": "turn on",
+    "translation": "打开，开"
+  },
+  {
+    "id": 1581,
+    "word": "twice",
+    "translation": "两次，两倍"
+  },
+  {
+    "id": 1582,
+    "word": "type",
+    "translation": "类型，打字"
+  },
+  {
+    "id": 1583,
+    "word": "tyre",
+    "translation": "轮胎（英式）"
+  },
+  {
+    "id": 1584,
+    "word": "umbrella",
+    "translation": "雨伞，伞"
+  },
+  {
+    "id": 1585,
+    "word": "uncle",
+    "translation": "叔叔，伯伯，舅舅"
+  },
+  {
+    "id": 1586,
+    "word": "under",
+    "translation": "在…下面，低于"
+  },
+  {
+    "id": 1587,
+    "word": "underground",
+    "translation": "地下，地铁"
+  },
+  {
+    "id": 1588,
+    "word": "understand",
+    "translation": "理解，明白"
+  },
+  {
+    "id": 1589,
+    "word": "unfortunately",
+    "translation": "不幸地，遗憾地"
+  },
+  {
+    "id": 1590,
+    "word": "unhappy",
+    "translation": "不快乐的，不高兴的"
+  },
+  {
+    "id": 1591,
+    "word": "uniform",
+    "translation": "制服，校服"
+  },
+  {
+    "id": 1592,
+    "word": "university",
+    "translation": "大学，高等学府"
+  },
+  {
+    "id": 1593,
+    "word": "until",
+    "translation": "直到，在…之前"
+  },
+  {
+    "id": 1594,
+    "word": "unusual",
+    "translation": "不寻常的，罕见的"
+  },
+  {
+    "id": 1595,
+    "word": "up",
+    "translation": "向上，上面"
+  },
+  {
+    "id": 1596,
+    "word": "upload",
+    "translation": "上传，上载"
+  },
+  {
+    "id": 1597,
+    "word": "upset",
+    "translation": "不安的，沮丧的"
+  },
+  {
+    "id": 1598,
+    "word": "upstairs",
+    "translation": "楼上，在楼上"
+  },
+  {
+    "id": 1599,
+    "word": "us",
+    "translation": "我们（宾格）"
+  },
+  {
+    "id": 1600,
+    "word": "use",
+    "translation": "使用，用途"
+  },
+  {
+    "id": 1601,
+    "word": "useful",
+    "translation": "有用的，有益的"
+  },
+  {
+    "id": 1602,
+    "word": "usual",
+    "translation": "通常的，平常的"
+  },
+  {
+    "id": 1603,
+    "word": "usually",
+    "translation": "通常，一般"
+  },
+  {
+    "id": 1604,
+    "word": "v/versus",
+    "translation": "对，对抗（比赛中）"
+  },
+  {
+    "id": 1605,
+    "word": "variety",
+    "translation": "种类，多样性"
+  },
+  {
+    "id": 1606,
+    "word": "various",
+    "translation": "各种各样的，多种的"
+  },
+  {
+    "id": 1607,
+    "word": "vegetable",
+    "translation": "蔬菜"
+  },
+  {
+    "id": 1608,
+    "word": "very",
+    "translation": "很，非常"
+  },
+  {
+    "id": 1609,
+    "word": "video",
+    "translation": "视频，录像"
+  },
+  {
+    "id": 1610,
+    "word": "video game",
+    "translation": "视频游戏，电子游戏"
+  },
+  {
+    "id": 1611,
+    "word": "view",
+    "translation": "景色，视图，看法"
+  },
+  {
+    "id": 1612,
+    "word": "village",
+    "translation": "村庄，乡村"
+  },
+  {
+    "id": 1613,
+    "word": "violin",
+    "translation": "小提琴"
+  },
+  {
+    "id": 1614,
+    "word": "visit",
+    "translation": "参观，访问，拜访"
+  },
+  {
+    "id": 1615,
+    "word": "visitor",
+    "translation": "访客，游客"
+  },
+  {
+    "id": 1616,
+    "word": "vocabulary",
+    "translation": "词汇，词汇量"
+  },
+  {
+    "id": 1617,
+    "word": "volleyball",
+    "translation": "排球"
+  },
+  {
+    "id": 1618,
+    "word": "wait",
+    "translation": "等，等候，等待"
+  },
+  {
+    "id": 1619,
+    "word": "waiter",
+    "translation": "服务员（男），侍者"
+  },
+  {
+    "id": 1620,
+    "word": "waitress",
+    "translation": "服务员（女），女侍者"
+  },
+  {
+    "id": 1621,
+    "word": "wake",
+    "translation": "醒来，唤醒"
+  },
+  {
+    "id": 1622,
+    "word": "wake up",
+    "translation": "起床，醒来"
+  },
+  {
+    "id": 1623,
+    "word": "walk",
+    "translation": "走，步行，散步"
+  },
+  {
+    "id": 1624,
+    "word": "walking",
+    "translation": "步行，走路"
+  },
+  {
+    "id": 1625,
+    "word": "wall",
+    "translation": "墙，墙壁"
+  },
+  {
+    "id": 1626,
+    "word": "wallet",
+    "translation": "钱包，皮夹"
+  },
+  {
+    "id": 1627,
+    "word": "want",
+    "translation": "想要，需要"
+  },
+  {
+    "id": 1628,
+    "word": "wardrobe",
+    "translation": "衣柜，衣橱"
+  },
+  {
+    "id": 1629,
+    "word": "warm",
+    "translation": "温暖的，热情的"
+  },
+  {
+    "id": 1630,
+    "word": "wash",
+    "translation": "洗，清洗"
+  },
+  {
+    "id": 1631,
+    "word": "washing machine",
+    "translation": "洗衣机"
+  },
+  {
+    "id": 1632,
+    "word": "washing-up",
+    "translation": "洗碗，洗餐具"
+  },
+  {
+    "id": 1633,
+    "word": "wash up",
+    "translation": "洗碗，洗手"
+  },
+  {
+    "id": 1634,
+    "word": "watch",
+    "translation": "手表，观看"
+  },
+  {
+    "id": 1635,
+    "word": "water",
+    "translation": "水"
+  },
+  {
+    "id": 1636,
+    "word": "way",
+    "translation": "路，方式，方法"
+  },
+  {
+    "id": 1637,
+    "word": "we",
+    "translation": "我们"
+  },
+  {
+    "id": 1638,
+    "word": "wear",
+    "translation": "穿，戴，磨损"
+  },
+  {
+    "id": 1639,
+    "word": "weather",
+    "translation": "天气，气候"
+  },
+  {
+    "id": 1640,
+    "word": "web",
+    "translation": "网，网络，万维网"
+  },
+  {
+    "id": 1641,
+    "word": "web page",
+    "translation": "网页"
+  },
+  {
+    "id": 1642,
+    "word": "website",
+    "translation": "网站"
+  },
+  {
+    "id": 1643,
+    "word": "Wednesday",
+    "translation": "星期三"
+  },
+  {
+    "id": 1644,
+    "word": "week",
+    "translation": "周，星期"
+  },
+  {
+    "id": 1645,
+    "word": "weekday",
+    "translation": "工作日，平日"
+  },
+  {
+    "id": 1646,
+    "word": "weekend",
+    "translation": "周末"
+  },
+  {
+    "id": 1647,
+    "word": "weekly",
+    "translation": "每周的，周刊"
+  },
+  {
+    "id": 1648,
+    "word": "welcome",
+    "translation": "欢迎"
+  },
+  {
+    "id": 1649,
+    "word": "well",
+    "translation": "好，健康，井"
+  },
+  {
+    "id": 1650,
+    "word": "well known",
+    "translation": "著名的，众所周知的"
+  },
+  {
+    "id": 1651,
+    "word": "west",
+    "translation": "西，西方"
+  },
+  {
+    "id": 1652,
+    "word": "wet",
+    "translation": "湿的，潮湿的"
+  },
+  {
+    "id": 1653,
+    "word": "whale",
+    "translation": "鲸鱼，鲸"
+  },
+  {
+    "id": 1654,
+    "word": "what",
+    "translation": "什么，多么"
+  },
+  {
+    "id": 1655,
+    "word": "wheel",
+    "translation": "车轮，方向盘"
+  },
+  {
+    "id": 1656,
+    "word": "when",
+    "translation": "当，什么时候"
+  },
+  {
+    "id": 1657,
+    "word": "where",
+    "translation": "哪里，在哪"
+  },
+  {
+    "id": 1658,
+    "word": "which",
+    "translation": "哪个，哪些"
+  },
+  {
+    "id": 1659,
+    "word": "while",
+    "translation": "当…时候，虽然"
+  },
+  {
+    "id": 1660,
+    "word": "white",
+    "translation": "白色，白色的"
+  },
+  {
+    "id": 1661,
+    "word": "who",
+    "translation": "谁，是谁"
+  },
+  {
+    "id": 1662,
+    "word": "whole",
+    "translation": "整个，全部"
+  },
+  {
+    "id": 1663,
+    "word": "whose",
+    "translation": "谁的"
+  },
+  {
+    "id": 1664,
+    "word": "why",
+    "translation": "为什么"
+  },
+  {
+    "id": 1665,
+    "word": "wide",
+    "translation": "宽的，宽阔的"
+  },
+  {
+    "id": 1666,
+    "word": "wife",
+    "translation": "妻子，太太"
+  },
+  {
+    "id": 1667,
+    "word": "wifi",
+    "translation": "无线网络，WiFi"
+  },
+  {
+    "id": 1668,
+    "word": "wild",
+    "translation": "野生的，荒野"
+  },
+  {
+    "id": 1669,
+    "word": "wildlife",
+    "translation": "野生动物，野生生物"
+  },
+  {
+    "id": 1670,
+    "word": "will",
+    "translation": "将，会，愿意"
+  },
+  {
+    "id": 1671,
+    "word": "win",
+    "translation": "赢，获胜"
+  },
+  {
+    "id": 1672,
+    "word": "wind",
+    "translation": "风，风力"
+  },
+  {
+    "id": 1673,
+    "word": "window",
+    "translation": "窗户，窗口"
+  },
+  {
+    "id": 1674,
+    "word": "windsurfing",
+    "translation": "风帆冲浪，帆板运动"
+  },
+  {
+    "id": 1675,
+    "word": "windy",
+    "translation": "有风的，多风的"
+  },
+  {
+    "id": 1676,
+    "word": "wing",
+    "translation": "翅膀，机翼"
+  },
+  {
+    "id": 1677,
+    "word": "winner",
+    "translation": "获胜者，赢家"
+  },
+  {
+    "id": 1678,
+    "word": "winter",
+    "translation": "冬天，冬季"
+  },
+  {
+    "id": 1679,
+    "word": "wish",
+    "translation": "希望，祝愿"
+  },
+  {
+    "id": 1680,
+    "word": "with",
+    "translation": "和，与，用"
+  },
+  {
+    "id": 1681,
+    "word": "without",
+    "translation": "没有，不用"
+  },
+  {
+    "id": 1682,
+    "word": "woman",
+    "translation": "女人，女性"
+  },
+  {
+    "id": 1683,
+    "word": "wonderful",
+    "translation": "精彩的，美好的"
+  },
+  {
+    "id": 1684,
+    "word": "wood",
+    "translation": "木头，木材，森林"
+  },
+  {
+    "id": 1685,
+    "word": "wooden",
+    "translation": "木制的，木质的"
+  },
+  {
+    "id": 1686,
+    "word": "wool",
+    "translation": "羊毛，毛线"
+  },
+  {
+    "id": 1687,
+    "word": "word",
+    "translation": "单词，词语"
+  },
+  {
+    "id": 1688,
+    "word": "work",
+    "translation": "工作，劳动，运转"
+  },
+  {
+    "id": 1689,
+    "word": "work out",
+    "translation": "锻炼，健身，解决"
+  },
+  {
+    "id": 1690,
+    "word": "worker",
+    "translation": "工人，工作者"
+  },
+  {
+    "id": 1691,
+    "word": "working hours",
+    "translation": "工作时间，工作时长"
+  },
+  {
+    "id": 1692,
+    "word": "world",
+    "translation": "世界，地球"
+  },
+  {
+    "id": 1693,
+    "word": "worried",
+    "translation": "担心的，忧虑的"
+  },
+  {
+    "id": 1694,
+    "word": "worry",
+    "translation": "担心，忧虑"
+  },
+  {
+    "id": 1695,
+    "word": "worse",
+    "translation": "更糟，更坏"
+  },
+  {
+    "id": 1696,
+    "word": "worst",
+    "translation": "最坏的，最糟糕的"
+  },
+  {
+    "id": 1697,
+    "word": "would",
+    "translation": "会，愿意"
+  },
+  {
+    "id": 1698,
+    "word": "wow",
+    "translation": "哇，哦（感叹词）"
+  },
+  {
+    "id": 1699,
+    "word": "write",
+    "translation": "写，书写"
+  },
+  {
+    "id": 1700,
+    "word": "write down",
+    "translation": "写下，记下"
+  },
+  {
+    "id": 1701,
+    "word": "writer",
+    "translation": "作家，写作者"
+  },
+  {
+    "id": 1702,
+    "word": "writing",
+    "translation": "写作，书写"
+  },
+  {
+    "id": 1703,
+    "word": "wrong",
+    "translation": "错误的，不对的"
+  },
+  {
+    "id": 1704,
+    "word": "Yeah!",
+    "translation": "是的！对！好！"
+  },
+  {
+    "id": 1705,
+    "word": "year",
+    "translation": "年，岁"
+  },
+  {
+    "id": 1706,
+    "word": "yellow",
+    "translation": "黄色，黄色的"
+  },
+  {
+    "id": 1707,
+    "word": "yes",
+    "translation": "是，是的，好的"
+  },
+  {
+    "id": 1708,
+    "word": "yesterday",
+    "translation": "昨天"
+  },
+  {
+    "id": 1709,
+    "word": "yet",
+    "translation": "还，仍然，已经"
+  },
+  {
+    "id": 1710,
+    "word": "yoghurt",
+    "translation": "酸奶，酸乳酪"
+  },
+  {
+    "id": 1711,
+    "word": "you",
+    "translation": "你，你们"
+  },
+  {
+    "id": 1712,
+    "word": "young",
+    "translation": "年轻的，幼小的"
+  },
+  {
+    "id": 1713,
+    "word": "your",
+    "translation": "你的，你们的"
+  },
+  {
+    "id": 1714,
+    "word": "yours",
+    "translation": "你的（所有格）"
+  },
+  {
+    "id": 1715,
+    "word": "yourself",
+    "translation": "你自己"
+  },
+  {
+    "id": 1716,
+    "word": "zebra",
+    "translation": "斑马"
+  },
+  {
+    "id": 1717,
+    "word": "zero",
+    "translation": "零，零点"
+  },
+  {
+    "id": 1718,
+    "word": "zoo",
+    "translation": "动物园"
+  }
+]

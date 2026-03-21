@@ -4,6 +4,7 @@ import Card from './components/Card';
 import Confetti from './components/Confetti';
 import LemonAvatar from './components/LemonAvatar';
 import { LemonIsland } from './components/LemonIsland';
+import VocabStudy from './components/VocabStudy';
 import { CardType, GameState, LeaderboardEntry, LevelConfig, UserProfile, PowerupType, FashionItem, WordQuestion, FashionType, ChatMessage } from './types';
 import { RefreshCw, Play, Trophy, Sparkles, Eye, AlertTriangle, Timer, Star, Wand2, Clock, ShoppingCart, Coins, Gift, Home, ArrowLeft, Grid2X2, Shirt, BookOpen, Check, X, Calendar, Crown, MessageCircle, Send, Loader2, Palette, Glasses, HardHat, Briefcase } from 'lucide-react';
 
@@ -878,6 +879,13 @@ const App: React.FC = () => {
           >
              <MessageCircle size={18} /> Chat with Lemon
           </button>
+
+          <button
+            onClick={() => setGameState(GameState.VOCAB_STUDY)}
+            className="mt-1 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-3 rounded-full shadow-md flex items-center justify-center gap-2 transition transform hover:scale-105"
+          >
+            <BookOpen size={18} /> KET 单词学习
+          </button>
         </div>
 
         {/* User Coin Display */}
@@ -906,6 +914,11 @@ const App: React.FC = () => {
         </div>
       </div>
     );
+  }
+
+  // VOCAB STUDY MODULE
+  if (gameState === GameState.VOCAB_STUDY) {
+    return <VocabStudy onBack={() => setGameState(GameState.IDLE)} />;
   }
 
   // LEMON ISLAND (MAIN WORLD)

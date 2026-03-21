@@ -34,7 +34,35 @@ export enum GameState {
   MINIGAME_MENU = 'MINIGAME_MENU',
   MINIGAME_PLAYING = 'MINIGAME_PLAYING',
   CHAT = 'CHAT',
-  ISLAND = 'ISLAND'
+  ISLAND = 'ISLAND',
+  VOCAB_STUDY = 'VOCAB_STUDY',
+}
+
+// ---- Vocabulary Study types ----
+
+export interface VocabWord {
+  id: number;
+  word: string;
+  translation: string;
+}
+
+export interface VocabMasteryEntry {
+  word: string;
+  translation: string;
+  attempts: number;
+  correct: number;
+  lastTested: string;
+  history: Array<{ date: string; sessionId: string; correct: boolean; submitted: string }>;
+}
+
+export type VocabMasteryMap = Record<string, VocabMasteryEntry>;
+
+export type VocabMasteryLevel = 'mastered' | 'needs_review' | 'weak' | 'untested';
+
+export interface VocabGradeResult {
+  word: VocabWord;
+  submitted: string;
+  grade: 'correct' | 'close' | 'wrong';
 }
 
 export interface ChatMessage {
