@@ -775,6 +775,7 @@ const VocabStudy: React.FC<VocabStudyProps> = ({ onBack }) => {
     setSub('review');
   };
 
+  // Called from menu only — sets a fresh word selection
   const startDictation = (words: VocabWord[], hint: boolean) => {
     setSessionWords(words);
     setShowHint(hint);
@@ -808,7 +809,11 @@ const VocabStudy: React.FC<VocabStudyProps> = ({ onBack }) => {
       {sub === 'review' && (
         <ReviewScreen
           words={sessionWords}
-          onStartDictation={() => startDictation(sessionWords, showHint)}
+          onStartDictation={() => {
+            // Reuse the exact same words from review — no re-selection
+            sessionId.current = new Date().toISOString();
+            setSub('dictation');
+          }}
           onBack={() => setSub('menu')}
         />
       )}
